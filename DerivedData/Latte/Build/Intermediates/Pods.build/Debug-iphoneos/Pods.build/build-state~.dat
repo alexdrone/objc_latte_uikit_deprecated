@@ -1,0 +1,1007 @@
+TPods
+v5
+r1
+cCheck dependencies
+cProcessPCH /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch.pth Pods-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch.pth Pods-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/ConciseKit.o /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+ConciseKit.o /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSArray+ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSDictionary+ConciseKit.o /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSDictionary+ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSString+ConciseKit.o /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSString+ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/JSONKit.o /Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+RACExtensions.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACExtensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACBindings.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACBindings.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACExtensions.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACFastEnumeration.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACFastEnumeration.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACKVOWrapper.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACKVOWrapper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACOperations.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACOperations.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACPropertySubscribing.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACSubscribable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncCommand.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncSubject.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncSubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACBehaviorSubject.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCollection.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCollection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCommand.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACConnectableSubscribable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACConnectableSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACDisposable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACGroupedSubscribable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACMaybe.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMaybe.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACReplaySubject.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScheduler.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScopedDisposable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScopedDisposable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubject.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable+Operations.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable+Operations.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscriber.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSwizzling.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSwizzling.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACTuple.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACTuple.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACUnit.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACUnit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACValueTransformer.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UIControl+RACSubscribableSupport.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSubscribableSupport.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UITextField+RACSubscribableSupport.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSubscribableSupport.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/libPods.a normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F9559D0000000000052C940
+t1335187920
+s5425472
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/ConciseKit.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/JSONKit.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+ConciseKit.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+RACExtensions.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSDictionary+ConciseKit.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACBindings.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACExtensions.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACFastEnumeration.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACKVOWrapper.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACOperations.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACPropertySubscribing.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACSubscribable.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSString+ConciseKit.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList
+c000000004FB50C0E0000000000001481
+t1337265166
+s5249
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncCommand.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncSubject.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACBehaviorSubject.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCollection.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCommand.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACConnectableSubscribable.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACDisposable.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACGroupedSubscribable.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACMaybe.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACReplaySubject.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScheduler.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScopedDisposable.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubject.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable+Operations.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscriber.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSwizzling.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACTuple.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACUnit.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACValueTransformer.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UIControl+RACSubscribableSupport.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UITextField+RACSubscribableSupport.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch.pth
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch.pth
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/libPods.a
+t2
+s0
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/ConciseKit.m
+c000000004FB50BAB0000000000000E7A
+t1337265067
+s3706
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSArray+ConciseKit.m
+c000000004FB50BAB0000000000000DCD
+t1337265067
+s3533
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSDictionary+ConciseKit.m
+c000000004FB50BAB00000000000004C6
+t1337265067
+s1222
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSString+ConciseKit.m
+c000000004FB50BAB00000000000003F0
+t1337265067
+s1008
+
+N/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m
+c000000004FB50BB70000000000029069
+t1337265079
+s168041
+
+N/Users/alexusbergo/Desktop/Latte/Pods/Pods-prefix.pch
+c000000004FB50BCF000000000000002F
+t1337265103
+s47
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACExtensions.m
+c000000004FB50BC400000000000004FD
+t1337265092
+s1277
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACBindings.m
+c000000004FB50BC400000000000002FD
+t1337265092
+s765
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.m
+c000000004FB50BC400000000000002CB
+t1337265092
+s715
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACFastEnumeration.m
+c000000004FB50BC400000000000002D1
+t1337265092
+s721
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACKVOWrapper.m
+c000000004FB50BC4000000000000180C
+t1337265092
+s6156
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACOperations.m
+c000000004FB50BC40000000000000674
+t1337265092
+s1652
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.m
+c000000004FB50BC40000000000000A4F
+t1337265092
+s2639
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACSubscribable.m
+c000000004FB50BC40000000000000B37
+t1337265092
+s2871
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncCommand.m
+c000000004FB50BC40000000000000C28
+t1337265092
+s3112
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncSubject.m
+c000000004FB50BC40000000000000484
+t1337265092
+s1156
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.m
+c000000004FB50BC40000000000000399
+t1337265092
+s921
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCollection.m
+c000000004FB50BC40000000000000C9B
+t1337265092
+s3227
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.m
+c000000004FB50BC400000000000006C0
+t1337265092
+s1728
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACConnectableSubscribable.m
+c000000004FB50BC40000000000000485
+t1337265092
+s1157
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.m
+c000000004FB50BC400000000000002F8
+t1337265092
+s760
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSubscribable.m
+c000000004FB50BC400000000000001F6
+t1337265092
+s502
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMaybe.m
+c000000004FB50BC40000000000000343
+t1337265092
+s835
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.m
+c000000004FB50BC400000000000007F2
+t1337265092
+s2034
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.m
+c000000004FB50BC40000000000000BCC
+t1337265092
+s3020
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScopedDisposable.m
+c000000004FB50BC400000000000002F1
+t1337265092
+s753
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.m
+c000000004FB50BC40000000000000454
+t1337265092
+s1108
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable+Operations.m
+c000000004FB50BC4000000000000649A
+t1337265092
+s25754
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable.m
+c000000004FB50BC40000000000001281
+t1337265092
+s4737
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.m
+c000000004FB50BC40000000000000586
+t1337265092
+s1414
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSwizzling.m
+c000000004FB50BC400000000000002DA
+t1337265092
+s730
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACTuple.m
+c000000004FB50BC40000000000000A69
+t1337265092
+s2665
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACUnit.m
+c000000004FB50BC40000000000000191
+t1337265092
+s401
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.m
+c000000004FB50BC400000000000002FF
+t1337265092
+s767
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSubscribableSupport.m
+c000000004FB50BC400000000000006A3
+t1337265092
+s1699
+
+N/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSubscribableSupport.m
+c000000004FB50BC4000000000000020E
+t1337265092
+s526
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/ConciseKit.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSArray+ConciseKit.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSDictionary+ConciseKit.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSString+ConciseKit.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACExtensions.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACBindings.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACFastEnumeration.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACKVOWrapper.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACOperations.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACSubscribable.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncCommand.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncSubject.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCollection.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACConnectableSubscribable.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSubscribable.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMaybe.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScopedDisposable.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable+Operations.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSwizzling.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACTuple.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACUnit.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSubscribableSupport.m
+r0
+
+CBuild AST from /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSubscribableSupport.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies28bbe58d4365b541^868d128e4365b541^---0#1#0#--18"Check dependencies36"6E2922E7-4E63-4A21-9701-EA9AA3695DAF-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/ConciseKit.o /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.726702
+e358957966.897669
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/ConciseKit.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/ConciseKit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/ConciseKit.m512dba8e4365b541^c9cce58e4365b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/ConciseKit.m0000000000000000^3072"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/ConciseKit.o ConciseKit/src/ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/ConciseKit.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/ConciseKit.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/ConciseKit.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/ConciseKit.o36"45F41AAD-63FB-45C1-B65E-1597EDAF78ED-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/JSONKit.o /Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.897799
+e358957967.708835
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/JSONKit.o
+x/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m:1640:27: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+o          if((currentChar == '\\')) { stringState = JSONStringStateEscapedNeedEscapedUForSurrogate; }
+o              ~~~~~~~~~~~~^~~~~~~
+o/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m:1640:27: note: remove extraneous parentheses around the comparison to silence this warning
+o          if((currentChar == '\\')) { stringState = JSONStringStateEscapedNeedEscapedUForSurrogate; }
+o             ~            ^      ~
+o/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m:1640:27: note: use '=' to turn this equality comparison into an assignment
+o          if((currentChar == '\\')) { stringState = JSONStringStateEscapedNeedEscapedUForSurrogate; }
+o                          ^~
+o                          =
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m1900e68e4365b541^9088b58f4365b541^-878"/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m:1640:27: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]          if((currentChar == '\\')) { stringState = JSONStringStateEscapedNeedEscapedUForSurrogate; }              ~~~~~~~~~~~~^~~~~~~/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m:1640:27: note: remove extraneous parentheses around the comparison to silence this warning          if((currentChar == '\\')) { stringState = JSONStringStateEscapedNeedEscapedUForSurrogate; }             ~            ^      ~/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m:1640:27: note: use '=' to turn this equality comparison into an assignment          if((currentChar == '\\')) { stringState = JSONStringStateEscapedNeedEscapedUForSurrogate; }                          ^~                          =1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@47"Equality comparison with extraneous parentheses-358957967#18446744073709551615#0#2(2@75"Remove extraneous parentheses around the comparison to silence this warning-358957967#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@71"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m0000000000000000^1639#26#1639#26#77978#0#14"Semantic Issue2(3@71"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m0000000000000000^1639#13#1639#14#77965#0#3@71"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m0000000000000000^1639#33#1639#34#77985#0#-2@59"Use '=' to turn this equality comparison into an assignment-358957967#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m0000000000000000^1639#26#1639#26#77978#0#14"Semantic Issue1(3@71"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m0000000000000000^1639#26#1639#28#77978#0#-1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m0000000000000000^1639#26#1639#26#77978#0#14"Semantic Issue1(3@71"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m0000000000000000^1639#14#1639#33#77966#15#-0#0#0#-19%DVTDocumentLocation4@71"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m0000000000000000^3040"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/JSONKit.o JSONKit/JSONKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/JSONKit.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/JSONKit.dia -c /Users/alexusbergo/Desktop/Latte/Pods/JSONKit/JSONKit.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/JSONKit.o36"EF4D137B-1A90-468A-A548-8476586E8D0D-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+ConciseKit.o /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSArray+ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.727268
+e358957966.939222
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+ConciseKit.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSArray+ConciseKit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSArray+ConciseKit.md251ba8e4365b541^677ff08e4365b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSArray+ConciseKit.m0000000000000000^3120"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+ConciseKit.o ConciseKit/src/NSArray+ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+ConciseKit.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+ConciseKit.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSArray+ConciseKit.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+ConciseKit.o36"21C26D0D-E7EA-464A-BBB9-3056F5FB8C10-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+RACExtensions.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACExtensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.897860
+e358957966.976560
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+RACExtensions.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACExtensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACExtensions.m7d04e68e4365b541^2a00fa8e4365b541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACExtensions.m0000000000000000^3221"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+RACExtensions.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACExtensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+RACExtensions.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+RACExtensions.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACExtensions.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSArray+RACExtensions.o36"B9CB6ED3-D7B4-40E2-82EA-F8666CD001D8-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSDictionary+ConciseKit.o /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSDictionary+ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.727455
+e358957966.896566
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSDictionary+ConciseKit.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSDictionary+ConciseKit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSDictionary+ConciseKit.md658ba8e4365b541^1990e58e4365b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSDictionary+ConciseKit.m0000000000000000^3150"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSDictionary+ConciseKit.o ConciseKit/src/NSDictionary+ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSDictionary+ConciseKit.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSDictionary+ConciseKit.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSDictionary+ConciseKit.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSDictionary+ConciseKit.o36"E088E11C-6CD3-481F-AB5A-1BB55F742E35-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACBindings.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACBindings.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.898524
+e358957966.943353
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACBindings.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACBindings.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACBindings.me223e68e4365b541^cc7ef18e4365b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACBindings.m0000000000000000^3215"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACBindings.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACBindings.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACBindings.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACBindings.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACBindings.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACBindings.o36"4C877460-3695-4769-9B07-65FF052DD300-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACExtensions.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.940537
+e358957966.992761
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACExtensions.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.mc3f5f08e4365b541^5325fe8e4365b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.m0000000000000000^3227"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACExtensions.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACExtensions.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACExtensions.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACExtensions.o36"9D75A942-BE61-475E-B7E8-2019190BD548-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACFastEnumeration.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACFastEnumeration.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.944648
+e358957967.010206
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACFastEnumeration.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACFastEnumeration.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACFastEnumeration.m7809f28e4365b541^ed9c028f4365b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACFastEnumeration.m0000000000000000^3257"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACFastEnumeration.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACFastEnumeration.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACFastEnumeration.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACFastEnumeration.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACFastEnumeration.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACFastEnumeration.o36"F9E8BE20-55FC-4303-BC1C-A65720353BFC-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACKVOWrapper.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACKVOWrapper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.977887
+e358957967.100362
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACKVOWrapper.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACKVOWrapper.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACKVOWrapper.ma586fa8e4365b541^f4c2198f4365b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACKVOWrapper.m0000000000000000^3227"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACKVOWrapper.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACKVOWrapper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACKVOWrapper.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACKVOWrapper.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACKVOWrapper.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACKVOWrapper.o36"F3382ED9-988C-42D4-8CE2-A2C5D9EB7173-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACOperations.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACOperations.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.994370
+e358957967.072978
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACOperations.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACOperations.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACOperations.m6fbdfe8e4365b541^6dae128f4365b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACOperations.m0000000000000000^3227"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACOperations.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACOperations.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACOperations.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACOperations.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACOperations.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACOperations.o36"BDB1A64A-7E58-490B-8396-61D3C450CAD8-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACPropertySubscribing.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.011623
+e358957967.088686
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACPropertySubscribing.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.ma628038f4365b541^1ec4168f4365b541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.m0000000000000000^3281"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACPropertySubscribing.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACPropertySubscribing.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACPropertySubscribing.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACPropertySubscribing.o36"C93996A4-9448-480C-B12A-7465521DB832-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACSubscribable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.074280
+e358957967.169317
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACSubscribable.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACSubscribable.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACSubscribable.md730138f4365b541^2a1a2f8f4365b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACSubscribable.m0000000000000000^3239"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACSubscribable.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACSubscribable.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACSubscribable.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACSubscribable.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSObject+RACSubscribable.o36"023A02FE-FF41-47F6-9A2E-ADFC7B084273-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSString+ConciseKit.o /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSString+ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.747215
+e358957966.896534
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSString+ConciseKit.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSString+ConciseKit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSString+ConciseKit.mb16bbf8e4365b541^d883e58e4365b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSString+ConciseKit.m0000000000000000^3126"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSString+ConciseKit.o ConciseKit/src/NSString+ConciseKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSString+ConciseKit.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSString+ConciseKit.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ConciseKit/src/NSString+ConciseKit.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/NSString+ConciseKit.o36"BD1B60CF-02D2-455B-926E-EEEDA999CF60-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncCommand.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.090498
+e358957967.214525
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncCommand.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncCommand.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncCommand.mce55178f4365b541^82fe368f4365b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncCommand.m0000000000000000^3185"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncCommand.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncCommand.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncCommand.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncCommand.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncCommand.o36"E1DD5371-490B-4689-B04C-C6262174B92D-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncSubject.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncSubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.101630
+e358957967.172736
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncSubject.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncSubject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncSubject.mcb301a8f4365b541^e2222f8f4365b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncSubject.m0000000000000000^3185"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncSubject.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncSubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncSubject.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncSubject.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACAsyncSubject.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACAsyncSubject.o36"DBF771E1-1E6E-45B9-ABBF-26036DE894EE-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACBehaviorSubject.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.171048
+e358957967.228214
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACBehaviorSubject.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.m66f42b8f4365b541^677d3a8f4365b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.m0000000000000000^3203"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACBehaviorSubject.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACBehaviorSubject.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACBehaviorSubject.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACBehaviorSubject.o36"2A96248E-5372-4328-B2C6-419589F12550-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCollection.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCollection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.174072
+e358957967.272777
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCollection.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCollection.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCollection.mbabd2c8f4365b541^ffe6458f4365b541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCollection.m0000000000000000^3173"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCollection.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCollection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCollection.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCollection.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCollection.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCollection.o36"47380EEA-A5BB-4B59-A7E2-F0EA9FC3E02D-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCommand.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.215888
+e358957967.283064
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCommand.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.ma871378f4365b541^ec87488f4365b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.m0000000000000000^3155"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCommand.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCommand.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCommand.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACCommand.o36"22D9A9C6-23CB-420F-BC71-17A68DC56F99-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACConnectableSubscribable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACConnectableSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.229520
+e358957967.288033
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACConnectableSubscribable.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACConnectableSubscribable.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACConnectableSubscribable.m7bf43a8f4365b541^c1c6498f4365b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACConnectableSubscribable.m0000000000000000^3251"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACConnectableSubscribable.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACConnectableSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACConnectableSubscribable.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACConnectableSubscribable.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACConnectableSubscribable.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACConnectableSubscribable.o36"1F37FCAC-A6EE-4397-A014-8E8CD176F21A-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACDisposable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.274076
+e358957967.321237
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACDisposable.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.mf355468f4365b541^4b3e528f4365b541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.m0000000000000000^3173"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACDisposable.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACDisposable.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACDisposable.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACDisposable.o36"81EC398C-37B0-49B9-849A-AB8B069AAC45-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACGroupedSubscribable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.284281
+e358957967.327969
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACGroupedSubscribable.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSubscribable.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSubscribable.mc3f1488f4365b541^1407548f4365b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSubscribable.m0000000000000000^3227"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACGroupedSubscribable.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACGroupedSubscribable.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACGroupedSubscribable.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSubscribable.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACGroupedSubscribable.o36"33BB6DFE-B309-434F-9957-9D0EFA4FFE04-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACMaybe.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMaybe.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.289384
+e358957967.339713
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACMaybe.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMaybe.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMaybe.md5414a8f4365b541^3205578f4365b541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMaybe.m0000000000000000^3143"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACMaybe.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMaybe.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACMaybe.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACMaybe.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMaybe.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACMaybe.o36"3527DF92-7596-4411-8702-8C972DB5E4DB-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACReplaySubject.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.322559
+e358957967.405103
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACReplaySubject.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.m3fc4528f4365b541^a2b4678f4365b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.m0000000000000000^3191"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACReplaySubject.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACReplaySubject.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACReplaySubject.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACReplaySubject.o36"B69AF62C-5953-450F-B507-40D5BF8E4B77-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScheduler.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.329267
+e358957967.404645
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScheduler.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.m1c7d548f4365b541^179e678f4365b541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.m0000000000000000^3167"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScheduler.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScheduler.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScheduler.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScheduler.o36"70B97700-BD9D-4E44-B431-D2D07EAE2A68-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScopedDisposable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScopedDisposable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.341052
+e358957967.395113
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScopedDisposable.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScopedDisposable.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScopedDisposable.md482578f4365b541^083b658f4365b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScopedDisposable.m0000000000000000^3209"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScopedDisposable.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScopedDisposable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScopedDisposable.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScopedDisposable.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScopedDisposable.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACScopedDisposable.o36"FB5A6123-6D60-48DB-B195-88D66410C1CA-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubject.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.396486
+e358957967.451773
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubject.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.m10ad658f4365b541^18b5738f4365b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.m0000000000000000^3155"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubject.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubject.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubject.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubject.o36"9000318B-58BC-4D8F-BD4B-0922F29CB3C2-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable+Operations.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable+Operations.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.405922
+e358957968.041370
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable+Operations.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable+Operations.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable+Operations.mc614688f4365b541^5f9a0a904365b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable+Operations.m0000000000000000^3251"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable+Operations.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable+Operations.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable+Operations.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable+Operations.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable+Operations.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable+Operations.o36"DE6E3560-39FD-4547-A8FA-B5F7896113A2-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.405912
+e358957967.542166
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable.mce16688f4365b541^b8cb8a8f4365b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable.m0000000000000000^3185"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscribable.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscribable.o36"250516E3-C0E6-4FF5-AE63-F4D87BF1B2FE-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscriber.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.453022
+e358957967.543122
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscriber.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.m062d748f4365b541^b7098b8f4365b541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.m0000000000000000^3173"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscriber.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscriber.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscriber.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSubscriber.o36"8A6272A7-7A98-464E-B755-2D5D8EA7847B-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSwizzling.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSwizzling.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.543357
+e358957967.615487
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSwizzling.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSwizzling.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSwizzling.m28458b8f4365b541^05a49d8f4365b541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSwizzling.m0000000000000000^3167"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSwizzling.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSwizzling.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSwizzling.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSwizzling.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSwizzling.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACSwizzling.o36"A3A0F0D5-9515-450C-8BEE-4EB087880C33-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACTuple.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACTuple.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.543451
+e358957967.633719
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACTuple.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACTuple.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACTuple.m5a458b8f4365b541^363ba28f4365b541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACTuple.m0000000000000000^3143"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACTuple.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACTuple.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACTuple.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACTuple.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACTuple.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACTuple.o36"B5F3A194-22E8-421C-8E39-F4F8F551FB58-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACUnit.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACUnit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.616775
+e358957967.661004
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACUnit.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACUnit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACUnit.m3a239e8f4365b541^a645a98f4365b541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACUnit.m0000000000000000^3137"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACUnit.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACUnit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACUnit.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACUnit.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACUnit.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACUnit.o36"6FBDFE4B-037F-4E49-B512-402DFA03A719-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACValueTransformer.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.635114
+e358957967.683105
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACValueTransformer.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.m350ca38f4365b541^e7dfae8f4365b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.m0000000000000000^3209"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACValueTransformer.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACValueTransformer.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACValueTransformer.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/RACValueTransformer.o36"0D39526C-290D-4613-9170-9A38B9A5261C-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UIControl+RACSubscribableSupport.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSubscribableSupport.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.662257
+e358957967.774276
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UIControl+RACSubscribableSupport.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSubscribableSupport.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSubscribableSupport.me5b6a98f4365b541^ac71ca8f4365b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSubscribableSupport.m0000000000000000^3287"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UIControl+RACSubscribableSupport.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSubscribableSupport.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UIControl+RACSubscribableSupport.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UIControl+RACSubscribableSupport.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSubscribableSupport.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UIControl+RACSubscribableSupport.o36"7A1C6592-B4C2-4F5C-B858-AA2F1DE57D5C-
+
+CCompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UITextField+RACSubscribableSupport.o /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSubscribableSupport.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957967.684619
+e358957967.781574
+r1
+xCompileC
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UITextField+RACSubscribableSupport.o
+x/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSubscribableSupport.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSubscribableSupport.ma46eaf8f4365b541^4b78ca8f4365b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSubscribableSupport.m0000000000000000^3299"CompileC /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UITextField+RACSubscribableSupport.o ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSubscribableSupport.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UITextField+RACSubscribableSupport.d --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UITextField+RACSubscribableSupport.dia -c /Users/alexusbergo/Desktop/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSubscribableSupport.m -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/UITextField+RACSubscribableSupport.o36"768EBB8C-7B0E-4828-AB8C-CD8E2B82D50A-
+
+CLibtool /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/libPods.a normal armv7
+s358957968.048981
+e358957968.076757
+r1
+xLibtool
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/libPods.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Libtool /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/libPods.a normal armv7519f0c904365b541^689614904365b541^---0#0#0#--981"Libtool /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/libPods.a normal armv7    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -filelist /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList -framework Foundation -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/libPods.a36"8F71909E-DC69-4BF5-8A15-E0385E8CFB75-
+
+CProcessPCH /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch.pth Pods-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.082764
+e358957966.719807
+r1
+xProcessPCH
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch.pth
+xPods-prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Pods-prefix.pch724d158e4365b541^bb45b88e4365b541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/Pods-prefix.pch0000000000000000^2933"ProcessPCH /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch.pth Pods-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch.dia -c /Users/alexusbergo/Desktop/Latte/Pods/Pods-prefix.pch -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch.pth -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-gulstlpfggisrmegqmexmxvseeou/Pods-prefix.pch.d36"F0D5FA4C-4703-4748-A0A8-FA5AC51D51E4-
+
+CProcessPCH /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch.pth Pods-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s358957966.083402
+e358957966.745673
+r1
+xProcessPCH
+x/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch.pth
+xPods-prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Pods-prefix.pch7e71158e4365b541^c0e8be8e4365b541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/alexusbergo/Desktop/Latte/Pods/Pods-prefix.pch0000000000000000^2944"ProcessPCH /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch.pth Pods-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexusbergo/Desktop/Latte/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods.hmap -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include -I/Users/alexusbergo/Desktop/Latte/Pods/Headers -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ConciseKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/JSONKit -I/Users/alexusbergo/Desktop/Latte/Pods/Headers/ReactiveCocoa -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos -fobjc-arc --serialize-diagnostics /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch.dia -c /Users/alexusbergo/Desktop/Latte/Pods/Pods-prefix.pch -o /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch.pth -MMD -MT dependencies -MF /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Pods-prefix-hbjnrnjynjiyycafvfspcwifties/Pods-prefix.pch.d36"BFB15014-9399-48C2-8E8A-F70CC64D045E-
+
+CProcessPCH /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Index/PrecompiledHeaders/Pods-prefix-ckwnyklwsrygvzawsgmplssiuzbg_ast/Pods-prefix.pch.pth Pods-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/alexusbergo/Desktop/Latte/DerivedData/Latte/Index/PrecompiledHeaders/Pods-prefix-eufvckmcazrkyfbntozmjfdmvevy_ast/Pods-prefix.pch.pth Pods-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

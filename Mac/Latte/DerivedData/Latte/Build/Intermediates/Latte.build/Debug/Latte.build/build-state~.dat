@@ -1,0 +1,441 @@
+TLatte
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Info.plist" Latte/Latte-Info.plist
+cProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFileWatcher.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFileWatcher.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKKQueue.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKKQueue.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKMainThreadProxy.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/main.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTMenu.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTMenu.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/MacOS/Latte" normal x86_64
+cCpResource Latte/en.lproj/Credits.rtf DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/Credits.rtf
+cCopyStringsFile "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/InfoPlist.strings" Latte/en.lproj/InfoPlist.strings
+cCompileXIB "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/../MainMenu.xib"
+cCpResource "Latte/UKKQueue/UKKQueue Readme.txt" "DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/UKKQueue Readme.txt"
+cCpResource Latte/Resources/icon-inv.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-inv.png
+cCpResource Latte/Resources/icon-sel.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-sel.png
+cCpResource Latte/Resources/icon.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon.png
+cTouch "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F29C61A00000000000000EE
+t1328137754
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004F955A070000000000002470
+t1335187975
+s9328
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTMenu.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/Latte.LinkFileList
+c000000004FFD98240000000000000461
+t1342019620
+s1121
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFileWatcher.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKKQueue.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKMainThreadProxy.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch.pth
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch.pth
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Info.plist
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/MacOS/Latte
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/MainMenu.nib
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/UKKQueue Readme.txt
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-inv.png
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-sel.png
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/../MainMenu.xib
+c000000004FFD912A000000000000226C
+t1342017834
+s8812
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTAppDelegate.m
+c000000004FEAE4EB0000000000000183
+t1340794091
+s387
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTMenu.m
+c000000004FFD94C40000000000000E82
+t1342018756
+s3714
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/Latte-Prefix.pch
+c000000004FEACB36000000000000008D
+t1340787510
+s141
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/Resources/icon-inv.png
+c000000004FFD8FDB0000000000001A2C
+t1342017499
+s6700
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/Resources/icon-sel.png
+c000000004FFD8E4D0000000000001B70
+t1342017101
+s7024
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/Resources/icon.png
+c000000004FFD8DEF0000000000001B48
+t1342017007
+s6984
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m
+c000000004414B23D0000000000001A29
+t1142207037
+s6697
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFileWatcher.m
+c000000004414AEBB000000000000065C
+t1142206139
+s1628
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKKQueue Readme.txt
+c000000004414B3D10000000000000780
+t1142207441
+s1920
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKKQueue.m
+c000000004414ADC60000000000003A3B
+t1142205894
+s14907
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m
+c000000004414B1E80000000000000F4D
+t1142206952
+s3917
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/en.lproj/Credits.rtf
+c000000004FEACB3600000000000001B4
+t1340787510
+s436
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/en.lproj/InfoPlist.strings
+c000000004FEACB36000000000000002D
+t1340787510
+s45
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/main.m
+c000000004FEACB3600000000000000FD
+t1340787510
+s253
+
+NLatte/Latte-Info.plist
+c000000004FFD6E8900000000000004DD
+t1342008969
+s1245
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTAppDelegate.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTMenu.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFileWatcher.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKKQueue.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2098b3a4cfadb541^349fc3a4cfadb541^---0#1#0#--18"Check dependencies36"786446A7-7284-44DC-9D72-0F37E04399DB-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363712422.284222
+e363712422.353597
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTAppDelegate.m30f048a6cfadb541^9d845aa6cfadb541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/LTAppDelegate.m0000000000000000^3328"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.o Latte/LTAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-generated-files.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-own-target-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-all-target-headers.hmap" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-project-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources/x86_64" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTAppDelegate.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.o"36"6A29FBC8-742E-44FC-BE2C-3A48928A4F66-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTMenu.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTMenu.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363712422.322490
+e363712422.407455
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTMenu.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTMenu.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTMenu.m45bb52a6cfadb541^cb4d68a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/LTMenu.m0000000000000000^3286"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTMenu.o Latte/LTMenu.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-generated-files.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-own-target-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-all-target-headers.hmap" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-project-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources/x86_64" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTMenu.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTMenu.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTMenu.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTMenu.o"36"98CC4ECF-889D-4C42-A2ED-B8DF695A29DE-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363712422.175998
+e363712422.502831
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m:105:80: warning: conversion specifies type 'long' but the argument has type 'OSStatus' (aka 'int') [-Wformat]
+o        NSLog( @"UKFNSubscribeFileWatcher addPath: %@ failed due to error ID=%ld.", path, err );
+o                                                                             ~~^          ~~~
+o                                                                             %d
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m863d2da6cfadb541^b3b780a6cfadb541^-499"/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m:105:80: warning: conversion specifies type 'long' but the argument has type 'OSStatus' (aka 'int') [-Wformat]        NSLog( @"UKFNSubscribeFileWatcher addPath: %@ failed due to error ID=%ld.", path, err );                                                                             ~~^          ~~~                                                                             %d1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@81"Conversion specifies type 'long' but the argument has type 'OSStatus' (aka 'int')-363712422#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@114"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m0000000000000000^104#79#104#79#3316#0#19"Format String Issue3(3@114"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m0000000000000000^104#90#104#93#3327#0#3@114"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m0000000000000000^104#77#104#80#3314#3#3@114"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m0000000000000000^104#77#104#80#3314#3#-0#0#0#-19%DVTDocumentLocation4@114"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m0000000000000000^3426"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o Latte/UKKQueue/UKFNSubscribeFileWatcher.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-generated-files.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-own-target-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-all-target-headers.hmap" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-project-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources/x86_64" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" -fno-objc-arc -include "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o"36"A765926B-7C13-4130-BA1B-C4BB8E5FCACD-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFileWatcher.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFileWatcher.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363712422.175509
+e363712422.275103
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFileWatcher.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFileWatcher.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFileWatcher.m7e1c2da6cfadb541^7f6c46a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/UKKQueue/UKFileWatcher.m0000000000000000^3360"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFileWatcher.o Latte/UKKQueue/UKFileWatcher.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-generated-files.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-own-target-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-all-target-headers.hmap" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-project-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources/x86_64" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" -fno-objc-arc -include "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFileWatcher.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFileWatcher.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKFileWatcher.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFileWatcher.o"36"96902CE8-D76C-4AD6-8EB0-F62045DA3ECF-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKKQueue.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKKQueue.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363712422.176106
+e363712422.358438
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKKQueue.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKKQueue.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKKQueue.m2a3b2da6cfadb541^dfc15ba6cfadb541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/UKKQueue/UKKQueue.m0000000000000000^3330"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKKQueue.o Latte/UKKQueue/UKKQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-generated-files.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-own-target-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-all-target-headers.hmap" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-project-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources/x86_64" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" -fno-objc-arc -include "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKKQueue.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKKQueue.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKKQueue.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKKQueue.o"36"385844BB-90C6-481D-BDEA-E2FF1D7EE815-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKMainThreadProxy.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363712422.218997
+e363712422.282914
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKMainThreadProxy.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.mba3238a6cfadb541^556c48a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m0000000000000000^3384"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKMainThreadProxy.o Latte/UKKQueue/UKMainThreadProxy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-generated-files.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-own-target-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-all-target-headers.hmap" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-project-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources/x86_64" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" -fno-objc-arc -include "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKMainThreadProxy.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKMainThreadProxy.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKMainThreadProxy.o"36"74AE91AA-33F9-437E-AA44-A604A3A1611F-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/main.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363712422.276387
+e363712422.321120
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/main.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/main.mb1dc46a6cfadb541^0d3552a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/main.m0000000000000000^3274"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/main.o Latte/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-generated-files.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-own-target-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-all-target-headers.hmap" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-project-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources/x86_64" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/main.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/main.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/main.o"36"9D7CCF55-3F6F-47AA-905D-00F231AF8E65-
+
+CCompileXIB "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/../MainMenu.xib"
+s363712422.809713
+e363712423.565550
+r1
+xCompileXIB
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/../MainMenu.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compiling /Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/../MainMenu.xibdd5dcfa6cfadb541^60ca90a7cfadb541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/../MainMenu.xib0000000000000000^647"CompileXIB Latte/../MainMenu.xib    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/MainMenu.nib" "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/../MainMenu.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"100F4102-F0D9-4772-A069-BF741D3AA329-
+
+CCopyStringsFile "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/InfoPlist.strings" Latte/en.lproj/InfoPlist.strings
+s363712422.809704
+e363712422.831687
+r1
+xCopyStringsFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/InfoPlist.strings
+xLatte/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy Latte/en.lproj/InfoPlist.strings5072cfa6cfadb541^e6e9d4a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/en.lproj/InfoPlist.strings0000000000000000^468"CopyStringsFile DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/InfoPlist.strings Latte/en.lproj/InfoPlist.strings    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj" -- Latte/en.lproj/InfoPlist.strings36"F8FFA60B-D298-490F-B985-1CD1DA0B1CA8-
+
+CCpResource "Latte/UKKQueue/UKKQueue Readme.txt" "DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/UKKQueue Readme.txt"
+s363712422.809909
+e363712422.818638
+r1
+xCpResource
+xLatte/UKKQueue/UKKQueue Readme.txt
+xDerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/UKKQueue Readme.txt
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/UKKQueue Readme.txt3469cfa6cfadb541^8659d4a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/UKKQueue%20Readme.txt000000000080d041^636"CpResource "Latte/UKKQueue/UKKQueue Readme.txt" "DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/UKKQueue Readme.txt"    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/UKKQueue/UKKQueue Readme.txt" "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources"36"02BD1A62-3711-40BA-946F-199B47BAEDC3-
+
+CCpResource Latte/Resources/icon-inv.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-inv.png
+s363712422.819913
+e363712422.822757
+r1
+xCpResource
+xLatte/Resources/icon-inv.png
+xDerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-inv.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-inv.png26fdd1a6cfadb541^9565d4a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-inv.png000000000080d041^613"CpResource Latte/Resources/icon-inv.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-inv.png    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/Resources/icon-inv.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources"36"EAE030FA-D1B7-42B1-85DE-28D317C7089E-
+
+CCpResource Latte/Resources/icon-sel.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-sel.png
+s363712422.820219
+e363712422.823842
+r1
+xCpResource
+xLatte/Resources/icon-sel.png
+xDerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-sel.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-sel.pngab09d2a6cfadb541^596bd4a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-sel.png000000000080d041^613"CpResource Latte/Resources/icon-sel.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-sel.png    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/Resources/icon-sel.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources"36"849FE0F6-670C-4092-96D1-02E219A1BF17-
+
+CCpResource Latte/Resources/icon.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon.png
+s363712422.824012
+e363712422.826886
+r1
+xCpResource
+xLatte/Resources/icon.png
+xDerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon.pnga705d3a6cfadb541^0070d4a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon.png000000000080d041^601"CpResource Latte/Resources/icon.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon.png    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/Resources/icon.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources"36"8D553304-D5CF-4884-9066-E3B582F1A2F6-
+
+CCpResource Latte/en.lproj/Credits.rtf DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/Credits.rtf
+s363712422.809699
+e363712422.818617
+r1
+xCpResource
+xLatte/en.lproj/Credits.rtf
+xDerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/Credits.rtf0c5bcfa6cfadb541^185fd4a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^626"CpResource Latte/en.lproj/Credits.rtf DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/Credits.rtf    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/en.lproj/Credits.rtf" "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj"36"30A75580-C938-41C6-8AC6-56FF5EB7A840-
+
+CLd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/MacOS/Latte" normal x86_64
+s363712422.509931
+e363712422.802224
+r1
+xLd
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/MacOS/Latte
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Link /Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/MacOS/Lattebe9f82a6cfadb541^6c5ecda6cfadb541^---0#0#0#--967"Ld DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/MacOS/Latte normal x86_64    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk "-L/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" -filelist "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/Latte.LinkFileList" -mmacosx-version-min=10.7 -fobjc-arc -framework Cocoa -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/MacOS/Latte"36"F3B302D4-DB8A-4222-A336-C1E0D3F5E5E8-
+
+CProcessInfoPlistFile "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Info.plist" Latte/Latte-Info.plist
+s363712420.771168
+e363712420.782578
+r1
+xProcessInfoPlistFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Info.plist
+xLatte/Latte-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process Latte/Latte-Info.plist3a79c5a4cfadb541^008fc8a4cfadb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/Latte-Info.plist0000000000000000^531"ProcessInfoPlistFile DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Info.plist Latte/Latte-Info.plist    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    builtin-infoPlistUtility Latte/Latte-Info.plist -genpkginfo "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Info.plist"36"C08D7AAA-7DA9-4373-9C33-FA0E23D13690-
+
+CProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363712420.790594
+e363712422.217523
+r1
+xProcessPCH
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch.pth
+xLatte/Latte-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Latte/Latte-Prefix.pchd68ecaa4cfadb541^a0c037a6cfadb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/Latte-Prefix.pch0000000000000000^3209"ProcessPCH DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch.pth Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-generated-files.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-own-target-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-all-target-headers.hmap" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-project-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources/x86_64" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/Latte-Prefix.pch" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cesieduqcxhrdvckbisubyawenut/Latte-Prefix.pch.d"36"495D074F-0BC8-4324-8C01-0D1ABF76AFB7-
+
+CProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s363712420.791490
+e363712422.168577
+r1
+xProcessPCH
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch.pth
+xLatte/Latte-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Latte/Latte-Prefix.pchb5c4caa4cfadb541^a6282ba6cfadb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Mac/Latte/Latte/Latte-Prefix.pch0000000000000000^3223"ProcessPCH DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch.pth Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-generated-files.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-own-target-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-all-target-headers.hmap" -iquote "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Latte-project-headers.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources/x86_64" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug" -fno-objc-arc --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/Latte-Prefix.pch" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-gtdpxhkhueuxrshbrzlubaxehcnj/Latte-Prefix.pch.d"36"A79F6E2A-388E-4635-8B0E-590C54AB6F89-
+
+CProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Index/PrecompiledHeaders/Latte-Prefix-cjqfkapidbmfxtaxyobqijhnkqlc_ast/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Index/PrecompiledHeaders/Latte-Prefix-eyqempuhlgmrzhehebnjuiowzrfu_ast/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app"
+s363712423.573254
+e363712423.580340
+r1
+xTouch
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Touch /Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app89ce92a7cfadb541^d69094a7cfadb541^---0#0#0#--247"Touch DerivedData/Latte/Build/Products/Debug/Latte.app    cd "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte"    /usr/bin/touch -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app"36"6F61724F-2161-4B0F-BA92-C698732E2419-
+

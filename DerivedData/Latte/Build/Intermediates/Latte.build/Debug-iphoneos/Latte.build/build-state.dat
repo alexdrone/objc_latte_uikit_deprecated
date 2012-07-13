@@ -1,0 +1,1129 @@
+TLatte
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Info.plist" Latte/Latte-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/ResourceRules.plist
+cProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-ckdemhrtdiwiqfgbkwejskkuftwr/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTView.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/NSString+LTAdditions.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/NSString+LTAdditions.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTParser.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/UIView+LTAdditions.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/UIView+LTAdditions.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/main.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTAppDelegate.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTNode.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTNode.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTWatchFileServer.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTWatchFileServer.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoObject.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/AsyncSocket.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Libs (TOFIX Pods)/AsyncSocket.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTContext.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTContext.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte" normal armv7
+cGenerateDSYMFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app.dSYM" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte"
+cCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png" Other/Demo/blackseparator.png
+cCopyStringsFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/en.lproj/InfoPlist.strings" Latte/en.lproj/InfoPlist.strings
+cCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png" Other/Demo/blackseparator@2x.png
+cCpResource Other/Demo/DemoCell.latte DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.latte
+cCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png" Other/Demo/leather.png
+cCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png" Other/Demo/leather@2x.png
+cPhaseScriptExecution "Copy Pods Resources" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Script-97AD29B9FE0A4F72968F7E73.sh"
+cProcessProductPackaging "/Users/alexusbergo/Library/MobileDevice/Provisioning Profiles/B44CF4FA-8453-4E48-8C90-F486ACDD87AD.mobileprovision" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/embedded.mobileprovision"
+cProcessProductPackaging "/Users/alexusbergo/Library/MobileDevice/Provisioning Profiles/B44CF4FA-8453-4E48-8C90-F486ACDD87AD.mobileprovision" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/embedded.mobileprovision"
+cTouch "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.xcent"
+cCodeSign "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004F9559CC00000000000001A7
+t1335187916
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004F9559CC00000000000001E5
+t1335187916
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004F9559CE000000000032E0E0
+t1335187918
+s3334368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F9559CE00000000003AE430
+t1335187918
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F9559D0000000000052C940
+t1335187920
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F9559D10000000000798EA0
+t1335187921
+s7966368
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoCell.latte
+c000000004FCF3F8400000000000003D5
+t1338982276
+s981
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoObject.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoObject.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoTableViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoTableViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoViewController.h
+c000000004FCF13790000000000000125
+t1338971001
+s293
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoViewController.m
+c000000004FCF1C50000000000000052C
+t1338973264
+s1324
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/HelloWorld.latte
+c000000004FCF2339000000000000023E
+t1338975033
+s574
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/blackseparator.png
+c000000004FC8C35D0000000000000AF8
+t1338557277
+s2808
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/blackseparator@2x.png
+c000000004FC8C35D0000000000000B07
+t1338557277
+s2823
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/leather.png
+c000000004FC8C35D0000000000002062
+t1338557277
+s8290
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/leather@2x.png
+c000000004FC8C35D00000000000050BC
+t1338557277
+s20668
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.xcent
+t1338982525
+s404
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/AsyncSocket.o
+t1339170351
+s205288
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.o
+t1339170350
+s30612
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.o
+t1339171855
+s67480
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoViewController.o
+t1338982524
+s53720
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTAppDelegate.o
+t1339171254
+s63884
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTContext.o
+t1339171254
+s10164
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTNode.o
+t1339171254
+s35892
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTParser.o
+t1339171254
+s79484
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTView.o
+t1339171408
+s69964
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTViewController.o
+t1338982524
+s49044
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTWatchFileServer.o
+t1339171254
+s66456
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/Latte.LinkFileList
+c000000004FD21E2E0000000000000769
+t1339170350
+s1897
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/NSString+LTAdditions.o
+t1338982524
+s6444
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/UIView+LTAdditions.o
+t1339170350
+s46204
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/main.o
+t1338982524
+s3284
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Script-97AD29B9FE0A4F72968F7E73.sh
+c000000004FCF407B000000000000002F
+t1338982523
+s47
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch.pth
+t1338982523
+s3969148
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-ckdemhrtdiwiqfgbkwejskkuftwr/Latte-Prefix.pch.pth
+t1339170350
+s3961516
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app
+t1339171855
+s544
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app.dSYM
+t1339171855
+s102
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.latte
+t1339171829
+s1052
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/HelloWorld.latte
+t1338982524
+s574
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Info.plist
+t1338982523
+s1161
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte
+t1339171855
+s662304
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/PkgInfo
+t1338982523
+s8
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/ResourceRules.plist
+t1338982523
+s485
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png
+t1339170351
+s2811
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png
+t1339170351
+s2829
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/embedded.mobileprovision
+t1338982525
+s49570
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/en.lproj/InfoPlist.strings
+t1338982524
+s42
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png
+t1339170351
+s9164
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png
+t1339170351
+s18361
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/test.lt
+t1338982524
+s191
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/libPods.a
+c000000004FD21E2E0000000000122BF0
+t1339170350
+s1190896
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.h
+c000000004FCF2D9E00000000000000E4
+t1338977694
+s228
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.m
+c000000004FCF2D9E0000000000000E46
+t1338977694
+s3654
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTAppDelegate.h
+c000000004FB504B0000000000000011E
+t1337263280
+s286
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTAppDelegate.m
+c000000004FD1FA830000000000000AD1
+t1339161219
+s2769
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTContext.h
+c000000004FD2218D0000000000000140
+t1339171213
+s320
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTContext.m
+c000000004FD221B1000000000000030A
+t1339171249
+s778
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTNode.h
+c000000004FD213A3000000000000060A
+t1339167651
+s1546
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTNode.m
+c000000004FD2138C000000000000151A
+t1339167628
+s5402
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.h
+c000000004FD2123800000000000004E4
+t1339167288
+s1252
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m
+c000000004FD213EE0000000000002CDC
+t1339167726
+s11484
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTPrefixes.h
+c000000004FD20A1E000000000000014A
+t1339165214
+s330
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTView.h
+c000000004FD211AF0000000000000274
+t1339167151
+s628
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTView.m
+c000000004FD222470000000000001455
+t1339171399
+s5205
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTWatchFileServer.h
+c000000004FD1FA830000000000000198
+t1339161219
+s408
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTWatchFileServer.m
+c000000004FD1FE4F0000000000000E81
+t1339162191
+s3713
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/Latte-Prefix.pch
+c000000004FB53DA60000000000000139
+t1337277862
+s313
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/NSString+LTAdditions.h
+c000000004FCD32AC0000000000000121
+t1338847916
+s289
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/NSString+LTAdditions.m
+c000000004FCF01270000000000000257
+t1338966311
+s599
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/UIView+LTAdditions.h
+c000000004FCE6A7A000000000000011D
+t1338927738
+s285
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/UIView+LTAdditions.m
+c000000004FD1FF5A0000000000000376
+t1339162458
+s886
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/en.lproj/InfoPlist.strings
+c000000004FB504B0000000000000002D
+t1337263280
+s45
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/main.m
+c000000004FB504B00000000000000159
+t1337263280
+s345
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/test.lt
+c000000004FCD1FE100000000000000BF
+t1338843105
+s191
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoCell.latte
+c000000004FD2242F0000000000000437
+t1339171887
+s1079
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoObject.h
+c000000004FCF2A9C0000000000000168
+t1338976924
+s360
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoObject.m
+c000000004FCF59170000000000001A45
+t1338988823
+s6725
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoTableViewController.h
+c000000004FCF2BDC00000000000001FC
+t1338977244
+s508
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoTableViewController.m
+c000000004FD2240D0000000000000E85
+t1339171853
+s3717
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/blackseparator.png
+c000000004FC8C35D0000000000000AF8
+t1338557277
+s2808
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/blackseparator@2x.png
+c000000004FC8C35D0000000000000B07
+t1338557277
+s2823
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/leather.png
+c000000004FC8C35D0000000000002062
+t1338557277
+s8290
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/leather@2x.png
+c000000004FC8C35D00000000000050BC
+t1338557277
+s20668
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Libs (TOFIX Pods)/AsyncSocket.h
+c000000004F999B150000000000007535
+t1335466773
+s30005
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Libs (TOFIX Pods)/AsyncSocket.m
+c000000004FD1C8F4000000000001E6F2
+t1339148532
+s124658
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit/CKAdditions.h
+c000000004FB50BAB0000000000000062
+t1337265067
+s98
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit/CKMacros.h
+c000000004FB50BAB000000000000094E
+t1337265067
+s2382
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit/CKSingleton.h
+c000000004FD1C2450000000000000558
+t1339146821
+s1368
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit/ConciseKit.h
+c000000004FB50BAB00000000000003B6
+t1337265067
+s950
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit/NSArray+ConciseKit.h
+c000000004FB50BAB000000000000039C
+t1337265067
+s924
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit/NSDictionary+ConciseKit.h
+c000000004FB50BAB00000000000001F0
+t1337265067
+s496
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit/NSString+ConciseKit.h
+c000000004FB50BAB00000000000001EE
+t1337265067
+s494
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit/JSONKit.h
+c000000004FB50BB700000000000024D3
+t1337265079
+s9427
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/NSArray+RACExtensions.h
+c000000004FB50BC40000000000000280
+t1337265092
+s640
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/NSObject+RACBindings.h
+c000000004FB50BC400000000000002EF
+t1337265092
+s751
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/NSObject+RACFastEnumeration.h
+c000000004FB50BC40000000000000193
+t1337265092
+s403
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/NSObject+RACOperations.h
+c000000004FB50BC400000000000002A2
+t1337265092
+s674
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/NSObject+RACPropertySubscribing.h
+c000000004FCF1A9600000000000004A5
+t1338972822
+s1189
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/NSObject+RACSubscribable.h
+c000000004FB50BC40000000000000591
+t1337265092
+s1425
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACAsyncCommand.h
+c000000004FB50BC40000000000000527
+t1337265092
+s1319
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACAsyncSubject.h
+c000000004FB50BC4000000000000029E
+t1337265092
+s670
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACBehaviorSubject.h
+c000000004FB50BC400000000000001F9
+t1337265092
+s505
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACCollection.h
+c000000004FB50BC400000000000003FA
+t1337265092
+s1018
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACCommand.h
+c000000004FB50BC4000000000000062B
+t1337265092
+s1579
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACDisposable.h
+c000000004FB50BC40000000000000294
+t1337265092
+s660
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACGroupedSubscribable.h
+c000000004FB50BC400000000000001BE
+t1337265092
+s446
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACMaybe.h
+c000000004FB50BC4000000000000020C
+t1337265092
+s524
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACReplaySubject.h
+c000000004FB50BC40000000000000282
+t1337265092
+s642
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACScheduler.h
+c000000004FB50BC4000000000000072C
+t1337265092
+s1836
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACScopedDisposable.h
+c000000004FB50BC400000000000001DA
+t1337265092
+s474
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACSubject.h
+c000000004FB50BC40000000000000227
+t1337265092
+s551
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACSubscribable+Operations.h
+c000000004FB50BC40000000000001BFF
+t1337265092
+s7167
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACSubscribable.h
+c000000004FB50BC4000000000000092D
+t1337265092
+s2349
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACSubscriber.h
+c000000004FB50BC400000000000003A8
+t1337265092
+s936
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACTuple.h
+c000000004FB50BC40000000000000528
+t1337265092
+s1320
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/RACUnit.h
+c000000004FB50BC4000000000000017C
+t1337265092
+s380
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/ReactiveCocoa.h
+c000000004FB50BC400000000000005A6
+t1337265092
+s1446
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/UIControl+RACSubscribableSupport.h
+c000000004FB50BC400000000000001E9
+t1337265092
+s489
+
+N/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa/UITextField+RACSubscribableSupport.h
+c000000004FB50BC4000000000000017E
+t1337265092
+s382
+
+N/Users/alexusbergo/Library/MobileDevice/Provisioning Profiles/B44CF4FA-8453-4E48-8C90-F486ACDD87AD.mobileprovision
+c000000004FA11A03000000000000C1A2
+t1335958019
+s49570
+
+NLatte/Latte-Info.plist
+c000000004FCF40740000000000000594
+t1338982516
+s1428
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoObject.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoTableViewController.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoViewController.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTAppDelegate.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTContext.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTNode.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTView.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTWatchFileServer.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/NSString+LTAdditions.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/UIView+LTAdditions.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/main.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoObject.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoTableViewController.m"
+r0
+
+CBuild AST from "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Libs (TOFIX Pods)/AsyncSocket.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1ec367b25b82b541^1c0968b25b82b541^-116"warning: no rule to process file '$(PROJECT_DIR)/WatchFile.js' of type sourcecode.javascript for architecture armv71(21%IDEActivityLogMessage2@115"Warning: no rule to process file '$(PROJECT_DIR)/WatchFile.js' of type sourcecode.javascript for architecture armv7-360864690#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"F347A890-7B9A-4775-AE4F-722680EDCB85-
+
+CCodeSign "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"
+s360864690.538537
+e360864690.709320
+r1
+xCodeSign
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app
+o/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app: replacing existing signature
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CodeSign DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app95f389b25b82b541^8596b5b25b82b541^-133"/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/0000000000000000^921"CodeSign DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign c6c407948580b76d74f1fdbc1f57b9d80a619d3a "--resource-rules=/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/ResourceRules.plist" --entitlements "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.xcent" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"36"4A2D1528-C927-4490-B78D-8D4F53CE11C0-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/AsyncSocket.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Libs (TOFIX Pods)/AsyncSocket.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360863150.882813
+e360863151.242303
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/AsyncSocket.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Libs (TOFIX Pods)/AsyncSocket.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Other/Libs (TOFIX Pods)/AsyncSocket.md11fe2ae5582b541^2d073eaf5582b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Other/Libs%20(TOFIX%20Pods)/AsyncSocket.m0000000000000000^3307"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/AsyncSocket.o "Other/Libs (TOFIX Pods)/AsyncSocket.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -fno-objc-arc -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-ckdemhrtdiwiqfgbkwejskkuftwr/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/AsyncSocket.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/AsyncSocket.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Libs (TOFIX Pods)/AsyncSocket.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/AsyncSocket.o"36"AB176925-F7A6-46D1-A3A4-5E63A9230DC2-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoObject.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360675593.973521
+e360675594.079823
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoObject.m8f56f909797fb541^946d140a797fb541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Demo/DemoObject.m0000000000000000^3247"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.o Demo/DemoObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoObject.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.o"36"F4495D3C-B3B4-4D0E-97CA-7860A0B7E059-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoObject.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360863150.612401
+e360863150.739089
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoObject.ma1f59cae5582b541^faefc5ae5582b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Other/Demo/DemoObject.m0000000000000000^3259"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.o Other/Demo/DemoObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoObject.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoObject.o"36"9323459C-03BA-4DE8-AFFC-10E8B0A18C1B-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360675616.650969
+e360675616.726961
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoTableViewController.m91d4a620797fb541^9819ba20797fb541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Demo/DemoTableViewController.m0000000000000000^3325"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.o Demo/DemoTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoTableViewController.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.o"36"947620F8-1842-4CAA-BC5F-FCA0FF0A06D6-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864655.059755
+e360864655.175251
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoTableViewController.m936e0f8f5b82b541^55dc2c8f5b82b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Other/Demo/DemoTableViewController.m0000000000000000^3337"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.o Other/Demo/DemoTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoTableViewController.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoTableViewController.o"36"A8245F37-2D51-4933-9771-653F0AE4DDA3-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoViewController.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360675324.125675
+e360675324.235708
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoViewController.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoViewController.m505620fc777fb541^d7693cfc777fb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Demo/DemoViewController.m0000000000000000^3295"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoViewController.o Demo/DemoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoViewController.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoViewController.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoViewController.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/DemoViewController.o"36"5E00EE26-907C-4560-95D0-D7EC776A3254-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTAppDelegate.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864054.101619
+e360864054.280122
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTAppDelegate.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTAppDelegate.m93541a365982b541^5dc447365982b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/LTAppDelegate.m0000000000000000^3267"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTAppDelegate.o Latte/LTAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTAppDelegate.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTAppDelegate.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTAppDelegate.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTAppDelegate.o"36"5B5212BC-BED1-41A9-B102-05FEC9E4FA8B-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTContext.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTContext.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864054.333121
+e360864054.395471
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTContext.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTContext.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTContext.m547355365982b541^734b6b365982b541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/LTContext.m0000000000000000^3243"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTContext.o Latte/LTContext.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTContext.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTContext.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTContext.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTContext.o"36"203B2DD1-428D-418B-AE4D-21BE07229E17-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTNode.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTNode.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864054.101767
+e360864054.276935
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTNode.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTNode.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTNode.m74401a365982b541^341047365982b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/LTNode.m0000000000000000^3225"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTNode.o Latte/LTNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTNode.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTNode.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTNode.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTNode.o"36"B281C16D-4364-4F5E-B6A4-9E7E43C268AE-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTParser.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864054.101729
+e360864054.370326
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTParser.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m:133:83: warning: unknown escape sequence '\.'
+o                NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"%([a-zA-z0-9]*)(\.[a-zA-z0-9]*)(\#[a-zA-z0-9]*)*\\{(.*)\\}"
+o                                                                                                ^
+o/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m:133:83: warning: unknown escape sequence '\#'
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m9c521a365982b541^93e35e365982b541^-493"/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m:133:83: warning: unknown escape sequence '\.'                NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"%([a-zA-z0-9]*)(\.[a-zA-z0-9]*)(\#[a-zA-z0-9]*)*\\{(.*)\\}"                                                                                                ^/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m:133:83: warning: unknown escape sequence '\#'2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@28"Unknown escape sequence '\.'-360864054#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/LTParser.m0000000000000000^132#82#132#82#3294#0#29"Lexical or Preprocessor Issue--2@28"Unknown escape sequence '\#'-360864054#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/LTParser.m0000000000000000^132#82#132#82#3294#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/LTParser.m0000000000000000^3237"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTParser.o Latte/LTParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTParser.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTParser.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTParser.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTParser.o"36"564F67C8-85B8-485A-A182-BC20BEC73E2C-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTView.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864207.901338
+e360864208.026757
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTView.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTView.m98dae6cf5982b541^49d906d05982b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/LTView.m0000000000000000^3225"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTView.o Latte/LTView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTView.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTView.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTView.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTView.o"36"496307BD-4D57-4FE2-81F1-5AB1AFB0D8C5-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTViewController.o "/Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360675324.237012
+e360675324.314828
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTViewController.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.m:53:2: warning: #warning Potentially incomplete method implementation. [-W#warnings]
+o#warning Potentially incomplete method implementation.
+o ^
+o/Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.m:60:2: warning: #warning Incomplete method implementation. [-W#warnings]
+o#warning Incomplete method implementation.
+o ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.ma0de3cfc777fb541^0af550fc777fb541^-410"/Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.m:53:2: warning: #warning Potentially incomplete method implementation. [-W#warnings]#warning Potentially incomplete method implementation. ^/Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.m:60:2: warning: #warning Incomplete method implementation. [-W#warnings]#warning Incomplete method implementation. ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@54"#warning Potentially incomplete method implementation.-360675324#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@81"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/LTViewController.m0000000000000000^52#1#52#1#1187#0#18"#warning Directive--2@42"#warning Incomplete method implementation.-360675324#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/LTViewController.m0000000000000000^59#1#59#1#1388#0#18"#warning Directive--0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/LTViewController.m0000000000000000^3273"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTViewController.o LTViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTViewController.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTViewController.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/LTViewController.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTViewController.o"36"BFB79D06-FFD9-4B63-9497-5F1A789063E8-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTWatchFileServer.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTWatchFileServer.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360864054.279592
+e360864054.418105
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTWatchFileServer.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTWatchFileServer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTWatchFileServer.m:12:2: warning: #warning TOFIX Use Pods [-W#warnings]
+o#warning TOFIX Use Pods
+o ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTWatchFileServer.m9cc147365982b541^645a6b365982b541^-172"/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTWatchFileServer.m:12:2: warning: #warning TOFIX Use Pods [-W#warnings]#warning TOFIX Use Pods ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"#warning TOFIX Use Pods-360864054#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/LTWatchFileServer.m0000000000000000^11#1#11#1#200#0#18"#warning Directive--0#0#0#-19%DVTDocumentLocation4@88"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/LTWatchFileServer.m0000000000000000^3291"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTWatchFileServer.o Latte/LTWatchFileServer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTWatchFileServer.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTWatchFileServer.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/LTWatchFileServer.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/LTWatchFileServer.o"36"B1E0EFB1-D63C-457B-BBC1-AC9680A4E79C-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/NSString+LTAdditions.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/NSString+LTAdditions.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360675324.050491
+e360675324.094230
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/NSString+LTAdditions.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/NSString+LTAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Latte/NSString+LTAdditions.m9f1c0dfc777fb541^9b1e18fc777fb541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/NSString+LTAdditions.m0000000000000000^3309"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/NSString+LTAdditions.o Latte/NSString+LTAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/NSString+LTAdditions.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/NSString+LTAdditions.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/NSString+LTAdditions.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/NSString+LTAdditions.o"36"310145A8-4B72-4A77-816E-AF5567E7414B-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/UIView+LTAdditions.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/UIView+LTAdditions.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360863150.459586
+e360863150.610081
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/UIView+LTAdditions.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/UIView+LTAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Latte/UIView+LTAdditions.mb9df75ae5582b541^473d9cae5582b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/UIView+LTAdditions.m0000000000000000^3297"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/UIView+LTAdditions.o Latte/UIView+LTAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/UIView+LTAdditions.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/UIView+LTAdditions.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/UIView+LTAdditions.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/UIView+LTAdditions.o"36"E5DA7280-F70E-4097-9AC2-66E4B242B7C1-
+
+CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/main.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360675324.003541
+e360675324.049090
+r1
+xCompileC
+xDerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/main.o
+x/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/alexusbergo/Desktop/dev (other)/Latte/Latte/main.m941301fc777fb541^60940cfc777fb541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/main.m0000000000000000^3213"CompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/main.o Latte/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -include "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/main.d" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/main.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/main.m" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/main.o"36"DBD19B6A-1CFA-434B-ABDB-09ACF3EC8AA2-
+
+CCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png" Demo/blackseparator.png
+s360675324.782543
+e360675324.858035
+r1
+xCopyPNGFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png
+xDemo/blackseparator.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png Demo/blackseparator.png8465c8fc777fb541^87a7dbfc777fb541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Demo/blackseparator.png0000000000000000^745"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png Demo/blackseparator.png    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/blackseparator.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png"36"DC78B587-6247-4EB4-9C0C-091A9381AAB7-
+
+CCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png" Other/Demo/blackseparator.png
+s360863151.576737
+e360863151.621198
+r1
+xCopyPNGFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png
+xOther/Demo/blackseparator.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png Other/Demo/blackseparator.pngc0d093af5582b541^35089faf5582b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Other/Demo/blackseparator.png0000000000000000^757"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png Other/Demo/blackseparator.png    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/blackseparator.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator.png"36"98B6BE61-A844-4BF0-946B-FCD4B9E6CD16-
+
+CCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png" Demo/blackseparator@2x.png
+s360675324.783647
+e360675324.860293
+r1
+xCopyPNGFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png
+xDemo/blackseparator@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png Demo/blackseparator@2x.png3fabc8fc777fb541^e63bdcfc777fb541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Demo/blackseparator@2x.png0000000000000000^761"CopyPNGFile "DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png" "Demo/blackseparator@2x.png"    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/blackseparator@2x.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png"36"20BDA9F4-5F84-4BF5-9F16-0E77CD4CFD37-
+
+CCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png" Other/Demo/blackseparator@2x.png
+s360863151.576977
+e360863151.621069
+r1
+xCopyPNGFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png
+xOther/Demo/blackseparator@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png Other/Demo/blackseparator@2x.pngb6da93af5582b541^3bff9eaf5582b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Other/Demo/blackseparator@2x.png0000000000000000^773"CopyPNGFile "DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png" "Other/Demo/blackseparator@2x.png"    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/blackseparator@2x.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/blackseparator@2x.png"36"ABC3094C-EE34-47F4-97FC-392E300A545F-
+
+CCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png" Demo/leather.png
+s360675324.780741
+e360675324.897883
+r1
+xCopyPNGFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png
+xDemo/leather.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png Demo/leather.png7bf7c7fc777fb541^23dbe5fc777fb541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Demo/leather.png0000000000000000^717"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png Demo/leather.png    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/leather.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png"36"E5B9EDC5-D874-4B82-9745-C70648C802CD-
+
+CCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png" Other/Demo/leather.png
+s360863151.578083
+e360863151.663530
+r1
+xCopyPNGFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png
+xOther/Demo/leather.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png Other/Demo/leather.png331794af5582b541^72dca9af5582b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Other/Demo/leather.png0000000000000000^729"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png Other/Demo/leather.png    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/leather.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather.png"36"595C9A35-5EC8-4B02-A308-8D361351C717-
+
+CCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png" Demo/leather@2x.png
+s360675324.782514
+e360675324.946808
+r1
+xCopyPNGFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png
+xDemo/leather@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png Demo/leather@2x.png2464c8fc777fb541^4e64f2fc777fb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Demo/leather@2x.png0000000000000000^733"CopyPNGFile "DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png" "Demo/leather@2x.png"    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/leather@2x.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png"36"FD51C2CE-7EF3-47A4-A8FC-265989C4772D-
+
+CCopyPNGFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png" Other/Demo/leather@2x.png
+s360863151.585166
+e360863151.720825
+r1
+xCopyPNGFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png
+xOther/Demo/leather@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png Other/Demo/leather@2x.png890996af5582b541^2387b8af5582b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Other/Demo/leather@2x.png0000000000000000^745"CopyPNGFile "DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png" "Other/Demo/leather@2x.png"    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/leather@2x.png" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/leather@2x.png"36"EEE9E9CD-A1CA-44B0-B350-346C2E329AE8-
+
+CCopyStringsFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/en.lproj/InfoPlist.strings" Latte/en.lproj/InfoPlist.strings
+s360675324.776489
+e360675324.781382
+r1
+xCopyStringsFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/en.lproj/InfoPlist.strings
+xLatte/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy Latte/en.lproj/InfoPlist.stringsdbdec6fc777fb541^a708c8fc777fb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/en.lproj/InfoPlist.strings0000000000000000^616"CopyStringsFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/en.lproj/InfoPlist.strings Latte/en.lproj/InfoPlist.strings    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/en.lproj" -- Latte/en.lproj/InfoPlist.strings36"B80E106F-7E80-472D-B73F-740EF259CC40-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/ResourceRules.plist
+s360675323.703040
+e360675323.705896
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xDerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/ResourceRules.plist520cb4fb777fb541^c026bbfb777fb541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/ResourceRules.plist000000000080d041^897"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/ResourceRules.plist    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"36"190CE0C8-2B7F-4C44-ADED-5FE533FA7AAF-
+
+CCpResource Demo/DemoCell.latte DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.latte
+s360675324.776663
+e360675324.782486
+r1
+xCpResource
+xDemo/DemoCell.latte
+xDerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.latte
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.lattefbe6c6fc777fb541^db51c8fc777fb541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.latte000000000080d041^735"CpResource Demo/DemoCell.latte DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.latte    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/DemoCell.latte" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"36"4D86A973-2CD9-4788-97A4-A2E0272A0DD5-
+
+CCpResource Demo/HelloWorld.latte DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/HelloWorld.latte
+s360675324.776468
+e360675324.779481
+r1
+xCpResource
+xDemo/HelloWorld.latte
+xDerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/HelloWorld.latte
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/HelloWorld.latteadddc6fc777fb541^658cc7fc777fb541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/HelloWorld.latte000000000080d041^741"CpResource Demo/HelloWorld.latte DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/HelloWorld.latte    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/alexusbergo/Desktop/dev (other)/Latte/Demo/HelloWorld.latte" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"36"60221EF1-7B38-4C7B-9EC9-635F263FD338-
+
+CCpResource Latte/test.lt DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/test.lt
+s360675324.776483
+e360675324.782027
+r1
+xCpResource
+xLatte/test.lt
+xDerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/test.lt
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/test.lt48ddc6fc777fb541^4033c8fc777fb541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/test.lt000000000080d041^716"CpResource Latte/test.lt DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/test.lt    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/test.lt" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"36"E6835F79-631A-430B-825A-9DC31993C0C4-
+
+CCpResource Other/Demo/DemoCell.latte DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.latte
+s360864690.456474
+e360864690.459246
+r1
+xCpResource
+xOther/Demo/DemoCell.latte
+xDerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.latte
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.lattef9f874b25b82b541^132c76b25b82b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.latte0000000000000000^747"CpResource Other/Demo/DemoCell.latte DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/DemoCell.latte    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/alexusbergo/Desktop/dev (other)/Latte/Other/Demo/DemoCell.latte" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"36"0B836469-AE1F-4709-84AC-A20A312F583C-
+
+CGenerateDSYMFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app.dSYM" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte"
+s360864655.246275
+e360864655.318704
+r1
+xGenerateDSYMFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app.dSYM
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Generating /Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app.dSYM8f1a3f8f5b82b541^1efb518f5b82b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app.dSYM/0000000000000000^674"GenerateDSYMFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app.dSYM DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app.dSYM"36"D20D38ED-245A-4F5A-BE42-DA01A31F08CE-
+
+CLd "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte" normal armv7
+s360864655.182868
+e360864655.239253
+r1
+xLd
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Link /Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte86e22e8f5b82b541^af3f3d8f5b82b541^---0#0#0#--1246"Ld DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte normal armv7    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk "-L/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -filelist "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/Latte.LinkFileList" -dead_strip -ObjC -all_load -framework Foundation -fobjc-arc -miphoneos-version-min=5.1 -framework CFNetwork -framework UIKit -framework Foundation -framework CoreGraphics -lPods -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Latte"36"1A0E2F52-708D-4CFE-9784-D51C8B2E3D22-
+
+CPhaseScriptExecution "Copy Pods Resources" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Script-97AD29B9FE0A4F72968F7E73.sh"
+s360864690.468153
+e360864690.484350
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Script-97AD29B9FE0A4F72968F7E73.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'57b178b25b82b541^82fd7bb25b82b541^---0#0#0#--20845"PhaseScriptExecution "Copy Pods Resources" DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Script-97AD29B9FE0A4F72968F7E73.sh    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER alexusbergo    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT armv7    setenv ARCHS_STANDARD_32_BIT armv7    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products"    setenv BUILD_ROOT "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products"    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos"    setenv CACHE_ROOT /var/folders/8y/1_nbhjhj2g5bwfwsprlzqd380000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/8y/1_nbhjhj2g5bwfwsprlzqd380000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLASS_FILE_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/8y/1_nbhjhj2g5bwfwsprlzqd380000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos"    setenv CONFIGURATION_TEMP_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos"    setenv CONTENTS_FOLDER_PATH Latte.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Latte.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/xcodeproj.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Latte.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos"    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Latte.app/Executables    setenv EXECUTABLE_FOLDER_PATH Latte.app    setenv EXECUTABLE_NAME Latte    setenv EXECUTABLE_PATH Latte.app/Latte    setenv FILE_LIST "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH Latte.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Latte.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Latte/Latte-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG=1 "    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include\" \"/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers\" \"/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit\" \"/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit\" \"/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Latte/Latte-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Latte.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Latte.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/xcodeproj.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER alexusbergo    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/xcodeproj.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Latte.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte-LinkMap-normal-armv7.txt"    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal/armv7/Latte.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Latte.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11E53    setenv MAC_OS_X_VERSION_ACTUAL 1074    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0704    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Objects-normal"    setenv OBJROOT "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-ObjC -all_load -framework Foundation"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Latte.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/PkgInfo"    setenv PKGINFO_PATH Latte.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH armv7    setenv PLATFORM_PRODUCT_BUILD_VERSION 9B176    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Latte.app/PlugIns    setenv PODS_ROOT "/Users/alexusbergo/Desktop/dev (other)/Latte/Pods"    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Latte.app/PrivateHeaders    setenv PRODUCT_NAME Latte    setenv PRODUCT_SETTINGS_PATH "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/Latte-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Latte    setenv PROJECT_DERIVED_FILE_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/DerivedSources"    setenv PROJECT_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PROJECT_FILE_PATH "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte.xcodeproj"    setenv PROJECT_NAME Latte    setenv PROJECT_TEMP_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build"    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH Latte.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Latte.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk    setenv SDK_NAME iphoneos5.1    setenv SDK_PRODUCT_BUILD_VERSION 9B176    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH Latte.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders"    setenv SHARED_SUPPORT_FOLDER_PATH Latte.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv SRCROOT "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Latte    setenv TARGET_BUILD_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos"    setenv TARGET_NAME Latte    setenv TARGET_TEMP_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build"    setenv TEMP_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build"    setenv TEMP_FILES_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build"    setenv TEMP_FILE_DIR "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build"    setenv TEMP_ROOT "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates"    setenv TEST_AFTER_BUILD NO    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Latte.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER alexusbergo    setenv USER_APPS_DIR /Users/alexusbergo/Applications    setenv USER_LIBRARY_DIR /Users/alexusbergo/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Latte.app/version.plist    setenv VERSION_INFO_BUILDER alexusbergo    setenv VERSION_INFO_FILE Latte_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Latte  PROJECT:Latte-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Latte.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4E2002    setenv XCODE_VERSION_ACTUAL 0432    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0430    setenv YACC yacc    /bin/sh -c "\"/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Script-97AD29B9FE0A4F72968F7E73.sh\""36"97663597-7D16-400F-8EB4-E8713D912294-
+
+CProcessInfoPlistFile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Info.plist" Latte/Latte-Info.plist
+s360675323.703063
+e360675323.707806
+r1
+xProcessInfoPlistFile
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Info.plist
+xLatte/Latte-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process Latte/Latte-Info.plist1712b4fb777fb541^f930bbfb777fb541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/Latte-Info.plist0000000000000000^850"ProcessInfoPlistFile DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Info.plist Latte/Latte-Info.plist    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Latte/Latte-Info.plist -genpkginfo "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/ResourceRules.plist" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/Info.plist"36"578D4828-BD67-4BBE-BD29-D8985C3618A8-
+
+CProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360675323.715441
+e360675323.996573
+r1
+xProcessPCH
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch.pth
+xLatte/Latte-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Latte/Latte-Prefix.pch4949b7fb777fb541^cd1ffffb777fb541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/Latte-Prefix.pch0000000000000000^3126"ProcessPCH DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch.pth Latte/Latte-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/Latte-Prefix.pch" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cdmcmzmklmxpynfhiszenpxgsbiy/Latte-Prefix.pch.d"36"1CDA8006-7651-4C8D-A541-060A2A209BF8-
+
+CProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-ckdemhrtdiwiqfgbkwejskkuftwr/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360863150.280930
+e360863150.875280
+r1
+xProcessPCH
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-ckdemhrtdiwiqfgbkwejskkuftwr/Latte-Prefix.pch.pth
+xLatte/Latte-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Latte/Latte-Prefix.pch121748ae5582b541^2f17e5ae5582b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/Latte/Latte-Prefix.pch0000000000000000^3140"ProcessPCH DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-ckdemhrtdiwiqfgbkwejskkuftwr/Latte-Prefix.pch.pth Latte/Latte-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.hmap" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/include" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ConciseKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/JSONKit" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/Pods/Headers/ReactiveCocoa" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources/armv7" "-I/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/DerivedSources" "-F/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos" -fno-objc-arc --serialize-diagnostics "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-ckdemhrtdiwiqfgbkwejskkuftwr/Latte-Prefix.pch.dia" -c "/Users/alexusbergo/Desktop/dev (other)/Latte/Latte/Latte-Prefix.pch" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-ckdemhrtdiwiqfgbkwejskkuftwr/Latte-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-ckdemhrtdiwiqfgbkwejskkuftwr/Latte-Prefix.pch.d"36"929335DF-10CC-42F5-A0AE-B59060E3FECA-
+
+CProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Index/PrecompiledHeaders/Latte-Prefix-dxsjrhwrblfmjdgkcgcxekmougff_ast/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Index/PrecompiledHeaders/Latte-Prefix-eezrvlsurasvfrguqjtmzvucubmy_ast/Latte-Prefix.pch.pth" Latte/Latte-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging "/Users/alexusbergo/Library/MobileDevice/Provisioning Profiles/B44CF4FA-8453-4E48-8C90-F486ACDD87AD.mobileprovision" "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/embedded.mobileprovision"
+s360675325.027909
+e360675325.032680
+r1
+xProcessProductPackaging
+x/Users/alexusbergo/Library/MobileDevice/Provisioning Profiles/B44CF4FA-8453-4E48-8C90-F486ACDD87AD.mobileprovision
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection223"ProcessProductPackaging "/Users/alexusbergo/Library/MobileDevice/Provisioning Profiles/B44CF4FA-8453-4E48-8C90-F486ACDD87AD.mobileprovision" DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/embedded.mobileprovision0d3807fd777fb541^c85d08fd777fb541^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/embedded.mobileprovision0000000000000000^752"ProcessProductPackaging "/Users/alexusbergo/Library/MobileDevice/Provisioning Profiles/B44CF4FA-8453-4E48-8C90-F486ACDD87AD.mobileprovision" DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/embedded.mobileprovision    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/alexusbergo/Library/MobileDevice/Provisioning Profiles/B44CF4FA-8453-4E48-8C90-F486ACDD87AD.mobileprovision" -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app/embedded.mobileprovision"36"786091AB-2843-4868-93BD-1D5D9F0FD8A6-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.xcent"
+s360675325.057291
+e360675325.060990
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection233"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.xcenta9bf0efd777fb541^849c0ffd777fb541^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/alexusbergo/Desktop/dev%20(other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.xcent000000000080d041^798"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.xcent    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Intermediates/Latte.build/Debug-iphoneos/Latte.build/Latte.xcent"36"9C884D7E-E216-4733-B910-71D14A73435D-
+
+CTouch "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"
+s360864690.516044
+e360864690.521969
+r1
+xTouch
+x/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Touch /Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.appa13084b25b82b541^6f9f85b25b82b541^---0#0#0#--433"Touch DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app    cd "/Users/alexusbergo/Desktop/dev (other)/Latte"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/alexusbergo/Desktop/dev (other)/Latte/DerivedData/Latte/Build/Products/Debug-iphoneos/Latte.app"36"7DB6CCB7-370F-42C3-A7C6-B87D452C6D62-
+

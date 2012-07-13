@@ -1,0 +1,7 @@
+PODS:
+  - JSONKit (1.4)
+  - ReactiveCocoa (0.5.0)
+
+DEPENDENCIES:
+  - JSONKit
+  - ReactiveCocoa

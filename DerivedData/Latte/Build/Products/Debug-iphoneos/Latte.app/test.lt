@@ -1,0 +1,3 @@
+%UILabel.testClass#testId{"a":"one", "b":"two"}
+	%UILabel.testClass#testId{"a":"This is #{@bind(first.prop)} an example #{second}", "b":"two"}
+	%UILabel.testClass#testId{"a":"one", "b":"two"}

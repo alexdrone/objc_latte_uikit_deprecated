@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1692A465159B02B6008E8208 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1692A464159B02B6008E8208 /* Cocoa.framework */; };
+		1692A46F159B02B6008E8208 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1692A46D159B02B6008E8208 /* InfoPlist.strings */; };
+		1692A471159B02B6008E8208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692A470159B02B6008E8208 /* main.m */; };
+		1692A475159B02B6008E8208 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1692A473159B02B6008E8208 /* Credits.rtf */; };
+		1692A478159B02B6008E8208 /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692A477159B02B6008E8208 /* LTAppDelegate.m */; };
+		1692A486159B0993008E8208 /* LTMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692A485159B0993008E8208 /* LTMenu.m */; };
+		1692A488159B0ACB008E8208 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1692A487159B0ACB008E8208 /* MainMenu.xib */; };
+		16F40ECE15ADCEFF0003DE06 /* icon-inv.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F40EC815ADCEFF0003DE06 /* icon-inv.png */; };
+		16F40ED015ADCEFF0003DE06 /* icon-sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F40ECA15ADCEFF0003DE06 /* icon-sel.png */; };
+		16F40ED215ADCEFF0003DE06 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F40ECC15ADCEFF0003DE06 /* icon.png */; };
+		16F40ED615ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F40ED515ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.m */; };
+		16F40EE315ADFB940003DE06 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F40EE215ADFB940003DE06 /* appicon.png */; };
+		16F40EE615ADFB980003DE06 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F40EE515ADFB980003DE06 /* appicon.png */; };
+		16F4D6ED15A057B000C6C773 /* UKFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D6E515A057B000C6C773 /* UKFileWatcher.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		16F4D6EE15A057B000C6C773 /* UKFNSubscribeFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D6E715A057B000C6C773 /* UKFNSubscribeFileWatcher.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		16F4D6EF15A057B000C6C773 /* UKKQueue Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 16F4D6E815A057B000C6C773 /* UKKQueue Readme.txt */; };
+		16F4D6F015A057B000C6C773 /* UKKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D6EA15A057B000C6C773 /* UKKQueue.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		16F4D6F115A057B000C6C773 /* UKMainThreadProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D6EC15A057B000C6C773 /* UKMainThreadProxy.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1692A460159B02B6008E8208 /* Latte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1692A464159B02B6008E8208 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1692A467159B02B6008E8208 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1692A468159B02B6008E8208 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1692A469159B02B6008E8208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1692A46C159B02B6008E8208 /* Latte-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Latte-Info.plist"; sourceTree = "<group>"; };
+		1692A46E159B02B6008E8208 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1692A470159B02B6008E8208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1692A472159B02B6008E8208 /* Latte-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Latte-Prefix.pch"; sourceTree = "<group>"; };
+		1692A474159B02B6008E8208 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1692A476159B02B6008E8208 /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		1692A477159B02B6008E8208 /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
+		1692A484159B0993008E8208 /* LTMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMenu.h; sourceTree = "<group>"; };
+		1692A485159B0993008E8208 /* LTMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMenu.m; sourceTree = "<group>"; };
+		1692A487159B0ACB008E8208 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../MainMenu.xib; sourceTree = "<group>"; };
+		16F40EC815ADCEFF0003DE06 /* icon-inv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-inv.png"; sourceTree = "<group>"; };
+		16F40ECA15ADCEFF0003DE06 /* icon-sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-sel.png"; sourceTree = "<group>"; };
+		16F40ECC15ADCEFF0003DE06 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		16F40ED415ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+CanBecomeWindowKey.h"; sourceTree = "<group>"; };
+		16F40ED515ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+CanBecomeWindowKey.m"; sourceTree = "<group>"; };
+		16F40EE215ADFB940003DE06 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		16F40EE515ADFB980003DE06 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = ../../appicon.png; sourceTree = "<group>"; };
+		16F4D6E415A057B000C6C773 /* UKFileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKFileWatcher.h; sourceTree = "<group>"; };
+		16F4D6E515A057B000C6C773 /* UKFileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKFileWatcher.m; sourceTree = "<group>"; };
+		16F4D6E615A057B000C6C773 /* UKFNSubscribeFileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKFNSubscribeFileWatcher.h; sourceTree = "<group>"; };
+		16F4D6E715A057B000C6C773 /* UKFNSubscribeFileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKFNSubscribeFileWatcher.m; sourceTree = "<group>"; };
+		16F4D6E815A057B000C6C773 /* UKKQueue Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UKKQueue Readme.txt"; sourceTree = "<group>"; };
+		16F4D6E915A057B000C6C773 /* UKKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKKQueue.h; sourceTree = "<group>"; };
+		16F4D6EA15A057B000C6C773 /* UKKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKKQueue.m; sourceTree = "<group>"; };
+		16F4D6EB15A057B000C6C773 /* UKMainThreadProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKMainThreadProxy.h; sourceTree = "<group>"; };
+		16F4D6EC15A057B000C6C773 /* UKMainThreadProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKMainThreadProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1692A45D159B02B6008E8208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1692A465159B02B6008E8208 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1692A455159B02B6008E8208 = {
+			isa = PBXGroup;
+			children = (
+				1692A46A159B02B6008E8208 /* Latte */,
+				1692A463159B02B6008E8208 /* Frameworks */,
+				1692A461159B02B6008E8208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1692A461159B02B6008E8208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1692A460159B02B6008E8208 /* Latte.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1692A463159B02B6008E8208 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1692A464159B02B6008E8208 /* Cocoa.framework */,
+				1692A466159B02B6008E8208 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1692A466159B02B6008E8208 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1692A467159B02B6008E8208 /* AppKit.framework */,
+				1692A468159B02B6008E8208 /* CoreData.framework */,
+				1692A469159B02B6008E8208 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1692A46A159B02B6008E8208 /* Latte */ = {
+			isa = PBXGroup;
+			children = (
+				16F40ED415ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.h */,
+				16F40ED515ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.m */,
+				16F40EC715ADCEFF0003DE06 /* Resources */,
+				16F4D6E315A057B000C6C773 /* UKKQueue */,
+				1692A487159B0ACB008E8208 /* MainMenu.xib */,
+				1692A476159B02B6008E8208 /* LTAppDelegate.h */,
+				1692A477159B02B6008E8208 /* LTAppDelegate.m */,
+				1692A484159B0993008E8208 /* LTMenu.h */,
+				1692A485159B0993008E8208 /* LTMenu.m */,
+				1692A46B159B02B6008E8208 /* Supporting Files */,
+			);
+			path = Latte;
+			sourceTree = "<group>";
+		};
+		1692A46B159B02B6008E8208 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1692A46C159B02B6008E8208 /* Latte-Info.plist */,
+				1692A46D159B02B6008E8208 /* InfoPlist.strings */,
+				1692A470159B02B6008E8208 /* main.m */,
+				1692A472159B02B6008E8208 /* Latte-Prefix.pch */,
+				1692A473159B02B6008E8208 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16F40EC715ADCEFF0003DE06 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16F40EE515ADFB980003DE06 /* appicon.png */,
+				16F40EC815ADCEFF0003DE06 /* icon-inv.png */,
+				16F40EE215ADFB940003DE06 /* appicon.png */,
+				16F40ECA15ADCEFF0003DE06 /* icon-sel.png */,
+				16F40ECC15ADCEFF0003DE06 /* icon.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		16F4D6E315A057B000C6C773 /* UKKQueue */ = {
+			isa = PBXGroup;
+			children = (
+				16F4D6E415A057B000C6C773 /* UKFileWatcher.h */,
+				16F4D6E515A057B000C6C773 /* UKFileWatcher.m */,
+				16F4D6E615A057B000C6C773 /* UKFNSubscribeFileWatcher.h */,
+				16F4D6E715A057B000C6C773 /* UKFNSubscribeFileWatcher.m */,
+				16F4D6E815A057B000C6C773 /* UKKQueue Readme.txt */,
+				16F4D6E915A057B000C6C773 /* UKKQueue.h */,
+				16F4D6EA15A057B000C6C773 /* UKKQueue.m */,
+				16F4D6EB15A057B000C6C773 /* UKMainThreadProxy.h */,
+				16F4D6EC15A057B000C6C773 /* UKMainThreadProxy.m */,
+			);
+			path = UKKQueue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1692A45F159B02B6008E8208 /* Latte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1692A47E159B02B6008E8208 /* Build configuration list for PBXNativeTarget "Latte" */;
+			buildPhases = (
+				1692A45C159B02B6008E8208 /* Sources */,
+				1692A45D159B02B6008E8208 /* Frameworks */,
+				1692A45E159B02B6008E8208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Latte;
+			productName = Latte;
+			productReference = 1692A460159B02B6008E8208 /* Latte.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1692A457159B02B6008E8208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1692A45A159B02B6008E8208 /* Build configuration list for PBXProject "Latte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1692A455159B02B6008E8208;
+			productRefGroup = 1692A461159B02B6008E8208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1692A45F159B02B6008E8208 /* Latte */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1692A45E159B02B6008E8208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1692A46F159B02B6008E8208 /* InfoPlist.strings in Resources */,
+				1692A475159B02B6008E8208 /* Credits.rtf in Resources */,
+				1692A488159B0ACB008E8208 /* MainMenu.xib in Resources */,
+				16F4D6EF15A057B000C6C773 /* UKKQueue Readme.txt in Resources */,
+				16F40ECE15ADCEFF0003DE06 /* icon-inv.png in Resources */,
+				16F40ED015ADCEFF0003DE06 /* icon-sel.png in Resources */,
+				16F40ED215ADCEFF0003DE06 /* icon.png in Resources */,
+				16F40EE315ADFB940003DE06 /* appicon.png in Resources */,
+				16F40EE615ADFB980003DE06 /* appicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1692A45C159B02B6008E8208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1692A471159B02B6008E8208 /* main.m in Sources */,
+				1692A478159B02B6008E8208 /* LTAppDelegate.m in Sources */,
+				1692A486159B0993008E8208 /* LTMenu.m in Sources */,
+				16F4D6ED15A057B000C6C773 /* UKFileWatcher.m in Sources */,
+				16F4D6EE15A057B000C6C773 /* UKFNSubscribeFileWatcher.m in Sources */,
+				16F4D6F015A057B000C6C773 /* UKKQueue.m in Sources */,
+				16F4D6F115A057B000C6C773 /* UKMainThreadProxy.m in Sources */,
+				16F40ED615ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1692A46D159B02B6008E8208 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1692A46E159B02B6008E8208 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1692A473159B02B6008E8208 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1692A474159B02B6008E8208 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1692A47C159B02B6008E8208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1692A47D159B02B6008E8208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1692A47F159B02B6008E8208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Latte/Latte-Prefix.pch";
+				INFOPLIST_FILE = "Latte/Latte-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1692A480159B02B6008E8208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Latte/Latte-Prefix.pch";
+				INFOPLIST_FILE = "Latte/Latte-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1692A45A159B02B6008E8208 /* Build configuration list for PBXProject "Latte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1692A47C159B02B6008E8208 /* Debug */,
+				1692A47D159B02B6008E8208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1692A47E159B02B6008E8208 /* Build configuration list for PBXNativeTarget "Latte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1692A47F159B02B6008E8208 /* Debug */,
+				1692A480159B02B6008E8208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1692A457159B02B6008E8208 /* Project object */;
+}
