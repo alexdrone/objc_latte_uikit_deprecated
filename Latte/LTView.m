@@ -19,6 +19,7 @@
 /* The bound object */
 @property (strong) id object;
 @property (strong) LTContext *context;
+@property (strong) LTLocale *locale;
 
 /* Bindings with all the object and context properties.
  * They contains LTTarget objects. */
@@ -35,6 +36,7 @@
 @synthesize contextBindings = _contextBindings;
 @synthesize object = _object;
 @synthesize context = _context;
+@synthesize locale = _locale;
 
 #pragma mark -
 #pragma mark constructors
@@ -51,6 +53,7 @@
         
         //parses and initializes the current view
         [self loadViewFromLatteFile:filename];
+        self.locale = [LTLocale sharedInstance];
                     
 #ifdef DEBUG
         [[LTWatchFileServer sharedInstance] registerView:self];
@@ -59,6 +62,21 @@
     
     return self;
 }
+
+/* Constructs a new latte view.
+ * The viewDidLoad block is called after the view initialization
+ * and can be used to setup some components.
+ * Rember that you can access to any view's subviews by using the 
+ * selection method $(@"#id") */
+- (id)initWithLatteFile:(NSString*)filename
+            viewDidLoad:(void (^)(LTView *view))viewDidLoadBlock
+{
+    if (self = [self initWithLatteFile:filename])
+        viewDidLoadBlock(self);
+    
+    return self;
+}
+
 
 /* deregister the view */
 - (void)dealloc
@@ -72,6 +90,8 @@
 #pragma mark -
 #pragma mark properties
 
+/* Bind the given object to this view.
+ * See the guide for more information about it. */
 - (void)bind:(id)object
 {
     _object = object;

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/alexusbergo/Desktop/dev\ (other)/Latte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m \
-  /Users/alexusbergo/Desktop/dev\ (other)/Latte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.h
+  /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m \
+  /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.h

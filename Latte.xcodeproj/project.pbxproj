@@ -22,6 +22,10 @@
 		16641BB6158427A600112559 /* DemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 16641BB5158427A600112559 /* DemoVC.m */; };
 		16641BB9158427EF00112559 /* Demo.latte in Resources */ = {isa = PBXBuildFile; fileRef = 16641BB8158427EF00112559 /* Demo.latte */; };
 		169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
+		16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6AE15B16B7800B6402D /* LTLocale.m */; };
+		16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */; };
+		16AAF6BB15B181C500B6402D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 16AAF6B915B181C500B6402D /* logo.png */; };
+		16AAF6BC15B181C500B6402D /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16AAF6BA15B181C500B6402D /* logo@2x.png */; };
 		16C6051115653C30005C03C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051015653C30005C03C7 /* UIKit.framework */; };
 		16C6051315653C30005C03C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051215653C30005C03C7 /* Foundation.framework */; };
 		16C6051515653C30005C03C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051415653C30005C03C7 /* CoreGraphics.framework */; };
@@ -58,6 +62,12 @@
 		16641BB8158427EF00112559 /* Demo.latte */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Demo.latte; sourceTree = "<group>"; };
 		169409E015B052BA003B7C98 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		169409E115B052BA003B7C98 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		16AAF6AD15B16B7800B6402D /* LTLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLocale.h; sourceTree = "<group>"; };
+		16AAF6AE15B16B7800B6402D /* LTLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTLocale.m; sourceTree = "<group>"; };
+		16AAF6B415B16F3C00B6402D /* LTParser+ViewInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTParser+ViewInit.h"; sourceTree = "<group>"; };
+		16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTParser+ViewInit.m"; sourceTree = "<group>"; };
+		16AAF6B915B181C500B6402D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		16AAF6BA15B181C500B6402D /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		16C6050C15653C30005C03C7 /* Latte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C6051015653C30005C03C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16C6051215653C30005C03C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,6 +127,8 @@
 		165B42461581FFC700395A6F /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				16AAF6B915B181C500B6402D /* logo.png */,
+				16AAF6BA15B181C500B6402D /* logo@2x.png */,
 				165B42471581FFC700395A6F /* blackseparator.png */,
 				165B42481581FFC700395A6F /* blackseparator@2x.png */,
 				165B42491581FFC700395A6F /* DemoCell.latte */,
@@ -190,6 +202,10 @@
 				165B423E1581FDD600395A6F /* LTWatchFileServer.m */,
 				16558BB6158232CF00FFB2E2 /* LTContext.h */,
 				16558BB7158232CF00FFB2E2 /* LTContext.m */,
+				16AAF6AD15B16B7800B6402D /* LTLocale.h */,
+				16AAF6AE15B16B7800B6402D /* LTLocale.m */,
+				16AAF6B415B16F3C00B6402D /* LTParser+ViewInit.h */,
+				16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */,
 			);
 			path = Latte;
 			sourceTree = "<group>";
@@ -266,6 +282,8 @@
 				165B42581581FFC700395A6F /* leather.png in Resources */,
 				165B42591581FFC700395A6F /* leather@2x.png in Resources */,
 				16641BB9158427EF00112559 /* Demo.latte in Resources */,
+				16AAF6BB15B181C500B6402D /* logo.png in Resources */,
+				16AAF6BC15B181C500B6402D /* logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +324,8 @@
 				16558BB8158232CF00FFB2E2 /* LTContext.m in Sources */,
 				16641BB6158427A600112559 /* DemoVC.m in Sources */,
 				169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */,
+				16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */,
+				16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

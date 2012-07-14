@@ -10,16 +10,11 @@
 #import "LTContext.h"
 @class LTContext;
 
-@interface LTView : UIView {
-    @private
-    id _object;
-    LTContext *_context;
-}
+@interface LTView : UIView 
 
 /* The data objects */
 
 @property (strong) NSString *filename;
-
 
 /* Constructs a new latte view.
  * If the debug flag is enabled, the view is registered in 
@@ -27,6 +22,14 @@
  * The filename parameter points to the markup file with the 
  * view definition. (markup file's parse structure are cached)*/
 - (id)initWithLatteFile:(NSString*)filename;
+
+/* Constructs a new latte view.
+ * The viewDidLoad block is called after the view initialization
+ * and can be used to setup some components.
+ * Rember that you can access to any view's subviews at any time by using the 
+ * selection method $(@"#id") */
+- (id)initWithLatteFile:(NSString*)filename
+            viewDidLoad:(void (^)(LTView *view))viewDidLoadBlock;
 
 /* Recreates the entire view hierarchy from the markup 
  * file passed as argument. */

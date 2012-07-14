@@ -32,7 +32,4 @@ BOOL LTGetKeypathsAndTemplateFromString(NSArray **keypaths, NSString **template,
 /* Returns the possible condition value associated to the given string */
 BOOL LTGetContextConditionFromString(LTContextValueTemplate **contextCondition, NSString* source);
 
-/* Initialize the views by reading the Latte dictionary passed as argument */
-void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictionary, 
-                                              NSMutableArray **bindings, NSMutableArray **contextBindings);
 @end

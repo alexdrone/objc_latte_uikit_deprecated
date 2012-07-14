@@ -52,13 +52,13 @@ static NSUInteger LTNodeInstanceCounter = 0;
         if (![obj isKindOfClass:NSString.class]) continue;
             
        /* tries to create kvo template */ id keypaths, template;
-        if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj))
-            [_data setObject:[[LTKVOTemplate alloc] initWithTemplate:template andKeypaths:keypaths] forKey:k];
+        if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj))        
+            _data[k] = [[LTKVOTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
         
         else {
             LTContextValueTemplate *contextCondition = nil;
             if (LTGetContextConditionFromString(&contextCondition, obj))
-                [_data setObject:contextCondition forKey:k];
+                _data[k] = contextCondition;
         }
     }
 }

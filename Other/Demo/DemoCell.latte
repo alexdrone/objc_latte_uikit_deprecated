@@ -1,14 +1,13 @@
 @style
-	.blue{"textColor":"uicolor:blueColor"}
 @end
 
 
 @layout
 
 
-%UIView.none#wrapper{"frame":[5,5,280,18], "backgroundColor":"uicolor:lightGrayColor", "cornerRadius":8.0, "alpha":0.5}
-%UILabel.blue#test{"frame":[10,0,280,30], "text":"#{object.firstname}", "font":"font-family:HelveticaNeue-Light,15", "backgroundColor":"uicolor:clearColor"}
-%UILabel.class#id{"frame":[10,20,320,20], "text":"#{@bind(object.status)}", "font":"font-family:HelveticaNeue-UltraLight,15", "backgroundColor":"uicolor:clearColor"}
+-#%UIView.none#wrapper{"frame":[5,5,280,18], "cornerRadius":8.0, "alpha":0.5, "backgroundColor":"hex:0xffggbb"}
+-#%UILabel.blue#test{"frame":[10,0,280,30], "text":"#{locale.THE_NAME_IS} is #{object.firstname}", "font":"font-family:HelveticaNeue-Light,15", "backgroundColor":"uicolor:clear"}
+%UILabel.class#id{"frame":[10,20,320,20], "text":"#{object.status}", "font":"font-family:HelveticaNeue-UltraLight,15"}
 
 
 @end

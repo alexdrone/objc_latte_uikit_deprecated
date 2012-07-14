@@ -11,4 +11,7 @@
 #import "LTView.h"
 #import "LTWatchFileServer.h"
 #import "LTContext.h"
+#import "LTLocale.h"
+#import "LTParser+ViewInit.h"
+
 #endif

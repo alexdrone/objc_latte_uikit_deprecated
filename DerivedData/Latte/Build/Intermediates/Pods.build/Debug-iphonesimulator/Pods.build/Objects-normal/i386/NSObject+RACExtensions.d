@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/alexusbergo/Desktop/dev\ (other)/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.m \
-  /Users/alexusbergo/Desktop/dev\ (other)/Latte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.h
+  /Users/alexusbergo/Desktop/CocoaLatte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.m \
+  /Users/alexusbergo/Desktop/CocoaLatte/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACExtensions.h

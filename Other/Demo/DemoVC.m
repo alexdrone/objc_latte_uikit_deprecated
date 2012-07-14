@@ -7,17 +7,27 @@
 //
 
 #import "DemoVC.h"
-
+#import "DemoObject.h"
 #import "LTPrefixes.h"
-
-
 
 @implementation DemoVC
 
 - (void)loadView
 {
     [super loadView];
-    _lt = [[LTView alloc] initWithLatteFile:@"Demo"];
+    
+    _lt = [[LTView alloc] initWithLatteFile:@"Demo"
+                                viewDidLoad:^(LTView *view) {
+    
+        [UIView animateWithDuration:1.0 animations:^{
+            [view $:@"#image"].alpha = 1.0;
+        }];
+        
+    }];
+    
+    
+    [_lt bind:[DemoObject testCollection]];
+    
     [self.view addSubview:_lt];
 }
 

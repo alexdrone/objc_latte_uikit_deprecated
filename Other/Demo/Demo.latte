@@ -1,5 +1,15 @@
-%UIView.#{"frame":[10,10,100,100], "backgroundColor":"uicolor:redColor", "cornerRadius":14.0}
-	%UIView.#{"frame":[10,10,50,50], "backgroundColor":"uicolor:greenColor", "cornerRadius":14.0}
-	
-	-#commento
-%UILabel.#{"frame":[0,0,50,50], "textColor":"uicolor:blueColor", "text":"sadsa"}
+@style
+
+.hidden{"alpha":0.0}
+
+@end
+
+
+@layout
+
+%UIView.none#backgroundview{"frame":[0,0,320,480], "backgroundColor":"pattern:leather.png"}
+%UIView.none#panel{"frame":[10,10,300,390], "backgroundColor":"hex:0x777777", "cornerRadius":12.0, "alpha":0.6}
+%UIImageView.hidden#image{"frame":[55,10,200,200], "image":"image:logo.png"}
+
+
+@end

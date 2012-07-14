@@ -8,8 +8,6 @@
 
 #import "LTWatchFileServer.h"
 #import "LTPrefixes.h"
-
-#warning TOFIX Use Pods
 #import "AsyncSocket.h"
 
 @interface LTWatchFileServer ()
@@ -105,8 +103,7 @@ static LTWatchFileServer *sharedInstance;
         views = [[NSMutableArray alloc] init];
     
     [views addObject:view];
-    
-    [_observers setObject:views forKey:view.filename];
+    _observers[view.filename] = views;
 }
 
 - (void)deregisterView:(LTView*)view

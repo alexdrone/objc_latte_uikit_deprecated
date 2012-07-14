@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/alexusbergo/Desktop/dev\ (other)/Latte/Other/Demo/DemoObject.m \
-  /Users/alexusbergo/Desktop/dev\ (other)/Latte/Other/Demo/DemoObject.h
+  /Users/alexusbergo/Desktop/CocoaLatte/Other/Demo/DemoObject.m \
+  /Users/alexusbergo/Desktop/CocoaLatte/Other/Demo/DemoObject.h

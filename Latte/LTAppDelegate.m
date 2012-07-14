@@ -29,7 +29,7 @@
     // Override point for customization after application launch.
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-	DemoTableViewController *controller = [[DemoTableViewController alloc] initWithStyle:UITableViewStylePlain];
+	DemoVC *controller = [[DemoVC alloc] init];
 	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
     navigationController.navigationController.navigationBar.tintColor = [UIColor blackColor];
     
