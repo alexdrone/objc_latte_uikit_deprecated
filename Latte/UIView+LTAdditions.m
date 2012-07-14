@@ -8,6 +8,7 @@
 
 #import "UIView+LTAdditions.h"
 #import <objc/runtime.h>
+#import "LTPrefixes.h"
 
 @implementation LTBind
 @synthesize bind = _bind;
@@ -73,6 +74,12 @@ static const char *kLTIdTagKey = "LT_class";
     }
     
     return nil;
+}
+
+- (void)applyClass:(NSString*)LT_class
+{
+    self.LT_class = LT_class;
+    LTStaticInitializeViewFromNodeDictionary(self, [LTParser sharedInstance].sharedStyleSheetCache[LT_class], nil, nil);
 }
 
 @end

@@ -167,8 +167,9 @@ static LTParser *sharedInstance = nil;
             
             NSMutableDictionary *data = [NSMutableDictionary dictionary];
             
+            
             //get the values from the stylesheet
-             [data addEntriesFromDictionary:self.sharedStyleSheetCache[[trimmed componentsSeparatedByString:@"{"][0]]];
+             [data addEntriesFromDictionary:self.sharedStyleSheetCache[latteClass]];
             
             //and the values defined in the layout
             [data addEntriesFromDictionary:[[NSString stringWithFormat:@"{%@}",json] mutableObjectFromJSONString]];

@@ -20,5 +20,6 @@
 @property (strong) NSString *LT_class;
 
 - (UIView*)$:(NSString*)LT_id;
+- (void)applyClass:(NSString*)LT_class;
 
 @end

@@ -21,6 +21,7 @@
     
         [UIView animateWithDuration:1.0 animations:^{
             [view $:@"#image"].alpha = 1.0;
+            [[view $:@"#panel"] applyClass:@".red"];
         }];
         
     }];
