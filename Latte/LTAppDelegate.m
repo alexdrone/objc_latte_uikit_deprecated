@@ -12,7 +12,6 @@
 #import "LTNode.h"
 #import "LTWatchFileServer.h"
 #import "DemoTableViewController.h"
-#import "DemoVC.h"
 
 
 @implementation LTAppDelegate
@@ -29,7 +28,7 @@
     // Override point for customization after application launch.
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-	DemoVC *controller = [[DemoVC alloc] init];
+	DemoTableViewController *controller = [[DemoTableViewController alloc] init];
 	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
     navigationController.navigationController.navigationBar.tintColor = [UIColor blackColor];
     

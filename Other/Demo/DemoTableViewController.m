@@ -42,8 +42,6 @@
         } forKey:@"hideCount"];
     }];
     
-    UIView *v = [self.markupView $:@"test"];
-    NSLog(@"%@", v);
 }
 
 @end

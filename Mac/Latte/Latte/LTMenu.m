@@ -190,7 +190,7 @@ static LTMenu *sharedInstace = nil;
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:self.IPAddress]];
     request.HTTPBody = [file dataUsingEncoding:NSUTF8StringEncoding];
     [request setHTTPMethod:@"POST"];
-    request.timeoutInterval = 0.5f;
+    request.timeoutInterval = 1.0f;
     
     //no response - acknowledgment    
     NSURLResponse *response;

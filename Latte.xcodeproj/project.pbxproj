@@ -19,8 +19,6 @@
 		165B42581581FFC700395A6F /* leather.png in Resources */ = {isa = PBXBuildFile; fileRef = 165B424E1581FFC700395A6F /* leather.png */; };
 		165B42591581FFC700395A6F /* leather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165B424F1581FFC700395A6F /* leather@2x.png */; };
 		165B425C158202C000395A6F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165B425B158202C000395A6F /* CFNetwork.framework */; };
-		16641BB6158427A600112559 /* DemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 16641BB5158427A600112559 /* DemoVC.m */; };
-		16641BB9158427EF00112559 /* Demo.latte in Resources */ = {isa = PBXBuildFile; fileRef = 16641BB8158427EF00112559 /* Demo.latte */; };
 		169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
 		16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6AE15B16B7800B6402D /* LTLocale.m */; };
 		16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */; };
@@ -57,9 +55,6 @@
 		165B424E1581FFC700395A6F /* leather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leather.png; sourceTree = "<group>"; };
 		165B424F1581FFC700395A6F /* leather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leather@2x.png"; sourceTree = "<group>"; };
 		165B425B158202C000395A6F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		16641BB4158427A600112559 /* DemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC.h; sourceTree = "<group>"; };
-		16641BB5158427A600112559 /* DemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC.m; sourceTree = "<group>"; };
-		16641BB8158427EF00112559 /* Demo.latte */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Demo.latte; sourceTree = "<group>"; };
 		169409E015B052BA003B7C98 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		169409E115B052BA003B7C98 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 		16AAF6AD15B16B7800B6402D /* LTLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLocale.h; sourceTree = "<group>"; };
@@ -138,9 +133,6 @@
 				165B424D1581FFC700395A6F /* DemoTableViewController.m */,
 				165B424E1581FFC700395A6F /* leather.png */,
 				165B424F1581FFC700395A6F /* leather@2x.png */,
-				16641BB4158427A600112559 /* DemoVC.h */,
-				16641BB5158427A600112559 /* DemoVC.m */,
-				16641BB8158427EF00112559 /* Demo.latte */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -281,7 +273,6 @@
 				165B42551581FFC700395A6F /* DemoCell.latte in Resources */,
 				165B42581581FFC700395A6F /* leather.png in Resources */,
 				165B42591581FFC700395A6F /* leather@2x.png in Resources */,
-				16641BB9158427EF00112559 /* Demo.latte in Resources */,
 				16AAF6BB15B181C500B6402D /* logo.png in Resources */,
 				16AAF6BC15B181C500B6402D /* logo@2x.png in Resources */,
 			);
@@ -322,7 +313,6 @@
 				165B42561581FFC700395A6F /* DemoObject.m in Sources */,
 				165B42571581FFC700395A6F /* DemoTableViewController.m in Sources */,
 				16558BB8158232CF00FFB2E2 /* LTContext.m in Sources */,
-				16641BB6158427A600112559 /* DemoVC.m in Sources */,
 				169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */,
 				16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */,
 				16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */,

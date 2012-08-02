@@ -7,6 +7,7 @@
 //
 
 #import "LTPrefixes.h"
+#import <objc/runtime.h>
 
 @implementation LTParser (ViewInit)
 
@@ -80,8 +81,13 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
                     //add the color suffix if it's missing
                     if (![value hasSuffix:@"Color"])
                         value = [NSString stringWithFormat:@"%@Color", value];
-                    
-                    casted = [UIColor performSelector:NSSelectorFromString(value)];
+
+                    if (nil != class_getClassMethod(UIColor.class, NSSelectorFromString(value)))
+                        casted = [UIColor performSelector:NSSelectorFromString(value)];
+                    else {
+                        NSLog(@"Undefined color: %@", value);
+                        casted = [UIColor blackColor];
+                    }
                     
                     //pattern
                 } else if ([object hasPrefix:@"pattern:"]) {

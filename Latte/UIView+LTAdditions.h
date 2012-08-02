@@ -21,5 +21,6 @@
 
 - (UIView*)$:(NSString*)LT_id;
 - (void)applyClass:(NSString*)LT_class;
+- (void)applyClassRecursively:(NSString*)LT_class;
 
 @end

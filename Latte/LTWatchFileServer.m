@@ -137,12 +137,14 @@ static LTWatchFileServer *sharedInstance;
 - (void)onSocket:(AsyncSocket*)socket didReadData:(NSData*)data withTag:(long)tag 
 {
     //ackwoledgement
-    //[socket writeData:[@"HTTP/1.1 200" dataUsingEncoding:NSUTF8StringEncoding] withTimeout:-1 tag:0];
+    [socket writeData:[@"HTTP/1.1 200" dataUsingEncoding:NSUTF8StringEncoding] withTimeout:-1 tag:0];
     
     @try {
-        //the view name is set in the first line of the markup file 
+                
+        //the view name is set in the first line of the markup file
         //rawdata (for compatibilitiy with the old node.js client)
         NSString *latte = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] componentsSeparatedByString:@"PAYLOAD"][1];
+        
         NSString *filename = [[[latte componentsSeparatedByString:@"\n"][0] componentsSeparatedByString:@"."][0] substringFromIndex:2];
         
         //remove the pathname

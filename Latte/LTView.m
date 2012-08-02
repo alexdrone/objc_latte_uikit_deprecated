@@ -155,9 +155,9 @@ NSString *LTRenderStringFromTemplate(LTKVOTemplate *template,  LTView *object)
 {
     NSMutableArray *values = [[NSMutableArray alloc] init];
     
-    for (NSString *keypath in template.keypaths) 
+    for (NSString *keypath in template.keypaths)
         [values addObject:[object valueForKeyPath:keypath]];
-    
+
     return [NSString stringWithFormat:template.template array:values];
 }
 

@@ -13,15 +13,15 @@
 @implementation LTBind
 @synthesize bind = _bind;
 
--(void)drawRect:(CGRect)rect
-{
-    //do nothing
-}
-
--(void)layoutSubviews
-{
-    //do nothing
-}
+//-(void)drawRect:(CGRect)rect
+//{
+//    //do nothing
+//}
+//
+//-(void)layoutSubviews
+//{
+//    //do nothing
+//}
 
 @end
 
@@ -79,7 +79,26 @@ static const char *kLTIdTagKey = "LT_class";
 - (void)applyClass:(NSString*)LT_class
 {
     self.LT_class = LT_class;
-    LTStaticInitializeViewFromNodeDictionary(self, [LTParser sharedInstance].sharedStyleSheetCache[LT_class], nil, nil);
+    
+    //get the dictionary from the shared stylesheet
+    NSMutableDictionary *dict = [LTParser sharedInstance].sharedStyleSheetCache[LT_class];
+    
+    if (dict)
+        LTStaticInitializeViewFromNodeDictionary(self,dict, nil, nil);
+    
+    //tries also .class#id
+    dict = [LTParser sharedInstance].sharedStyleSheetCache[[NSString stringWithFormat:@"%@%@", self.LT_class, self.LT_id]];
+    
+    if (dict)
+        LTStaticInitializeViewFromNodeDictionary(self, dict, nil, nil);
+}
+
+- (void)applyClassRecursively:(NSString*)LT_class
+{
+    [self applyClass:LT_class];
+    
+    for (UIView *subview in self.subviews)
+        [subview applyClassRecursively:LT_class];
 }
 
 @end

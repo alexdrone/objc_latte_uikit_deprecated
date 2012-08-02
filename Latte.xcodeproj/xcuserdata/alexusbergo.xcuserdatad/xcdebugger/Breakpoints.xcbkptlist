@@ -4,14 +4,14 @@
    version = "1.0">
    <SymbolicBreakpoints>
       <SymbolicBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          symbolName = "-[NSException raise]"
          moduleName = "CoreFoundation">
       </SymbolicBreakpoint>
       <SymbolicBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          symbolName = "objc_exception_throw"

@@ -7,53 +7,27 @@
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "Latte/LTLocale.m"
-         timestampString = "363949298.552059"
+         filePath = "Latte/LTView.m"
+         timestampString = "365595753.570458"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "26"
-         endingLineNumber = "26"
-         landmarkName = "-valueForKey:"
+         startingLineNumber = "248"
+         endingLineNumber = "248"
+         landmarkName = "-refreshContextBindings"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "Latte/LTView.m"
-         timestampString = "363953890.019961"
+         filePath = "Latte/LTParser+ViewInit.m"
+         timestampString = "365594984.455911"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "213"
-         endingLineNumber = "213"
-         landmarkName = "-refreshView"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Latte/LTView.m"
-         timestampString = "363953890.019961"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "156"
-         endingLineNumber = "156"
-         landmarkName = "LTRenderStringFromTemplate()"
+         startingLineNumber = "54"
+         endingLineNumber = "54"
+         landmarkName = "LTStaticInitializeViewFromNodeDictionary()"
          landmarkType = "7">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Latte/LTParser.m"
-         timestampString = "363964276.257341"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "217"
-         endingLineNumber = "217"
-         landmarkName = "-parseStylesheet:"
-         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

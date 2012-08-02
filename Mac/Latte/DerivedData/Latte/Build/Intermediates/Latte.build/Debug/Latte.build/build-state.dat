@@ -3,21 +3,21 @@ v5
 r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Info.plist Latte/Latte-Info.plist
-cProcessPCH /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cjivtsvxygxsuxddfchynupsjuxp/Latte-Prefix.pch.pth Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-dfmkugvbqoylgubngfpokyvqayqh/Latte-Prefix.pch.pth Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/LTAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/DerivedData/Latte/Build/Intermediates/PrecompiledHeaders/Latte-Prefix-cjivtsvxygxsuxddfchynupsjuxp/Latte-Prefix.pch.pth Latte/Latte-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/main.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFileWatcher.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/UKKQueue/UKFileWatcher.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/LTAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTMenu.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/LTMenu.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKMainThreadProxy.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKKQueue.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/UKKQueue/UKKQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/NSWindow+CanBecomeWindowKey.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/NSWindow+CanBecomeWindowKey.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFileWatcher.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/UKKQueue/UKFileWatcher.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/UKKQueue/UKFNSubscribeFileWatcher.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKKQueue.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/UKKQueue/UKKQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/UKMainThreadProxy.o /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/UKKQueue/UKMainThreadProxy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/MacOS/Latte normal x86_64
 cCopyStringsFile /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/InfoPlist.strings Latte/en.lproj/InfoPlist.strings
 cCompileXIB /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/Latte/../MainMenu.xib
-cCpResource "Latte/UKKQueue/UKKQueue Readme.txt" "DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/UKKQueue Readme.txt"
 cCpResource Latte/en.lproj/Credits.rtf DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/en.lproj/Credits.rtf
+cCpResource "Latte/UKKQueue/UKKQueue Readme.txt" "DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/UKKQueue Readme.txt"
 cCpResource Latte/Resources/icon-inv.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-inv.png
 cCpResource Latte/Resources/icon-sel.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon-sel.png
 cCpResource Latte/Resources/icon.png DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/icon.png
@@ -549,7 +549,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesec8887fa80b1b541^a5f399fa80b1b541^-177"Warning: Multiple build commands for output file /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/appicon.png1(21%IDEActivityLogMessage2@176"Warning: Multiple build commands for output file /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/appicon.png-363954426#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"ACF4FAC0-6B51-4AC0-8FC4-F6A11DFBF1C8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies077dd98f63b9b541^7aab029063b9b541^-177"Warning: Multiple build commands for output file /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/appicon.png1(21%IDEActivityLogMessage2@176"Warning: Multiple build commands for output file /Users/alexusbergo/Desktop/CocoaLatte/Mac/Latte/DerivedData/Latte/Build/Products/Debug/Latte.app/Contents/Resources/appicon.png-364471184#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"80036264-9AD8-4F63-AD11-E1FD3F8A66E2-
 
 CCompileC DerivedData/Latte/Build/Intermediates/Latte.build/Debug/Latte.build/Objects-normal/x86_64/LTAppDelegate.o "/Users/alexusbergo/Desktop/dev (other)/Latte/Mac/Latte/Latte/LTAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s363877358.047755
