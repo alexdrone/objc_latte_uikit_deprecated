@@ -16,9 +16,6 @@
 
 @implementation LTContext
 
-@synthesize keys = _keys;
-@synthesize date = _date;
-
 - (id)init
 {
     if (self = [super init]) {

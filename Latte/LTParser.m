@@ -20,9 +20,6 @@ static LTParser *sharedInstance = nil;
 
 @implementation LTParser
 
-@synthesize cache = _cache;
-@synthesize sharedStyleSheetCache = _sharedStyleSheetCache;
-
 #pragma mark Singleton initialization code
 
 + (LTParser*)sharedInstance

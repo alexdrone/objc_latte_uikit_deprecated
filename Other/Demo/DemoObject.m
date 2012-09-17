@@ -274,11 +274,4 @@
     return collection;
 }
 
-
-@synthesize firstname = _firstname;
-@synthesize lastname = _lastname;
-@synthesize status = _status;
-@synthesize picture = _picture;
-@synthesize messages = _messages;
-@synthesize timestamp = _timestamp;
 @end

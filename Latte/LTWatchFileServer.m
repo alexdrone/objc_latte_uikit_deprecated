@@ -23,11 +23,6 @@ static LTWatchFileServer *sharedInstance;
 
 @implementation LTWatchFileServer
 
-@synthesize observers = _observers;
-@synthesize clients = _clients;
-@synthesize socket = _socket;
-@synthesize running = _running;
-
 #pragma mark Singleton initialization code
 
 + (LTWatchFileServer*)sharedInstance
