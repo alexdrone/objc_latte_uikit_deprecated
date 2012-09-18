@@ -11,11 +11,6 @@
 
 @implementation LTParser (ViewInit)
 
-/*color helpers */
-#define RGBAUICOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
-#define HSVAUICOLOR(h,s,v,a) [UIColor colorWithHue:(h) saturation:(s) value:(v) alpha:(a)]
-#define HEXUICOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
-
 /* Initialize the views by reading the Latte dictionary
  * passed as argument */
 void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictionary, NSMutableArray **bindings,
@@ -62,7 +57,7 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
                     
                     NSString *value = [object componentsSeparatedByString:@":"][1];
                     NSArray  *comps = [value componentsSeparatedByString:@","];
-                    casted = RGBAUICOLOR([comps[0] floatValue], [comps[1] floatValue], [comps[2] floatValue], [comps[3] floatValue]);
+                    casted = LTRgbaUIColor([comps[0] floatValue], [comps[1] floatValue], [comps[2] floatValue], [comps[3] floatValue]);
                     
                     //hex color type
                 } else if ([object hasPrefix:@"hex:"]) {
@@ -72,7 +67,7 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
                     [scanner setScanLocation:6]; // bypass '#' character
                     [scanner scanHexInt:&result];
                     
-                    casted = HEXUICOLOR(result);
+                    casted = LTHexUIColor(result);
                     
                     //ui color type
                 } else if ([object hasPrefix:@"uicolor:"]) {

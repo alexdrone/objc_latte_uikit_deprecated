@@ -16,32 +16,30 @@
 
 @end
 
-static LTParser *sharedInstance = nil;
-
 @implementation LTParser
 
 #pragma mark Singleton initialization code
 
 + (LTParser*)sharedInstance
 {
-    if (sharedInstance) 
-        return sharedInstance;
+    static dispatch_once_t pred;
+    static LTParser *shared = nil;
     
-    return [[LTParser alloc] init];
+    dispatch_once(&pred, ^{
+        shared = [[LTParser alloc] init];
+    });
+    
+    return shared;
 }
 
 - (id)init
 {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedInstance = [super init];
-        if (sharedInstance) {
-            _cache = [[NSCache alloc] init];
-            _sharedStyleSheetCache = [[NSMutableDictionary alloc] init];
-        }        
-    });
+    if (self = [super init]) {
+        _cache = [[NSCache alloc] init];
+        _sharedStyleSheetCache = [[NSMutableDictionary alloc] init];
+    }        
     
-    return sharedInstance;
+    return self;
 }
 
 #pragma mark Cache

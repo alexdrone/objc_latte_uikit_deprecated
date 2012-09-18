@@ -13,5 +13,6 @@
 #import "LTContext.h"
 #import "LTLocale.h"
 #import "LTParser+ViewInit.h"
+#import "LTAppearance.h"
 
 #endif

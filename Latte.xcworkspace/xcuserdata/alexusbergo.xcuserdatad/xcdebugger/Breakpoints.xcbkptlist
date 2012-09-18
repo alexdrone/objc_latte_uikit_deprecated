@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Latte/LTParser+ViewInit.m"
-         timestampString = "365594984.455911"
+         timestampString = "369580679.441611"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "54"
-         endingLineNumber = "54"
+         startingLineNumber = "49"
+         endingLineNumber = "49"
          landmarkName = "LTStaticInitializeViewFromNodeDictionary()"
          landmarkType = "7">
       </FileBreakpoint>

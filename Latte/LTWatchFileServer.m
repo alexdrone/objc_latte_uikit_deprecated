@@ -19,35 +19,32 @@
 
 @end
 
-static LTWatchFileServer *sharedInstance;
-
 @implementation LTWatchFileServer
 
 #pragma mark Singleton initialization code
 
 + (LTWatchFileServer*)sharedInstance
 {
-    if (sharedInstance) 
-        return sharedInstance;
+    static dispatch_once_t pred;
+    static LTWatchFileServer *shared = nil;
     
-    return [[LTWatchFileServer alloc] init];
+    dispatch_once(&pred, ^{
+        shared = [[LTWatchFileServer alloc] init];
+    });
+    
+    return shared;
 }
 
 - (id)init
 {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedInstance = [super init];
-        if (sharedInstance) {
-            //init code here
-            _observers = [[NSMutableDictionary alloc] init];
-            _clients = [[NSMutableArray alloc] init];
-            _socket = [[AsyncSocket alloc] initWithDelegate:self];
-            _running = NO;
-        }        
-    });
+    if (self = [super init]) {
+        _observers = [[NSMutableDictionary alloc] init];
+        _clients = [[NSMutableArray alloc] init];
+        _socket = [[AsyncSocket alloc] initWithDelegate:self];
+        _running = NO;
+    }
     
-    return sharedInstance;
+    return self;
 }
 
 - (void)dealloc

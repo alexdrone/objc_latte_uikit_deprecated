@@ -13,10 +13,6 @@ typedef id (^LTContextEvalBlock)(void);
 
 @interface LTContext : NSObject
 
-
-/* global enviroment properties */
-@property (strong) NSDate *date;
-
 - (void)addContextEvaluation:(LTContextEvalBlock)block forKey:(NSString*)key;
 
 

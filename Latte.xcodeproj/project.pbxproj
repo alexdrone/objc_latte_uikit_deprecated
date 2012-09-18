@@ -30,6 +30,7 @@
 		16C6051B15653C30005C03C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16C6051915653C30005C03C7 /* InfoPlist.strings */; };
 		16C6051D15653C30005C03C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6051C15653C30005C03C7 /* main.m */; };
 		16C6052115653C30005C03C7 /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6052015653C30005C03C7 /* LTAppDelegate.m */; };
+		16CEEDB81607572A0037C418 /* LTAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CEEDB71607572A0037C418 /* LTAppearance.m */; };
 		16D6CC1B157E9EAA005C0554 /* UIView+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D6CC1A157E9EAA005C0554 /* UIView+LTAdditions.m */; };
 		16E703901565687200EDB943 /* LTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E7038F1565687200EDB943 /* LTParser.m */; };
 		16E70394156568DB00EDB943 /* LTNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E70393156568DB00EDB943 /* LTNode.m */; };
@@ -73,6 +74,8 @@
 		16C6051E15653C30005C03C7 /* Latte-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Latte-Prefix.pch"; sourceTree = "<group>"; };
 		16C6051F15653C30005C03C7 /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
 		16C6052015653C30005C03C7 /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
+		16CEEDB61607572A0037C418 /* LTAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTAppearance.h; sourceTree = "<group>"; };
+		16CEEDB71607572A0037C418 /* LTAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTAppearance.m; sourceTree = "<group>"; };
 		16D6CC19157E9EAA005C0554 /* UIView+LTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LTAdditions.h"; sourceTree = "<group>"; };
 		16D6CC1A157E9EAA005C0554 /* UIView+LTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTAdditions.m"; sourceTree = "<group>"; };
 		16E7038E1565687200EDB943 /* LTParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTParser.h; sourceTree = "<group>"; };
@@ -198,6 +201,8 @@
 				16AAF6AE15B16B7800B6402D /* LTLocale.m */,
 				16AAF6B415B16F3C00B6402D /* LTParser+ViewInit.h */,
 				16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */,
+				16CEEDB61607572A0037C418 /* LTAppearance.h */,
+				16CEEDB71607572A0037C418 /* LTAppearance.m */,
 			);
 			path = Latte;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 				169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */,
 				16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */,
 				16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */,
+				16CEEDB81607572A0037C418 /* LTAppearance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
