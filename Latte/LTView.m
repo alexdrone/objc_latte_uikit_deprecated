@@ -170,7 +170,7 @@ NSString *LTRenderStringFromTemplate(LTKVOTemplate *template,  LTView *object)
 }
 
 #pragma mark -
-#pragma mark view lifecycle
+#pragma mark view init
 
 /* Recreates the entire view hierarchy from the markup 
  * file passed as argument. */
@@ -212,7 +212,56 @@ NSString *LTRenderStringFromTemplate(LTKVOTemplate *template,  LTView *object)
             [self addSubview:subview];
 	
 	//costraints
+	#if __IPHONE_OS_VERSION_MIN_REQUIRED < 60000
+	[self initializeConstraints];
+	#endif
 }
+
+/* Creates the autolayout constraints, constructing them from the markup file */
+- (void)initializeConstraints
+{
+	//no constraints defined for this view
+	if (!self.node.constraints) return;
+	
+	for (NSDictionary *c in self.node.constraints) {
+		NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:c[@"format"]
+																	   options:LTLayoutFormatOptionsFromArray(c[@"options"])
+																	   metrics:c[@"metrics"]
+																		 views:self.viewsDictionary];
+		[self addConstraints:constraints];
+	}
+}
+
+/* Transform an array of option into the NSLayoutFormatOptions integer flag */
+NSLayoutFormatOptions LTLayoutFormatOptionsFromArray(NSArray *array)
+{
+	if (!array) return 0;
+	
+	NSLayoutFormatOptions options = 0;
+	
+	for (NSString *o in array)
+		if		([o isEqualToString:@"left"]) options |= NSLayoutFormatAlignAllLeft;
+		else if ([o isEqualToString:@"right"]) options |= NSLayoutFormatAlignAllRight;
+		else if ([o isEqualToString:@"top"]) options |= NSLayoutFormatAlignAllTop;
+		else if ([o isEqualToString:@"bottom"])	options |= NSLayoutFormatAlignAllBottom;
+		else if ([o isEqualToString:@"leading"]) options |= NSLayoutFormatAlignAllLeading;
+		else if ([o isEqualToString:@"trailing"]) options |= NSLayoutFormatAlignAllTrailing;
+		else if ([o isEqualToString:@"baseline"]) options |= NSLayoutFormatAlignAllBaseline;
+		else if ([o isEqualToString:@"centerX"]) options |= NSLayoutFormatAlignAllCenterX;
+		else if ([o isEqualToString:@"centerY"]) options |= NSLayoutFormatAlignAllCenterY;
+		else if ([o isEqualToString:@"leadingToTrailing"]) options |= NSLayoutFormatDirectionLeadingToTrailing;
+		else if ([o isEqualToString:@"leftToRight"]) options |= NSLayoutFormatDirectionLeftToRight;
+		else if ([o isEqualToString:@"rightToLeft"]) options |= NSLayoutFormatDirectionRightToLeft;
+		else if ([o isEqualToString:@"mask"]) options |= NSLayoutFormatAlignmentMask;
+	
+	return options;
+
+}
+
+
+
+#pragma mark -
+#pragma mark view lifecycle
 
 /* Render all the textual templates with the new object associated to the view.
  * Moreover it subscribes the view to object's properties changes. (for they keypaths that

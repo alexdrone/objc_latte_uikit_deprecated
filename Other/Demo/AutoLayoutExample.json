@@ -1,0 +1,13 @@
+{
+	"layout":[
+		{"LT_isa":"UILabel", "LT_class":"alabel", "LT_id":"l1", "backgroundColor":"hex:00AFF0", "text":"1", "textColor":"uicolor:white", "translatesAutoresizingMaskIntoConstraints":false,"textAlignment":1},
+		{"LT_isa":"UILabel","LT_class":"alabel","LT_id":"l2","backgroundColor":"hex:00CCF0","text":"2","textColor":"uicolor:white","translatesAutoresizingMaskIntoConstraints":false,"textAlignment":1}	
+	],
+	
+	"constraints":[
+		{"format":"H:|-margin-[l1(100)]-margin-[l2(100)]","options": ["baseline"],"metrics": {"margin":40}},
+		{"format":"V:|-[l1(20)]"}
+	]		  
+}
+			  
+

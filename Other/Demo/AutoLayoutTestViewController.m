@@ -26,7 +26,6 @@
 - (void)loadView
 {
 	[super loadView];
-	self.view.backgroundColor = [UIColor colorWithRed:.0f green:.65f blue:1.f alpha:1.f];
 	
 	UILabel *l1 = [[UILabel alloc] init];
 	l1.text = @"l1";

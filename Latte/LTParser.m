@@ -88,11 +88,8 @@
         result = [self parseJSONMarkup:markup];
     else
         result = [self parseLatteMarkup:markup];
-	
-	NSLog(@"%@", result.description);
-    
+	    
     return result;
-
 }
 
 #pragma mark JSON
@@ -128,6 +125,9 @@
         node.father = rootNode;
         [rootNode.children addObject:node];
     }
+	
+	//set the autolayout constraints if defined
+	rootNode.constraints = json[@"constraints"];
 
     return rootNode;
 }

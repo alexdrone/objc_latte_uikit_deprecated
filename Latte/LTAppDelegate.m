@@ -13,6 +13,7 @@
 #import "LTWatchFileServer.h"
 #import "DemoTableViewController.h"
 #import "AutoLayoutTestViewController.h"
+#import "AutoLayoutExampleViewController.h"
 
 
 @implementation LTAppDelegate
@@ -28,15 +29,10 @@
     
     // Override point for customization after application launch.
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	//AutoLayoutTestViewController *vc = [[AutoLayoutTestViewController alloc] init];
+	AutoLayoutExampleViewController *vc = [[AutoLayoutExampleViewController alloc] init];
+	self.window.rootViewController = vc;
 	
-	AutoLayoutTestViewController *autovc = [[AutoLayoutTestViewController alloc] init];
-	//self.window.rootViewController = autovc;
-	
-	DemoTableViewController *controller = [[DemoTableViewController alloc] init];
-	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
-    navigationController.navigationController.navigationBar.tintColor = [UIColor blackColor];
-    
-	self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
 
     return YES;

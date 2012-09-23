@@ -1,22 +1,24 @@
 {
 	"layout":[
-	
 		{
-			"LT_isa":"UIView",
-			"LT_class":"aview",
-			"frame":[0,0,320,44],
-			"backgroundColor":"uicolor:black",
-			"subviews":[
-				{
-					"LT_isa":"UIView",
-					"LT_class":"aview",
-					"frame":[0,0,30,44],
-					"backgroundColor":"uicolor:red"
-				}
-			]
-
-
+			"LT_isa":"UILabel",
+			"LT_class":"alabel",
+			"LT_id":"l1",
+			"backgroundColor":"hex:00AFF0",
+			"text":"#{@bind(object.status)}",
+			"textColor":"uicolor:white",
+			"translatesAutoresizingMaskIntoConstraints":false
+		},
+		{
+			"LT_isa":"UILabel",
+			"LT_class":"alabel",
+			"LT_id":"l2",
+			"backgroundColor":"hex:00AFF0",
+			"text":"#{@bind(object.status)}",
+			"textColor":"uicolor:white",
+			"translatesAutoresizingMaskIntoConstraints":false
 		}
+			
 	],
 	
 	"constraints":[
@@ -26,7 +28,12 @@
 			"metrics": []
 		},
 		{
-			"format":"V:|-[l1(20)]-55-|",
+			"format":"V:|-[l1(20)]|",
+			"options": [],
+			"metrics": []
+		},
+		{
+			"format":"V:[l1(==l2)]",
 			"options": [],
 			"metrics": []
 		}
