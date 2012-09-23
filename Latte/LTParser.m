@@ -125,14 +125,6 @@ static LTParser *sharedInstance = nil;
 
 		tabo = tabc;
         
-        //text can be put as nested element
-		if (![trimmed hasPrefix:@"%"]) {
-            NSString *text = [NSString stringWithFormat:@"%@\n%@", fatherNode.data[@"text"], l];
-            fatherNode.data[@"text"] = text;
-            
-            continue;
-        } 
-        
         //update the nodes hierarchy
         currentNode = [[LTNode alloc] init];
         currentNode.father = fatherNode;
@@ -144,7 +136,6 @@ static LTParser *sharedInstance = nil;
 		NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"%([a-zA-z0-9]*)(\.[a-zA-z0-9]*)(\#[a-zA-z0-9]*)*\\{(.*)\\}"
 																			   options:NSRegularExpressionCaseInsensitive
 																				 error:&error];
-        
         if (error) goto parse_err;
                 
         //iterating all the matches for the current line

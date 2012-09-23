@@ -1,12 +1,19 @@
 @style
+	
+.helvetica20{"font":"font-family:HelveticaNeue-UltraLight,20"}
+	
 @end
 
 
 @layout
-%UILabel.class#id{"frame":[5,12,180,25], "text":"#{@bind(object.status)}", "font":"font-family:HelveticaNeue-UltraLight,20", "textColor":"uicolor:grayColor"}
-%UILabel.class#id{"frame":[270,12,40,25], "text":"#{@bind(object.messages)}", "font":"font-family:HelveticaNeue-UltraLight,20", "textColor":"uicolor:white", "backgroundColor":"uicolor:black", "textAlignment":1, "cornerRadius":12.0, "hidden":"@context(hideCount)"}
+
+
+%UILabel#id{"frame":[5,12,180,25], "text":"#{@bind(object.status)}", "textColor":"hex:#cf0000"}
+%UILabel.class#id{"frame":[270,12,40,25], "text":"#{@bind(object.messages)}", "textColor":"uicolor:white", "backgroundColor":"hex:#cacaca", "textAlignment":1, "cornerRadius":12.0, "hidden":"@context(hideCount)"}
 
 @end
+
+
 
 
 
