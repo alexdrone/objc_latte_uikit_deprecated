@@ -20,6 +20,7 @@
 		165B42591581FFC700395A6F /* leather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165B424F1581FFC700395A6F /* leather@2x.png */; };
 		165B425C158202C000395A6F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165B425B158202C000395A6F /* CFNetwork.framework */; };
 		169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
+		1695BBB4160C8F6A00D825C7 /* DemoCell.json in Resources */ = {isa = PBXBuildFile; fileRef = 1695BBB3160C8F6A00D825C7 /* DemoCell.json */; };
 		16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6AE15B16B7800B6402D /* LTLocale.m */; };
 		16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */; };
 		16AAF6BB15B181C500B6402D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 16AAF6B915B181C500B6402D /* logo.png */; };
@@ -58,6 +59,7 @@
 		165B425B158202C000395A6F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		169409E015B052BA003B7C98 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		169409E115B052BA003B7C98 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		1695BBB3160C8F6A00D825C7 /* DemoCell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoCell.json; sourceTree = "<group>"; };
 		16AAF6AD15B16B7800B6402D /* LTLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLocale.h; sourceTree = "<group>"; };
 		16AAF6AE15B16B7800B6402D /* LTLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTLocale.m; sourceTree = "<group>"; };
 		16AAF6B415B16F3C00B6402D /* LTParser+ViewInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTParser+ViewInit.h"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				165B424D1581FFC700395A6F /* DemoTableViewController.m */,
 				165B424E1581FFC700395A6F /* leather.png */,
 				165B424F1581FFC700395A6F /* leather@2x.png */,
+				1695BBB3160C8F6A00D825C7 /* DemoCell.json */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				165B42591581FFC700395A6F /* leather@2x.png in Resources */,
 				16AAF6BB15B181C500B6402D /* logo.png in Resources */,
 				16AAF6BC15B181C500B6402D /* logo@2x.png in Resources */,
+				1695BBB4160C8F6A00D825C7 /* DemoCell.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

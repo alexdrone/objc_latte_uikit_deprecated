@@ -7,6 +7,7 @@
 //
 
 #import "LTPrefixes.h"
+#import <QuartzCore/QuartzCore.h>
 #import <objc/runtime.h>
 
 @implementation LTParser (ViewInit)

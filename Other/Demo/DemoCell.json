@@ -1,0 +1,1 @@
+{"layout":[{"LT_isa":"UILabel","LT_class":"testClass","LT_id":"testId","frame":[5,12,180,25],"text":"test #{@bind(object.status)}","font":"font-family:HelveticaNeue-UltraLight,20","textColor":"uicolor:red"}]}
