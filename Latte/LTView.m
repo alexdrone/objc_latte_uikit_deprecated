@@ -30,14 +30,6 @@
 
 @implementation LTView
 
-@synthesize node = _node;
-@synthesize bindings = _bindings;
-@synthesize filename = _filename;
-@synthesize contextBindings = _contextBindings;
-@synthesize object = _object;
-@synthesize context = _context;
-@synthesize locale = _locale;
-
 #pragma mark -
 #pragma mark constructors
 

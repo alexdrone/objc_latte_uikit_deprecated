@@ -15,10 +15,6 @@
 /* global counter for all the node instances */
 static NSUInteger LTNodeInstanceCounter = 0;
 
-@synthesize children = _children;
-@synthesize father = _father;
-@synthesize binds = _binds;
-
 - (id)init
 {
     if (self = [super init]) {

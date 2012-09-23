@@ -16,35 +16,31 @@
 
 @end
 
-static LTParser *sharedInstance = nil;
-
 @implementation LTParser
-
-@synthesize cache = _cache;
-@synthesize sharedStyleSheetCache = _sharedStyleSheetCache;
 
 #pragma mark Singleton initialization code
 
 + (LTParser*)sharedInstance
 {
-    if (sharedInstance) 
-        return sharedInstance;
+    static dispatch_once_t pred;
+    static LTParser *shared = nil;
     
-    return [[LTParser alloc] init];
+    dispatch_once(&pred, ^{
+        shared = [[LTParser alloc] init];
+    });
+    
+    return shared;
 }
 
 - (id)init
 {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedInstance = [super init];
-        if (sharedInstance) {
-            _cache = [[NSCache alloc] init];
-            _sharedStyleSheetCache = [[NSMutableDictionary alloc] init];
-        }        
-    });
+    if (self = [super init]) {
+        _cache = [[NSCache alloc] init];
+        _sharedStyleSheetCache = [[NSMutableDictionary alloc] init];
+        _useJSONMarkup = YES;
+    }        
     
-    return sharedInstance;
+    return self;
 }
 
 #pragma mark Cache
@@ -63,7 +59,9 @@ static LTParser *sharedInstance = nil;
         return node;
     
     NSError *error = nil;
-    NSString *input = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:filename ofType: @"latte"] 
+    
+    NSString *extension = self.useJSONMarkup ? @"json" : @"latte";
+    NSString *input = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:filename ofType:extension]
 												encoding:NSUTF8StringEncoding 
 												   error:&error];
     if (!error) {
@@ -84,6 +82,64 @@ static LTParser *sharedInstance = nil;
 /* Create the tree structure from a given legal .lt markup */
 - (LTNode*)parseMarkup:(NSString*)markup
 {
+    LTNode *result;
+    
+    if (self.useJSONMarkup)
+        result = [self parseJSONMarkup:markup];
+    else
+        result = [self parseLatteMarkup:markup];
+    
+    return result;
+
+}
+
+#pragma mark JSON
+
+- (LTNode*)parseJSONMarkup:(NSString*)markup
+{
+    NSMutableDictionary *json = [markup mutableObjectFromJSONString];
+    LTNode *rootNode = [[LTNode alloc] init];
+
+    for (NSMutableDictionary *jsonRootNode in json[@"layout"]) {
+        
+        //the child node is initialized a recursively created
+        LTNode *node = [[LTNode alloc] init];
+        LTJSONCreateTreeStructure (jsonRootNode, node);
+        
+        //set the father of the node
+        node.father = rootNode;
+        [rootNode.children addObject:node];
+    }
+
+    return rootNode;
+}
+
+/* Recursively create the node structure from the JSON file */
+void LTJSONCreateTreeStructure(NSMutableDictionary *jsonNode, LTNode *node)
+{
+    NSArray *subiews = jsonNode[@"subviews"];
+    [jsonNode removeObjectForKey:@"subviews"];
+    
+    node.data = jsonNode;
+    
+    for (NSMutableDictionary *jsonChildNode in subiews) {
+        
+        //the child node is initialized a recursively created
+        LTNode *childNode = [[LTNode alloc] init];
+        LTJSONCreateTreeStructure(jsonChildNode, node);
+        
+        //set the father of the node
+        childNode.father = node;
+        [node.children addObject:childNode];
+    }
+}
+
+
+#pragma mark Latte markup
+
+/* Create the tree structure from a given legal .lt markup */
+- (LTNode*)parseLatteMarkup:(NSString*)markup
+{
     NSArray *markups = [markup componentsSeparatedByString:@"@end"];
     NSUInteger idx = 0;
     
@@ -101,7 +157,7 @@ static LTParser *sharedInstance = nil;
     NSInteger tabc = 0, tabo = -1;
     
     for (NSString *l in [markup componentsSeparatedByString:@"\n"]) {
-    
+        
         //skip all the empty lines and the comments
 		NSString *trimmed = [l stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 		if ([trimmed isEqualToString:@""] || [trimmed hasPrefix:@"-#"] || [trimmed hasPrefix:@"@layout"]) continue;
@@ -116,14 +172,22 @@ static LTParser *sharedInstance = nil;
 		if (tabc >  tabo + 1) goto parse_err;
 		
 		//nested element
-		if (tabc == tabo + 1) 
+		if (tabc == tabo + 1)
             fatherNode = currentNode;
 		
 		if (tabc < tabo)
-			for (NSInteger i = 0; i < tabo-tabc; i++) 
+			for (NSInteger i = 0; i < tabo-tabc; i++)
 				fatherNode = fatherNode.father;
-
+        
 		tabo = tabc;
+        
+        //text can be put as nested element
+		if (![trimmed hasPrefix:@"%"]) {
+            NSString *text = [NSString stringWithFormat:@"%@\n%@", fatherNode.data[@"text"], l];
+            fatherNode.data[@"text"] = text;
+            
+            continue;
+        }
         
         //update the nodes hierarchy
         currentNode = [[LTNode alloc] init];
@@ -137,24 +201,24 @@ static LTParser *sharedInstance = nil;
 																			   options:NSRegularExpressionCaseInsensitive
 																				 error:&error];
         if (error) goto parse_err;
-                
+        
         //iterating all the matches for the current line
         for (NSTextCheckingResult *match in [regex matchesInString:l options:0 range:NSMakeRange(0, l.length)]) {
-        
+            
             NSString *latteIsa = [l substringWithRange:[match rangeAtIndex:1]];
             
 			NSUInteger index = 2;
 			NSString *latteClass = nil;
-			if (match.numberOfRanges > index &&  [[l substringWithRange:[match rangeAtIndex:index]] hasPrefix:@"."]) 
+			if (match.numberOfRanges > index &&  [[l substringWithRange:[match rangeAtIndex:index]] hasPrefix:@"."])
 				latteClass = [l substringWithRange:[match rangeAtIndex:index++]];
 			
 			NSString *latteId = nil;
-			if (match.numberOfRanges > index &&  [[l substringWithRange:[match rangeAtIndex:index]] hasPrefix:@"#"]) 
+			if (match.numberOfRanges > index &&  [[l substringWithRange:[match rangeAtIndex:index]] hasPrefix:@"#"])
 				latteId = [l substringWithRange:[match rangeAtIndex:index++]];
 			
 			NSString *json = nil;
 			if (match.numberOfRanges > index)
-				json = [l substringWithRange:[match rangeAtIndex:index]];	
+				json = [l substringWithRange:[match rangeAtIndex:index]];
             
             NSMutableDictionary *data = [NSMutableDictionary dictionary];
             
@@ -162,7 +226,7 @@ static LTParser *sharedInstance = nil;
             //get the values from the stylesheet
             [data addEntriesFromDictionary:self.sharedStyleSheetCache[latteClass]];
             [data addEntriesFromDictionary:self.sharedStyleSheetCache[[NSString stringWithFormat:@"%@%@", latteClass, latteId]]];
-
+            
             //and the values defined in the layout
             [data addEntriesFromDictionary:[[NSString stringWithFormat:@"{%@}",json] mutableObjectFromJSONString]];
             
@@ -183,7 +247,7 @@ static LTParser *sharedInstance = nil;
     
     return rootNode;
     
-//something went wrong
+    //something went wrong
 parse_err:
     NSLog(@"The markup is not latte compliant.");
     return nil;

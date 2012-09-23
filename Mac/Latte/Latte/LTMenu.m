@@ -56,7 +56,7 @@ static LTMenu *sharedInstace = nil;
 - (void)selectFiles
 {    
     NSOpenPanel* openDialog = [NSOpenPanel openPanel];
-    NSArray *types = [NSArray arrayWithObjects:@"latte", @"lt", nil];
+    NSArray *types = [NSArray arrayWithObjects:@"latte", @"lt", @"json", nil];
     
     [openDialog setCanChooseFiles:YES];   
     [openDialog setCanChooseDirectories:NO];

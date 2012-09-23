@@ -11,20 +11,18 @@
 @interface LTContext () 
 
 @property (strong) NSMutableDictionary *keys;
+@property (strong) LTAppearance *appereance;
 
 @end
 
 @implementation LTContext
 
-@synthesize keys = _keys;
-@synthesize date = _date;
-
 - (id)init
 {
     if (self = [super init]) {
-        _keys = [[NSMutableDictionary alloc] init];
         
-        [self performSelector:@selector(updateDate)];
+        self.keys = [[NSMutableDictionary alloc] init];
+        self.appereance = [LTAppearance sharedInstance];
     }
     
     return self;
@@ -37,7 +35,7 @@
 
 - (id)valueForKeyPath:(NSString*)keyPath
 {
-    LTContextEvalBlock block = _keys[keyPath];
+    LTContextEvalBlock block = self.keys[keyPath];
     
     if (nil != block) 
         return block();
@@ -47,12 +45,7 @@
 
 - (void)addContextEvaluation:(LTContextEvalBlock)block forKey:(NSString*)key;
 {
-    [_keys setObject:block forKey:key];
+    [self.keys setObject:block forKey:key];
 }
 
-- (void)updateDate
-{
-    self.date = [NSDate date];
-    [self performSelector:@selector(updateDate) withObject:nil afterDelay:1.0];
-}
 @end
