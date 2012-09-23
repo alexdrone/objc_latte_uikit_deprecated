@@ -59,6 +59,22 @@ static NSUInteger LTNodeInstanceCounter = 0;
     }
 }
 
+/* Returns the node description with all its children */
+- (NSString*)description
+{
+	NSMutableString *desc = [[NSMutableString alloc] init];
+	[desc appendFormat:@"%@:%@", _nodeId, _data];
+	
+	if (self.children) {
+		[desc appendFormat:@"\nchildren:\n"];
+		
+		for (LTNode *n in self.children)
+			[desc appendString:n.description];
+	}
+	
+	return desc;
+}
+
 @end
 
 /* Creates a LTFormattedString with the given template (a string with the 

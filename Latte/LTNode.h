@@ -27,6 +27,9 @@
 /* All the binded keys in the object */
 @property (strong) NSMutableArray *binds;
 
+/* Autolayout visual constraints */
+@property (strong) NSMutableArray *constraints;
+
 @end
 
 #define kLTKVOFlagBound 1

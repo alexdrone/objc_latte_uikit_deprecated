@@ -1,1 +1,37 @@
-{"layout":[{"LT_isa":"UILabel","LT_class":"testClass","LT_id":"testId","frame":[5,12,180,25],"text":"test #{@bind(object.status)}","font":"font-family:HelveticaNeue-UltraLight,20","textColor":"uicolor:red"}]}
+{
+	"layout":[
+	
+		{
+			"LT_isa":"UIView",
+			"LT_class":"aview",
+			"frame":[0,0,320,44],
+			"backgroundColor":"uicolor:black",
+			"subviews":[
+				{
+					"LT_isa":"UIView",
+					"LT_class":"aview",
+					"frame":[0,0,30,44],
+					"backgroundColor":"uicolor:red"
+				}
+			]
+
+
+		}
+	],
+	
+	"constraints":[
+		{
+			"format":"|-20-[l1(100)]-20-[l2(100)]",
+			"options": [],
+			"metrics": []
+		},
+		{
+			"format":"V:|-[l1(20)]-55-|",
+			"options": [],
+			"metrics": []
+		}
+		
+	]		  
+}
+			  
+

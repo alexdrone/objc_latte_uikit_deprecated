@@ -26,6 +26,9 @@
 @property (strong) NSMutableArray *bindings;
 @property (strong) NSMutableArray *contextBindings;
 
+/*View dictonary for the visual constraints*/
+@property (strong) NSMutableDictionary *viewsDictionary;
+
 @end
 
 @implementation LTView
@@ -105,7 +108,7 @@
 #pragma mark -
 #pragma mark view initializer
 
-NSArray *LTRenderViewsFromNodeChildren(LTNode *node, NSMutableArray **bindings, NSMutableArray **contextBindings)
+NSArray *LTRenderViewsFromNodeChildren(LTNode *node, NSMutableArray **bindings, NSMutableArray **contextBindings, NSMutableDictionary *viewsDictionary)
 {
     
 #define ERR(fmt, ...) {NSLog((fmt), ##__VA_ARGS__); goto render_err;}
@@ -121,6 +124,19 @@ NSArray *LTRenderViewsFromNodeChildren(LTNode *node, NSMutableArray **bindings, 
 
         if (!object) 
             ERR(@"Class %@ not found", n.data[@"LT_isa"]);
+		
+		//view dictionary to handle visual format languange constraints
+		if (viewsDictionary && n.data[@"LT_id"]) {
+			
+			NSString *viewId = n.data[@"LT_id"];
+		
+			//the visual layout language is not compatible
+			//with the # prefix
+			if ([viewId hasPrefix:@"#"])
+				viewId = [viewId substringFromIndex:1];
+			
+			viewsDictionary[viewId] = object;
+		}
 
         @try {
             LTStaticInitializeViewFromNodeDictionary(object, n.data, bindings, contextBindings);
@@ -130,7 +146,7 @@ NSArray *LTRenderViewsFromNodeChildren(LTNode *node, NSMutableArray **bindings, 
         }
 
         //recoursively creates and add the subviews
-        for (UIView *subview in LTRenderViewsFromNodeChildren(n, bindings, contextBindings))
+        for (UIView *subview in LTRenderViewsFromNodeChildren(n, bindings, contextBindings, viewsDictionary))
             [object addSubview:subview];
 		
 		[views addObject:object];
@@ -179,9 +195,10 @@ NSString *LTRenderStringFromTemplate(LTKVOTemplate *template,  LTView *object)
 {
     //create the bindings map
     NSMutableArray *map = [[NSMutableArray alloc] init], *contextMap = [[NSMutableArray alloc] init];
-    
+    self.viewsDictionary = [[NSMutableDictionary alloc] init];
+	
     //render the static components of the view
-    NSArray *subviews = LTRenderViewsFromNodeChildren(self.node, &map, &contextMap);
+    NSArray *subviews = LTRenderViewsFromNodeChildren(self.node, &map, &contextMap, self.viewsDictionary);
     
     self.bindings = map;
     self.contextBindings = contextMap;
@@ -193,6 +210,8 @@ NSString *LTRenderStringFromTemplate(LTKVOTemplate *template,  LTView *object)
     if (subviews.count)
         for (UIView *subview in subviews)
             [self addSubview:subview];
+	
+	//costraints
 }
 
 /* Render all the textual templates with the new object associated to the view.

@@ -88,6 +88,8 @@
         result = [self parseJSONMarkup:markup];
     else
         result = [self parseLatteMarkup:markup];
+	
+	NSLog(@"%@", result.description);
     
     return result;
 
@@ -97,6 +99,22 @@
 
 - (LTNode*)parseJSONMarkup:(NSString*)markup
 {
+	//Due to compatibility with the latte format,
+	//the given JSON markup support also comments in the form of
+	//-#comment
+	NSMutableString *cleaned = [[NSMutableString alloc] init];
+	for (NSString *l in [markup componentsSeparatedByString:@"\n"]) {
+		
+		//removes all the whitespaces
+		NSString *trimmed = [l stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+		
+		//skip all the comments
+		if (![trimmed hasPrefix:@"-#"])
+			[cleaned appendString:trimmed];
+	}
+	
+	markup = cleaned;
+	
     NSMutableDictionary *json = [markup mutableObjectFromJSONString];
     LTNode *rootNode = [[LTNode alloc] init];
 
@@ -126,7 +144,7 @@ void LTJSONCreateTreeStructure(NSMutableDictionary *jsonNode, LTNode *node)
         
         //the child node is initialized a recursively created
         LTNode *childNode = [[LTNode alloc] init];
-        LTJSONCreateTreeStructure(jsonChildNode, node);
+        LTJSONCreateTreeStructure(jsonChildNode, childNode);
         
         //set the father of the node
         childNode.father = node;
