@@ -255,7 +255,6 @@ NSLayoutFormatOptions LTLayoutFormatOptionsFromArray(NSArray *array)
 		else if ([o isEqualToString:@"mask"]) options |= NSLayoutFormatAlignmentMask;
 	
 	return options;
-
 }
 
 

@@ -12,7 +12,6 @@
 #import "LTNode.h"
 #import "LTWatchFileServer.h"
 #import "DemoTableViewController.h"
-#import "AutoLayoutTestViewController.h"
 #import "AutoLayoutExampleViewController.h"
 
 

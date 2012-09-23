@@ -7,27 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		071BC126160F00E300D71074 /* AutoLayoutTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BC125160F00E300D71074 /* AutoLayoutTestViewController.m */; };
 		071BC12A160F31F400D71074 /* AutoLayoutExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */; };
 		071BC12C160F320800D71074 /* AutoLayoutExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 071BC12B160F320800D71074 /* AutoLayoutExample.json */; };
 		16558BB8158232CF00FFB2E2 /* LTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 16558BB7158232CF00FFB2E2 /* LTContext.m */; };
 		165A27E7157D685900942BFD /* NSString+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E6157D685900942BFD /* NSString+LTAdditions.m */; };
 		165A27EA157D6B2900942BFD /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E9157D6B2900942BFD /* LTView.m */; };
 		165B423F1581FDD600395A6F /* LTWatchFileServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 165B423E1581FDD600395A6F /* LTWatchFileServer.m */; };
-		165B42531581FFC700395A6F /* blackseparator.png in Resources */ = {isa = PBXBuildFile; fileRef = 165B42471581FFC700395A6F /* blackseparator.png */; };
-		165B42541581FFC700395A6F /* blackseparator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165B42481581FFC700395A6F /* blackseparator@2x.png */; };
-		165B42551581FFC700395A6F /* DemoCell.latte in Resources */ = {isa = PBXBuildFile; fileRef = 165B42491581FFC700395A6F /* DemoCell.latte */; };
 		165B42561581FFC700395A6F /* DemoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 165B424B1581FFC700395A6F /* DemoObject.m */; };
 		165B42571581FFC700395A6F /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165B424D1581FFC700395A6F /* DemoTableViewController.m */; };
-		165B42581581FFC700395A6F /* leather.png in Resources */ = {isa = PBXBuildFile; fileRef = 165B424E1581FFC700395A6F /* leather.png */; };
-		165B42591581FFC700395A6F /* leather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165B424F1581FFC700395A6F /* leather@2x.png */; };
 		165B425C158202C000395A6F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165B425B158202C000395A6F /* CFNetwork.framework */; };
 		169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
 		1695BBB4160C8F6A00D825C7 /* DemoCell.json in Resources */ = {isa = PBXBuildFile; fileRef = 1695BBB3160C8F6A00D825C7 /* DemoCell.json */; };
 		16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6AE15B16B7800B6402D /* LTLocale.m */; };
 		16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */; };
-		16AAF6BB15B181C500B6402D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 16AAF6B915B181C500B6402D /* logo.png */; };
-		16AAF6BC15B181C500B6402D /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16AAF6BA15B181C500B6402D /* logo@2x.png */; };
 		16C6051115653C30005C03C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051015653C30005C03C7 /* UIKit.framework */; };
 		16C6051315653C30005C03C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051215653C30005C03C7 /* Foundation.framework */; };
 		16C6051515653C30005C03C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051415653C30005C03C7 /* CoreGraphics.framework */; };
@@ -42,8 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		071BC124160F00E300D71074 /* AutoLayoutTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTestViewController.h; sourceTree = "<group>"; };
-		071BC125160F00E300D71074 /* AutoLayoutTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTestViewController.m; sourceTree = "<group>"; };
 		071BC128160F31F400D71074 /* AutoLayoutExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutExampleViewController.h; sourceTree = "<group>"; };
 		071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutExampleViewController.m; sourceTree = "<group>"; };
 		071BC12B160F320800D71074 /* AutoLayoutExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AutoLayoutExample.json; sourceTree = "<group>"; };
@@ -55,15 +45,10 @@
 		165A27E9157D6B2900942BFD /* LTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTView.m; sourceTree = "<group>"; };
 		165B423D1581FDD600395A6F /* LTWatchFileServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTWatchFileServer.h; sourceTree = "<group>"; };
 		165B423E1581FDD600395A6F /* LTWatchFileServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTWatchFileServer.m; sourceTree = "<group>"; };
-		165B42471581FFC700395A6F /* blackseparator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackseparator.png; sourceTree = "<group>"; };
-		165B42481581FFC700395A6F /* blackseparator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackseparator@2x.png"; sourceTree = "<group>"; };
-		165B42491581FFC700395A6F /* DemoCell.latte */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DemoCell.latte; sourceTree = "<group>"; };
 		165B424A1581FFC700395A6F /* DemoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoObject.h; sourceTree = "<group>"; };
 		165B424B1581FFC700395A6F /* DemoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoObject.m; sourceTree = "<group>"; };
 		165B424C1581FFC700395A6F /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
 		165B424D1581FFC700395A6F /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
-		165B424E1581FFC700395A6F /* leather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leather.png; sourceTree = "<group>"; };
-		165B424F1581FFC700395A6F /* leather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leather@2x.png"; sourceTree = "<group>"; };
 		165B425B158202C000395A6F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		169409E015B052BA003B7C98 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		169409E115B052BA003B7C98 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
@@ -72,8 +57,6 @@
 		16AAF6AE15B16B7800B6402D /* LTLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTLocale.m; sourceTree = "<group>"; };
 		16AAF6B415B16F3C00B6402D /* LTParser+ViewInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTParser+ViewInit.h"; sourceTree = "<group>"; };
 		16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTParser+ViewInit.m"; sourceTree = "<group>"; };
-		16AAF6B915B181C500B6402D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		16AAF6BA15B181C500B6402D /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		16C6050C15653C30005C03C7 /* Latte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C6051015653C30005C03C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16C6051215653C30005C03C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -135,20 +118,11 @@
 		165B42461581FFC700395A6F /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				16AAF6B915B181C500B6402D /* logo.png */,
-				16AAF6BA15B181C500B6402D /* logo@2x.png */,
-				165B42471581FFC700395A6F /* blackseparator.png */,
-				165B42481581FFC700395A6F /* blackseparator@2x.png */,
-				165B42491581FFC700395A6F /* DemoCell.latte */,
 				165B424A1581FFC700395A6F /* DemoObject.h */,
 				165B424B1581FFC700395A6F /* DemoObject.m */,
 				165B424C1581FFC700395A6F /* DemoTableViewController.h */,
 				165B424D1581FFC700395A6F /* DemoTableViewController.m */,
-				165B424E1581FFC700395A6F /* leather.png */,
-				165B424F1581FFC700395A6F /* leather@2x.png */,
 				1695BBB3160C8F6A00D825C7 /* DemoCell.json */,
-				071BC124160F00E300D71074 /* AutoLayoutTestViewController.h */,
-				071BC125160F00E300D71074 /* AutoLayoutTestViewController.m */,
 				071BC128160F31F400D71074 /* AutoLayoutExampleViewController.h */,
 				071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */,
 				071BC12B160F320800D71074 /* AutoLayoutExample.json */,
@@ -289,13 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				16C6051B15653C30005C03C7 /* InfoPlist.strings in Resources */,
-				165B42531581FFC700395A6F /* blackseparator.png in Resources */,
-				165B42541581FFC700395A6F /* blackseparator@2x.png in Resources */,
-				165B42551581FFC700395A6F /* DemoCell.latte in Resources */,
-				165B42581581FFC700395A6F /* leather.png in Resources */,
-				165B42591581FFC700395A6F /* leather@2x.png in Resources */,
-				16AAF6BB15B181C500B6402D /* logo.png in Resources */,
-				16AAF6BC15B181C500B6402D /* logo@2x.png in Resources */,
 				1695BBB4160C8F6A00D825C7 /* DemoCell.json in Resources */,
 				071BC12C160F320800D71074 /* AutoLayoutExample.json in Resources */,
 			);
@@ -340,7 +307,6 @@
 				16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */,
 				16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */,
 				16CEEDB81607572A0037C418 /* LTAppearance.m in Sources */,
-				071BC126160F00E300D71074 /* AutoLayoutTestViewController.m in Sources */,
 				071BC12A160F31F400D71074 /* AutoLayoutExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
