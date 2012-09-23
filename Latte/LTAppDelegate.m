@@ -13,7 +13,7 @@
 #import "LTWatchFileServer.h"
 #import "DemoTableViewController.h"
 #import "AutoLayoutExampleViewController.h"
-
+#import "SkypeRecentViewController.h"
 
 @implementation LTAppDelegate
 
@@ -29,7 +29,9 @@
     // Override point for customization after application launch.
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	//AutoLayoutTestViewController *vc = [[AutoLayoutTestViewController alloc] init];
-	AutoLayoutExampleViewController *vc = [[AutoLayoutExampleViewController alloc] init];
+	//AutoLayoutExampleViewController *vc = [[AutoLayoutExampleViewController alloc] init];
+	SkypeRecentViewController *vc = [[SkypeRecentViewController alloc] init];
+
 	self.window.rootViewController = vc;
 	
     [self.window makeKeyAndVisible];

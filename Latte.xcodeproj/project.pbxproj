@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		071BC12A160F31F400D71074 /* AutoLayoutExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */; };
 		071BC12C160F320800D71074 /* AutoLayoutExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 071BC12B160F320800D71074 /* AutoLayoutExample.json */; };
+		071BC133160F5C4A00D71074 /* MockContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BC132160F5C4A00D71074 /* MockContact.m */; };
+		071BC136160F5F0F00D71074 /* SkypeRecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BC135160F5F0F00D71074 /* SkypeRecentViewController.m */; };
+		071BC13D160F622700D71074 /* SkypeRecentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BC13C160F622700D71074 /* SkypeRecentCell.m */; };
+		071BC13F160F62F200D71074 /* SkypeRecentCell.json in Resources */ = {isa = PBXBuildFile; fileRef = 071BC13E160F62F200D71074 /* SkypeRecentCell.json */; };
 		16558BB8158232CF00FFB2E2 /* LTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 16558BB7158232CF00FFB2E2 /* LTContext.m */; };
 		165A27E7157D685900942BFD /* NSString+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E6157D685900942BFD /* NSString+LTAdditions.m */; };
 		165A27EA157D6B2900942BFD /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E9157D6B2900942BFD /* LTView.m */; };
@@ -37,6 +41,13 @@
 		071BC128160F31F400D71074 /* AutoLayoutExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutExampleViewController.h; sourceTree = "<group>"; };
 		071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutExampleViewController.m; sourceTree = "<group>"; };
 		071BC12B160F320800D71074 /* AutoLayoutExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AutoLayoutExample.json; sourceTree = "<group>"; };
+		071BC131160F5C4A00D71074 /* MockContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockContact.h; sourceTree = "<group>"; };
+		071BC132160F5C4A00D71074 /* MockContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockContact.m; sourceTree = "<group>"; };
+		071BC134160F5F0F00D71074 /* SkypeRecentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkypeRecentViewController.h; sourceTree = "<group>"; };
+		071BC135160F5F0F00D71074 /* SkypeRecentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkypeRecentViewController.m; sourceTree = "<group>"; };
+		071BC13B160F622700D71074 /* SkypeRecentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkypeRecentCell.h; sourceTree = "<group>"; };
+		071BC13C160F622700D71074 /* SkypeRecentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkypeRecentCell.m; sourceTree = "<group>"; };
+		071BC13E160F62F200D71074 /* SkypeRecentCell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SkypeRecentCell.json; sourceTree = "<group>"; };
 		16558BB6158232CF00FFB2E2 /* LTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTContext.h; sourceTree = "<group>"; };
 		16558BB7158232CF00FFB2E2 /* LTContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTContext.m; sourceTree = "<group>"; };
 		165A27E5157D685900942BFD /* NSString+LTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LTAdditions.h"; sourceTree = "<group>"; };
@@ -96,6 +107,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		071BC12D160F5B6600D71074 /* SkypeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				071BC13A160F5F3600D71074 /* Recent */,
+				071BC131160F5C4A00D71074 /* MockContact.h */,
+				071BC132160F5C4A00D71074 /* MockContact.m */,
+			);
+			path = SkypeDemo;
+			sourceTree = "<group>";
+		};
+		071BC13A160F5F3600D71074 /* Recent */ = {
+			isa = PBXGroup;
+			children = (
+				071BC134160F5F0F00D71074 /* SkypeRecentViewController.h */,
+				071BC135160F5F0F00D71074 /* SkypeRecentViewController.m */,
+				071BC13B160F622700D71074 /* SkypeRecentCell.h */,
+				071BC13C160F622700D71074 /* SkypeRecentCell.m */,
+				071BC13E160F62F200D71074 /* SkypeRecentCell.json */,
+			);
+			name = Recent;
+			sourceTree = "<group>";
+		};
 		16558BBC1582343900FFB2E2 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +143,7 @@
 		165B42451581FFC700395A6F /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				071BC12D160F5B6600D71074 /* SkypeDemo */,
 				165B42461581FFC700395A6F /* Demo */,
 			);
 			path = Other;
@@ -265,6 +299,7 @@
 				16C6051B15653C30005C03C7 /* InfoPlist.strings in Resources */,
 				1695BBB4160C8F6A00D825C7 /* DemoCell.json in Resources */,
 				071BC12C160F320800D71074 /* AutoLayoutExample.json in Resources */,
+				071BC13F160F62F200D71074 /* SkypeRecentCell.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +343,9 @@
 				16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */,
 				16CEEDB81607572A0037C418 /* LTAppearance.m in Sources */,
 				071BC12A160F31F400D71074 /* AutoLayoutExampleViewController.m in Sources */,
+				071BC133160F5C4A00D71074 /* MockContact.m in Sources */,
+				071BC136160F5F0F00D71074 /* SkypeRecentViewController.m in Sources */,
+				071BC13D160F622700D71074 /* SkypeRecentCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
