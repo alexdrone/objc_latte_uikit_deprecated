@@ -1,18 +1,18 @@
 {
 	"layout":[
 		{
-			"LT_isa":"UILabel",
-			"LT_class":"alabel",
-			"LT_id":"l1",
+			"@isa":"UILabel",
+			"@style":"alabel",
+			"@id":"l1",
 			"backgroundColor":"hex:00AFF0",
-			"text":"#{@bind(object.status)}",
+			"text":"hej: #{@bind(object.status)}",
 			"textColor":"uicolor:white",
 			"translatesAutoresizingMaskIntoConstraints":false
 		},
 		{
-			"LT_isa":"UILabel",
-			"LT_class":"alabel",
-			"LT_id":"l2",
+			"@isa":"UILabel",
+			"@style":"alabel",
+			"@id":"l2",
 			"backgroundColor":"hex:00AFF0",
 			"text":"#{@bind(object.status)}",
 			"textColor":"uicolor:white",

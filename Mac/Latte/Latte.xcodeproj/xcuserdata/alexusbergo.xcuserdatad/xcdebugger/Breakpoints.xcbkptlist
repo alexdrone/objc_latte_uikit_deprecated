@@ -65,7 +65,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "107"
          endingLineNumber = "107"
-         landmarkName = "-changeIPAddress:"
+         landmarkName = "-changeIconForStatus:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -78,7 +78,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "171"
          endingLineNumber = "171"
-         landmarkName = "-fileChanged:"
+         landmarkName = "-changeIPAddress:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -91,7 +91,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "178"
          endingLineNumber = "178"
-         landmarkName = "-fileChanged:"
+         landmarkName = "-changeIPAddress:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -104,7 +104,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "190"
          endingLineNumber = "190"
-         landmarkName = "-fileChanged:"
+         landmarkName = "-applyChangesToIPAddress:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -117,7 +117,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "170"
          endingLineNumber = "170"
-         landmarkName = "-fileChanged:"
+         landmarkName = "-changeIPAddress:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -130,7 +130,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "58"
          endingLineNumber = "58"
-         landmarkName = "-selectFiles"
+         landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -143,7 +143,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "70"
          endingLineNumber = "70"
-         landmarkName = "-selectFiles"
+         landmarkName = "-awakeFromNib"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -156,7 +156,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "57"
          endingLineNumber = "57"
-         landmarkName = "-selectFiles"
+         landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -169,7 +169,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "56"
          endingLineNumber = "56"
-         landmarkName = "-selectFiles"
+         landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -182,7 +182,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "172"
          endingLineNumber = "172"
-         landmarkName = "-fileChanged:"
+         landmarkName = "-changeIPAddress:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

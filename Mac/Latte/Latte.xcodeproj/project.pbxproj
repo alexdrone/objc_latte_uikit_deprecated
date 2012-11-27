@@ -18,8 +18,6 @@
 		16F40ED015ADCEFF0003DE06 /* icon-sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F40ECA15ADCEFF0003DE06 /* icon-sel.png */; };
 		16F40ED215ADCEFF0003DE06 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F40ECC15ADCEFF0003DE06 /* icon.png */; };
 		16F40ED615ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F40ED515ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.m */; };
-		16F40EE315ADFB940003DE06 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F40EE215ADFB940003DE06 /* appicon.png */; };
-		16F40EE615ADFB980003DE06 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F40EE515ADFB980003DE06 /* appicon.png */; };
 		16F4D6ED15A057B000C6C773 /* UKFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D6E515A057B000C6C773 /* UKFileWatcher.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
 		16F4D6EE15A057B000C6C773 /* UKFNSubscribeFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D6E715A057B000C6C773 /* UKFNSubscribeFileWatcher.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
 		16F4D6EF15A057B000C6C773 /* UKKQueue Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 16F4D6E815A057B000C6C773 /* UKKQueue Readme.txt */; };
@@ -48,8 +46,6 @@
 		16F40ECC15ADCEFF0003DE06 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		16F40ED415ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+CanBecomeWindowKey.h"; sourceTree = "<group>"; };
 		16F40ED515ADDC8B0003DE06 /* NSWindow+CanBecomeWindowKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+CanBecomeWindowKey.m"; sourceTree = "<group>"; };
-		16F40EE215ADFB940003DE06 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
-		16F40EE515ADFB980003DE06 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = ../../appicon.png; sourceTree = "<group>"; };
 		16F4D6E415A057B000C6C773 /* UKFileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKFileWatcher.h; sourceTree = "<group>"; };
 		16F4D6E515A057B000C6C773 /* UKFileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKFileWatcher.m; sourceTree = "<group>"; };
 		16F4D6E615A057B000C6C773 /* UKFNSubscribeFileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKFNSubscribeFileWatcher.h; sourceTree = "<group>"; };
@@ -141,9 +137,7 @@
 		16F40EC715ADCEFF0003DE06 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				16F40EE515ADFB980003DE06 /* appicon.png */,
 				16F40EC815ADCEFF0003DE06 /* icon-inv.png */,
-				16F40EE215ADFB940003DE06 /* appicon.png */,
 				16F40ECA15ADCEFF0003DE06 /* icon-sel.png */,
 				16F40ECC15ADCEFF0003DE06 /* icon.png */,
 			);
@@ -224,8 +218,6 @@
 				16F40ECE15ADCEFF0003DE06 /* icon-inv.png in Resources */,
 				16F40ED015ADCEFF0003DE06 /* icon-sel.png in Resources */,
 				16F40ED215ADCEFF0003DE06 /* icon.png in Resources */,
-				16F40EE315ADFB940003DE06 /* appicon.png in Resources */,
-				16F40EE615ADFB980003DE06 /* appicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

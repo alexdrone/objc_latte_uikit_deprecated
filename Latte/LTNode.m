@@ -85,29 +85,26 @@ static NSUInteger LTNodeInstanceCounter = 0;
  * All the keys relates to the LTView.object property. */
 @implementation LTKVOTemplate
 
-@synthesize template = _template;
-@synthesize keypaths = _keypaths;
-@synthesize flags = _flags;
-
-#define BIND_PREFIX @"@bind("
-
 /* Creates a LTFormattedString with the given template (a string with the 
  * following format: "The string contains %@ different escapes %@") and
  * an array of keypaths */
 - (id)initWithTemplate:(NSString*)template andKeypaths:(NSArray*)keypaths
 {
     if (self = [super init]) {
-        
+
+        //@bind(
+        NSString *bindPrefix = [NSString stringWithFormat:@"%@(", kLTTagBind];
+
         self.template = template;
         self.keypaths = [NSMutableArray arrayWithCapacity:keypaths.count];
         self.flags    = [NSMutableArray arrayWithCapacity:keypaths.count];
         
         for (NSUInteger k = 0; k < keypaths.count; k++) {
             NSString *keypath = keypaths[k];
-            if ([keypath hasPrefix:BIND_PREFIX] && keypath.length > BIND_PREFIX.length + 2) {
+            if ([keypath hasPrefix:bindPrefix] && keypath.length > bindPrefix.length + 2) {
                                 
                 //tofix: ??? NSString *trimmed = [keypath substringWithRange:NSMakeRange(BIND_PREFIX.length, keypath.length-2)];
-                NSString *trimmed = [keypath stringByReplacingOccurrencesOfString:BIND_PREFIX withString:@""];
+                NSString *trimmed = [keypath stringByReplacingOccurrencesOfString:bindPrefix withString:@""];
                 trimmed = [trimmed stringByReplacingOccurrencesOfString:@")" withString:@""];
                 //end
                 
@@ -150,10 +147,6 @@ static NSUInteger LTNodeInstanceCounter = 0;
  * the associated property */
 @implementation LTTarget
 
-@synthesize object = _object;
-@synthesize keypath = _keypath;
-@synthesize template = _template;
-
 - (id)initWithObject:(id)object keyPath:(NSString*)keypath andTemplate:(id)template
 {
     if (self = [super init]) {
@@ -174,18 +167,17 @@ static NSUInteger LTNodeInstanceCounter = 0;
  * In the markup they are defined with the @context keyword */
 @implementation LTContextValueTemplate
 
-#define CONTEXT_PREFIX @"@context("
-
-@synthesize keypath = _keypath;
-
 /* Return a LTContextValueTemplate if the given string contains
  * a @context escaped value, nil otherwise */
 + (LTContextValueTemplate*)createFromString:(NSString*)keypath
 {
-    if (![keypath hasPrefix:CONTEXT_PREFIX]) return nil;
+    //@context(
+    NSString *contextPrefix = [NSString stringWithFormat:@"%@(", kLTTagContext];
+    
+    if (![keypath hasPrefix:contextPrefix]) return nil;
     
     //tofix: ??? NSString *trimmed = [keypath substringWithRange:NSMakeRange(CONTEXT_PREFIX.length, keypath.length-2)];
-    NSString *trimmed = [keypath stringByReplacingOccurrencesOfString:CONTEXT_PREFIX withString:@""];
+    NSString *trimmed = [keypath stringByReplacingOccurrencesOfString:contextPrefix withString:@""];
     trimmed = [trimmed stringByReplacingOccurrencesOfString:@")" withString:@""];
     
     LTContextValueTemplate *contextCondition = [[LTContextValueTemplate alloc] init];

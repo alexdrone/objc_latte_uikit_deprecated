@@ -120,15 +120,15 @@ NSArray *LTRenderViewsFromNodeChildren(LTNode *node, NSMutableArray **bindings, 
     //to the nodes in the parse tree
     for (LTNode *n in node.children) {
         
-        UIView *object = [[NSClassFromString(n.data[@"LT_isa"]) alloc] init];
+        UIView *object = [[NSClassFromString(n.data[kLTTagIsa]) alloc] init];
 
         if (!object) 
-            ERR(@"Class %@ not found", n.data[@"LT_isa"]);
+            ERR(@"Class %@ not found", n.data[kLTTagIsa]);
 		
 		//view dictionary to handle visual format languange constraints
-		if (viewsDictionary && n.data[@"LT_id"]) {
+		if (viewsDictionary && n.data[kLTTagId]) {
 			
-			NSString *viewId = n.data[@"LT_id"];
+			NSString *viewId = n.data[kLTTagId];
 		
 			//the visual layout language is not compatible
 			//with the # prefix
@@ -256,8 +256,6 @@ NSLayoutFormatOptions LTLayoutFormatOptionsFromArray(NSArray *array)
 	
 	return options;
 }
-
-
 
 #pragma mark -
 #pragma mark view lifecycle

@@ -13,7 +13,6 @@
 #import "LTWatchFileServer.h"
 #import "DemoTableViewController.h"
 #import "AutoLayoutExampleViewController.h"
-#import "SkypeRecentViewController.h"
 
 @implementation LTAppDelegate
 
@@ -30,8 +29,7 @@
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	//AutoLayoutTestViewController *vc = [[AutoLayoutTestViewController alloc] init];
 	//AutoLayoutExampleViewController *vc = [[AutoLayoutExampleViewController alloc] init];
-	SkypeRecentViewController *vc = [[SkypeRecentViewController alloc] init];
-
+	AutoLayoutExampleViewController *vc = [[AutoLayoutExampleViewController alloc] init];
 	self.window.rootViewController = vc;
 	
     [self.window makeKeyAndVisible];

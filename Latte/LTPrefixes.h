@@ -1,6 +1,28 @@
 #ifndef Latte_LTPrefixes_h
 #define Latte_LTPrefixes_h
 
+
+//Latte keywords/tags
+#define kLTTagIsa           @"@isa"
+#define kLTTagStyle         @"@style"
+#define kLTTagId            @"@id"
+#define kLTTagBind          @"@bind"
+#define kLTTagContext       @"@context"
+
+//Latte value annotation
+#define kLTTagSeparator     @":"
+#define kLTTagColor         @"@color"
+#define kLTTagColorHex      @"@color-hex"
+#define kLTTagColorRgb      @"@color-rgb"
+#define kLTTagColorPattern  @"@color-pattern"
+#define kLTTagFont          @"@font"
+#define kLTTagImage         @"@image"
+
+//Latte section
+#define kLTTagLayout        @"@layout"
+#define kLTTagStylesheet    @"@stylesheet"
+#define kLTTagConstraints   @"@constraints"
+
 //imports
 #import <JSONKit.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>

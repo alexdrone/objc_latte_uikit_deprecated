@@ -10,6 +10,8 @@
 #import "LTPrefixes.h"
 #import "AsyncSocket.h"
 
+#define kLTPayloadSeparator @"payload"
+
 @interface LTWatchFileServer ()
 
 @property (strong) NSMutableDictionary *observers;
@@ -75,9 +77,9 @@
 {
     if (NO == [self isRunning]) return;
 
-    [_socket disconnect];
+    [self.socket disconnect];
 
-    for (AsyncSocket *c in _clients)
+    for (AsyncSocket *c in self.clients)
         [c disconnect];
 
     self.running = NO;
@@ -90,12 +92,12 @@
     //unable to register a view that is not linked to a file
     if (nil == view.filename) return;
     
-    NSMutableArray *views = _observers[view.filename];
+    NSMutableArray *views = self.observers[view.filename];
     if (nil == views) 
         views = [[NSMutableArray alloc] init];
     
     [views addObject:view];
-    _observers[view.filename] = views;
+    self.observers[view.filename] = views;
 }
 
 - (void)deregisterView:(LTView*)view
@@ -103,7 +105,7 @@
     //unable to deregister a view that is not linked to a file
     if (nil == view.filename) return;
     
-    NSMutableArray *views = _observers [view.filename];
+    NSMutableArray *views = self.observers [view.filename];
     [views removeObject:view];
 }
 
@@ -111,12 +113,12 @@
 
 - (void)onSocket:(AsyncSocket *)socket didAcceptNewSocket:(AsyncSocket*)newSocket 
 {
-	[_clients addObject:newSocket];
+	[self.clients addObject:newSocket];
 }
 
 - (void)onSocketDidDisconnect:(AsyncSocket*)socket 
 {
-	[_clients removeObject:socket];
+	[self.clients removeObject:socket];
 }
 
 - (void)onSocket:(AsyncSocket*)socket didConnectToHost:(NSString*)host port:(UInt16)port;
@@ -135,8 +137,7 @@
                 
         //the view name is set in the first line of the markup file
         //rawdata (for compatibilitiy with the old node.js client)
-        NSString *latte = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] componentsSeparatedByString:@"PAYLOAD"][1];
-        
+        NSString *latte = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] componentsSeparatedByString:kLTPayloadSeparator][1];
         NSString *filename = [[[latte componentsSeparatedByString:@"\n"][0] componentsSeparatedByString:@"."][0] substringFromIndex:2];
         
         //remove the pathname

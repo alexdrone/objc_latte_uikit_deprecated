@@ -27,7 +27,6 @@
 - (id)init
 {
     if (self = [super init]) {
- 
         self.LTIsInterfaceIdiomiPad = @(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad);
         self.LTIsInterfaceIdiomiPhone = @(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone);
         self.LTScreenBounds = [NSValue valueWithCGRect:[UIScreen mainScreen].bounds];

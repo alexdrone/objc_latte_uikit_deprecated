@@ -17,10 +17,10 @@
 @interface UIView (LTAdditions)
 
 @property (strong) NSString *LT_id;
-@property (strong) NSString *LT_class;
+@property (strong) NSString *LT_style;
 
 - (UIView*)$:(NSString*)LT_id;
-- (void)applyClass:(NSString*)LT_class;
-- (void)applyClassRecursively:(NSString*)LT_class;
+- (void)applyStyle:(NSString*)LT_style;
+- (void)applyStyleRecursively:(NSString*)LT_style;
 
 @end

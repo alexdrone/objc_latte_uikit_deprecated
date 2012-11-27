@@ -20,7 +20,6 @@
 - (id)init
 {
     if (self = [super init]) {
-        
         self.keys = [[NSMutableDictionary alloc] init];
         self.appereance = [LTAppearance sharedInstance];
     }
