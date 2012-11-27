@@ -135,7 +135,7 @@ static LTMenu *sharedInstace = nil;
                                                encoding:NSUTF8StringEncoding
                                                   error:&error];
     //Formatting the file
-    file = [NSString stringWithFormat:@"//filename:%@\n%@", path, file];
+    file = [NSString stringWithFormat:@"//payload //%@\n%@", path, file];
     
     if (nil != error) {
         NSLog(@"Unable to encode the file: %@", error.description);

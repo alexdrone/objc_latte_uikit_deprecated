@@ -17,7 +17,9 @@
     /* Want to be cutting edge?
      * Autolayout constraints can be sepecified in the @constraints secion */
 	"@constraints":[
-		{"format":"H:|-margin-[l1(100)]-margin-[l2(100)]","options":["baseline"],"metrics":{"margin":30}},
-		{"format":"V:|-[l1(20)]"}
+		{"format":"H:|-margin-[l1(140)]-margin-[l2(80)]","options":["baseline"],"metrics":{"margin":30}},
+		{"format":"V:|-[l1(50)]"},
+		{"format":"V:|-[l2(50)]"}
+		
 	]
 }

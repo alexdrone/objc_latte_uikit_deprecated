@@ -47,7 +47,7 @@
 
 /* Replaces the current caches for a given key */
 - (void)replaceCacheForFile:(NSString*)key withNode:(LTNode*)node
-{
+{    
     NSLog(@"Cache: Replacing key - %@", key);
     [self.cache setObject:node forKey:key];
 }

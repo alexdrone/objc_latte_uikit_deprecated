@@ -10,7 +10,7 @@
 #import "LTPrefixes.h"
 #import "AsyncSocket.h"
 
-#define kLTPayloadSeparator @"payload"
+#define kLTPayloadSeparator @"//payload"
 
 @interface LTWatchFileServer ()
 
@@ -138,15 +138,19 @@
         //the view name is set in the first line of the markup file
         //rawdata (for compatibilitiy with the old node.js client)
         NSString *latte = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] componentsSeparatedByString:kLTPayloadSeparator][1];
-        NSString *filename = [[[latte componentsSeparatedByString:@"\n"][0] componentsSeparatedByString:@"."][0] substringFromIndex:2];
+        NSString *filename = [latte componentsSeparatedByString:@"\n"][0];
         
         //remove the pathname
         filename = [[filename componentsSeparatedByString:@"/"] lastObject];
+        
+        //remove the suffix from the file if specified
+        if ([filename hasSuffix:@".json"])
+            filename = [filename stringByReplacingOccurrencesOfString:@".json" withString:@""];
 	    
         [[LTParser sharedInstance] replaceCacheForFile:filename 
                                               withNode:[[LTParser sharedInstance] parseMarkup:latte]];
-        
-        for (LTView *v in _observers[filename])
+                
+        for (LTView *v in self.observers[filename])
             [v loadViewFromLatteFile:filename];
     }
     
