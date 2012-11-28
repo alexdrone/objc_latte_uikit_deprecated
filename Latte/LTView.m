@@ -276,7 +276,7 @@ NSLayoutFormatOptions LTLayoutFormatOptionsFromArray(NSArray *array)
         for (NSUInteger i = 0; i < ((LTKVOTemplate*)target.template).keypaths.count; i++)
             
             //if the template is flagged as bound - that means that it requires KVO observation
-            if ([((LTKVOTemplate*)target.template).flags[i] intValue] == kLTKVOFlagBound) {
+            if ([((LTKVOTemplate*)target.template).flags[i] intValue] == LTBindOptionBound) {
                 
                 //get the right keypath value
                 NSString *key = ((LTKVOTemplate*)target.template).keypaths[i];

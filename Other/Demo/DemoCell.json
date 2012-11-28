@@ -1,43 +1,14 @@
 {
-	"layout":[
+	"@layout":[
 		{
 			"@isa":"UILabel",
-			"@style":"alabel",
 			"@id":"l1",
-			"backgroundColor":"hex:00AFF0",
+			"backgroundColor":"@color-hex:00aff0",
 			"text":"hej: #{@bind(object.status)}",
-			"textColor":"uicolor:white",
-			"translatesAutoresizingMaskIntoConstraints":false
-		},
-		{
-			"@isa":"UILabel",
-			"@style":"alabel",
-			"@id":"l2",
-			"backgroundColor":"hex:00AFF0",
-			"text":"#{@bind(object.status)}",
-			"textColor":"uicolor:white",
-			"translatesAutoresizingMaskIntoConstraints":false
+			"textColor":"@color:black",
+			"frame":[0,0,300,40],
+			"font":"@font:Arial,10"
 		}
-			
-	],
-	
-	"constraints":[
-		{
-			"format":"|-20-[l1(100)]-20-[l2(100)]",
-			"options": [],
-			"metrics": []
-		},
-		{
-			"format":"V:|-[l1(20)]|",
-			"options": [],
-			"metrics": []
-		},
-		{
-			"format":"V:[l1(==l2)]",
-			"options": [],
-			"metrics": []
-		}
-		
 	]		  
 }
 			  

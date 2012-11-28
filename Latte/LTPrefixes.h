@@ -7,7 +7,7 @@
 #define kLTTagStyle         @"@style"
 #define kLTTagId            @"@id"
 #define kLTTagBind          @"@bind"
-#define kLTTagContext       @"@context"
+#define kLTTagContext       @"@context-value"
 #define kLTTagSubviews      @"@subviews"
 
 //Latte value annotation

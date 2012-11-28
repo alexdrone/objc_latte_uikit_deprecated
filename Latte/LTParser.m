@@ -71,7 +71,7 @@
             NSLog(@"Cache: Recreating key for %@", filename);
         
         [self.cache setObject:node forKey:filename];
-        return node;  
+        return node;
     }
     
     else return nil;

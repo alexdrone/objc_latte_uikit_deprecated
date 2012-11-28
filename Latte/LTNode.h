@@ -29,8 +29,11 @@
 
 @end
 
-#define kLTKVOFlagBound 1
-#define kLTKVOFlagNone  0
+/* Options used in the LTKVOTemplate's flags */
+NS_ENUM(BOOL, LTBindOption) {
+	LTBindOptionNone,
+	LTBindOptionBound
+};
 
 /* It represent a template for text formatting.
  * It's associated to the targetted object keypaths. */

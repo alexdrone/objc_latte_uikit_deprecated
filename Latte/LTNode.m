@@ -42,20 +42,29 @@ static NSUInteger LTNodeInstanceCounter = 0;
     _data = data;
     
     for (NSString *k in [_data allKeys]) {
+		
+		//the value
         id obj = _data[k];
+		LTContextValueTemplate *contextCondition = nil;
         
         if (![obj isKindOfClass:NSString.class]) continue;
             
+		//Tries to create the templates
+		
        /* tries to create kvo template */ id keypaths, template;
         if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj))        
             _data[k] = [[LTKVOTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
         
-        else {
-            LTContextValueTemplate *contextCondition = nil;
-            if (LTGetContextConditionFromString(&contextCondition, obj))
-                _data[k] = contextCondition;
-        }
+        else if (LTGetContextConditionFromString(&contextCondition, obj))
+			_data[k] = contextCondition;
+		
+		else
+			_data[k] = LTParsePrimitiveTypes(obj);
+	
     }
+	
+	
+	//flatten the primitive types in the node
 }
 
 /* Returns the node description with all its children */
@@ -108,12 +117,12 @@ static NSUInteger LTNodeInstanceCounter = 0;
                 //end
                 
                 [(NSMutableArray*)self.keypaths addObject:trimmed];
-                [(NSMutableArray*)self.flags addObject:@kLTKVOFlagBound];
+                [(NSMutableArray*)self.flags addObject:@(LTBindOptionBound)];
                 
             } else {
                 
                 [(NSMutableArray*)self.keypaths addObject:keypath];
-                [(NSMutableArray*)self.flags addObject:@kLTKVOFlagNone];
+                [(NSMutableArray*)self.flags addObject:@(LTBindOptionNone)];
             }
         }
     }

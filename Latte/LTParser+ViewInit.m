@@ -12,6 +12,64 @@
 
 @implementation LTParser (ViewInit)
 
+/* Tries to parse the primitive latte values such 
+ * as fonts, color, rects and images */
+id LTParsePrimitiveTypes(id object)
+{
+	id casted = object;
+	
+	if ([object isKindOfClass:NSString.class]) {
+		
+		//rgba color type
+		if ([object hasPrefix:kLTTagColorRgb]) {
+			
+			NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+			NSArray  *comps = [value componentsSeparatedByString:@","];
+			casted = LTRgbaUIColor([comps[0] floatValue], [comps[1] floatValue], [comps[2] floatValue], [comps[3] floatValue]);
+			
+			//hex color type
+		} else if ([object hasPrefix:kLTTagColorHex]) {
+			
+			NSScanner *scanner = [NSScanner scannerWithString:object];
+			NSUInteger result;
+			[scanner setScanLocation:kLTTagColorHex.length+1];
+			[scanner scanHexInt:&result];
+			
+			casted = LTHexUIColor(result);
+			
+			//ui color type
+		} else if ([object hasPrefix:kLTTagColor]) {
+			NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+			
+			//add the color suffix if it's missing (in order to perform a call to the color method
+			value = [value hasSuffix:@"Color"] ? value : [NSString stringWithFormat:@"%@Color", value];
+			
+			if (nil != class_getClassMethod(UIColor.class, NSSelectorFromString(value)))
+				casted = [UIColor performSelector:NSSelectorFromString(value)];
+			else
+				casted = [UIColor blackColor];
+			
+			//pattern
+		} else if ([object hasPrefix:kLTTagColorPattern]) {
+			NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+			casted = [UIColor colorWithPatternImage:[UIImage imageNamed:value]];
+			
+			//font type
+		} else if ([object hasPrefix:kLTTagFont]) {
+			NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+			NSArray  *comps = [value componentsSeparatedByString:@","];
+			casted = [UIFont fontWithName:comps[0] size:[comps[1] floatValue]];
+			
+			//image is still hardcoded
+		} else if ([object hasPrefix:kLTTagImage]) {
+			NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+			casted = [UIImage imageNamed:value];
+		}
+	}
+	
+	return casted;
+}
+
 /* Initialize the views by reading the Latte dictionary
  * passed as argument */
 void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictionary, NSMutableArray **bindings,
@@ -50,69 +108,23 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
             } else if ([object isKindOfClass:LTContextValueTemplate.class]) {
                 [*contextBindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
                 continue;
-                
-            } else if ([object isKindOfClass:NSString.class]) {
-                
-                //rgba color type
-                if ([object hasPrefix:kLTTagColorRgb]) {
-                    
-                    NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-                    NSArray  *comps = [value componentsSeparatedByString:@","];
-                    casted = LTRgbaUIColor([comps[0] floatValue], [comps[1] floatValue], [comps[2] floatValue], [comps[3] floatValue]);
-                    
-				//hex color type
-                } else if ([object hasPrefix:kLTTagColorHex]) {
-                    
-                    NSScanner *scanner = [NSScanner scannerWithString:object];
-                    NSUInteger result;
-                    [scanner setScanLocation:kLTTagColorHex.length+1];
-                    [scanner scanHexInt:&result];
-                    
-                    casted = LTHexUIColor(result);
-                    
-				//ui color type
-                } else if ([object hasPrefix:kLTTagColor]) {
-                    NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-                    
-                    //add the color suffix if it's missing (in order to perform a call to the color method 
-                    value = [value hasSuffix:@"Color"] ? value : [NSString stringWithFormat:@"%@Color", value];
-
-                    if (nil != class_getClassMethod(UIColor.class, NSSelectorFromString(value)))
-                        casted = [UIColor performSelector:NSSelectorFromString(value)];
-                    else
-                        casted = [UIColor blackColor];
-                    
-				//pattern
-                } else if ([object hasPrefix:kLTTagColorPattern]) {
-                    NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-                    casted = [UIColor colorWithPatternImage:[UIImage imageNamed:value]];
-                    
-				//font type
-                } else if ([object hasPrefix:kLTTagFont]) {
-                    NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-                    NSArray  *comps = [value componentsSeparatedByString:@","];
-                    casted = [UIFont fontWithName:comps[0] size:[comps[1] floatValue]];
-                    
-				 //image is still hardcoded
-                } else if ([object hasPrefix:kLTTagImage]) {
-                    NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-                    casted = [UIImage imageNamed:value];
-                }
-                
-            } else if ([object isKindOfClass:NSArray.class]) {
-                
-                //is a CGRect
-                if ([object count] == 4)  {
-                    CGRect rect = CGRectMake([object[0] floatValue], [object[1] floatValue], [object[2] floatValue], [object[3] floatValue]);
-                    casted = [NSValue valueWithCGRect:rect];
-                    
-				//is a CGPoint
-                } else if ([object count] == 2)  {
-                    CGPoint point = CGPointMake([object[0] floatValue], [object[1] floatValue]);
-                    casted = [NSValue valueWithCGPoint:point];
-                }
-            }
             
+			//primitives should be converted during the rendering
+			} else if ([object isKindOfClass:NSArray.class]) {
+				
+				//is a CGRect
+				if ([object count] == 4)  {
+					CGRect rect = CGRectMake([object[0] floatValue], [object[1] floatValue], [object[2] floatValue], [object[3] floatValue]);
+					casted = [NSValue valueWithCGRect:rect];
+					
+				//is a CGPoint
+				} else if ([object count] == 2)  {
+					CGPoint point = CGPointMake([object[0] floatValue], [object[1] floatValue]);
+					casted = [NSValue valueWithCGPoint:point];
+				}
+			}
+			
+			//tries to set the object for the given key
             if ([view respondsToSelector:NSSelectorFromString(key)])
                 [view setValue:casted forKeyPath:key];
         } 
