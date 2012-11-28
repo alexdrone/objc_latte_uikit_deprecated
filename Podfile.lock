@@ -1,4 +1,9 @@
 
+SPEC CHECKSUMS: 
+  ReactiveCocoa: 91db490e45e4b2f42405886dd327270bb2d49f02
+  Kiwi: 06407ae4d33a33310aed1202113d002eda1d56eb
+  JSONKit: 92ae5f71b77c8dec0cd8d0744adab79d38560949
+
 PODS: 
 - JSONKit (1.4)
 - Kiwi (1.1.1)
@@ -10,8 +15,3 @@ DEPENDENCIES:
 - JSONKit
 - Kiwi
 - ReactiveCocoa
-
-SPEC CHECKSUMS: 
-  JSONKit: 92ae5f71b77c8dec0cd8d0744adab79d38560949
-  Kiwi: 06407ae4d33a33310aed1202113d002eda1d56eb
-  ReactiveCocoa: 91db490e45e4b2f42405886dd327270bb2d49f02

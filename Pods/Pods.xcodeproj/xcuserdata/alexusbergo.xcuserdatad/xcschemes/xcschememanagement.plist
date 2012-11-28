@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-LatteTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0140EB9822CC421B87485F67</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1456FD938AD9403896E60C2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>294EF93283FE46CDBEF7BAD5</key>
 		<dict>
 			<key>primary</key>
@@ -28,6 +43,21 @@
 			<true/>
 		</dict>
 		<key>C933151B25554E678C4FA7A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB53E9B7BDAE4EF3BBF6459D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA9F990280C24AB68C840740</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE7B82D3C5214006A17B5A95</key>
 		<dict>
 			<key>primary</key>
 			<true/>

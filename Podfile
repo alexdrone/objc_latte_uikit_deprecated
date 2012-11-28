@@ -1,4 +1,7 @@
 platform :ios
-dependency 'JSONKit'
-dependency 'ReactiveCocoa'
-dependency 'Kiwi'
+pod 'JSONKit'
+pod 'ReactiveCocoa'
+
+target :LatteTest, :exclusive => true do
+    pod 'Kiwi'
+end

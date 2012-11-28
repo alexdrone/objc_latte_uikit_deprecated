@@ -10,7 +10,6 @@
 		071BC12A160F31F400D71074 /* AutoLayoutExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */; };
 		071BC12C160F320800D71074 /* AutoLayoutExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 071BC12B160F320800D71074 /* AutoLayoutExample.json */; };
 		071C7DC616662AD200F57F0B /* TestData.h in Sources */ = {isa = PBXBuildFile; fileRef = 071C7DC516662AD200F57F0B /* TestData.h */; };
-		07D9D7FC16663E420097D393 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160DE96816661F8200F7F222 /* SenTestingKit.framework */; };
 		160DE99616661FD200F7F222 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160DE96816661F8200F7F222 /* SenTestingKit.framework */; };
 		160DE99716661FD200F7F222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051015653C30005C03C7 /* UIKit.framework */; };
 		160DE99816661FD200F7F222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051215653C30005C03C7 /* Foundation.framework */; };
@@ -31,6 +30,7 @@
 		1619CA6D1666280A006EBCEF /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
 		1619CA6E1666283C006EBCEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051415653C30005C03C7 /* CoreGraphics.framework */; };
 		1619CA6F16662845006EBCEF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165B425B158202C000395A6F /* CFNetwork.framework */; };
+		1619CA7C16663F8D006EBCEF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160DE96816661F8200F7F222 /* SenTestingKit.framework */; };
 		16558BB8158232CF00FFB2E2 /* LTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 16558BB7158232CF00FFB2E2 /* LTContext.m */; };
 		165A27E7157D685900942BFD /* NSString+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E6157D685900942BFD /* NSString+LTAdditions.m */; };
 		165A27EA157D6B2900942BFD /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E9157D6B2900942BFD /* LTView.m */; };
@@ -53,6 +53,7 @@
 		16E06D141664BF2C002E827D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E06D131664BF2C002E827D /* Default-568h@2x.png */; };
 		16E703901565687200EDB943 /* LTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E7038F1565687200EDB943 /* LTParser.m */; };
 		16E70394156568DB00EDB943 /* LTNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E70393156568DB00EDB943 /* LTNode.m */; };
+		54FB366A8E254A839D792C92 /* libPods-LatteTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C9C22DE50F45BBB87FB369 /* libPods-LatteTest.a */; };
 		6E98FECE668E4E6E811CFD11 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F125DF37266C473F82E94C08 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -61,13 +62,13 @@
 		071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutExampleViewController.m; sourceTree = "<group>"; };
 		071BC12B160F320800D71074 /* AutoLayoutExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AutoLayoutExample.json; sourceTree = "<group>"; };
 		071C7DC516662AD200F57F0B /* TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestData.h; sourceTree = "<group>"; };
-		160DE96816661F8200F7F222 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		160DE96816661F8200F7F222 /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		160DE99516661FD200F7F222 /* LatteTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatteTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		160DE99B16661FD200F7F222 /* LatteTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LatteTest-Info.plist"; sourceTree = "<group>"; };
 		160DE99D16661FD200F7F222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		160DE9A216661FD200F7F222 /* LatteTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LatteTest-Prefix.pch"; sourceTree = "<group>"; };
 		160DE9A81666204600F7F222 /* LTParserSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTParserSpecs.m; sourceTree = "<group>"; };
-		160DE9AA166620C200F7F222 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		160DE9AA166620C200F7F222 /* libPods.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		1619CA6016662511006EBCEF /* Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Test.json; sourceTree = "<group>"; };
 		16558BB6158232CF00FFB2E2 /* LTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTContext.h; sourceTree = "<group>"; };
 		16558BB7158232CF00FFB2E2 /* LTContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTContext.m; sourceTree = "<group>"; };
@@ -81,7 +82,7 @@
 		165B424B1581FFC700395A6F /* DemoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoObject.m; sourceTree = "<group>"; };
 		165B424C1581FFC700395A6F /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
 		165B424D1581FFC700395A6F /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
-		165B425B158202C000395A6F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		165B425B158202C000395A6F /* CFNetwork.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		169409E015B052BA003B7C98 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		169409E115B052BA003B7C98 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 		1695BBB3160C8F6A00D825C7 /* DemoCell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoCell.json; sourceTree = "<group>"; };
@@ -90,9 +91,9 @@
 		16AAF6B415B16F3C00B6402D /* LTParser+ViewInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTParser+ViewInit.h"; sourceTree = "<group>"; };
 		16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTParser+ViewInit.m"; sourceTree = "<group>"; };
 		16C6050C15653C30005C03C7 /* Latte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latte.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		16C6051015653C30005C03C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		16C6051215653C30005C03C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		16C6051415653C30005C03C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16C6051015653C30005C03C7 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16C6051215653C30005C03C7 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16C6051415653C30005C03C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		16C6051815653C30005C03C7 /* Latte-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Latte-Info.plist"; sourceTree = "<group>"; };
 		16C6051A15653C30005C03C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16C6051C15653C30005C03C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -109,6 +110,8 @@
 		16E70392156568DB00EDB943 /* LTNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTNode.h; sourceTree = "<group>"; };
 		16E70393156568DB00EDB943 /* LTNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTNode.m; sourceTree = "<group>"; };
 		16E703951565748000EDB943 /* LTPrefixes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPrefixes.h; sourceTree = "<group>"; };
+		19C9C22DE50F45BBB87FB369 /* libPods-LatteTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LatteTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2601AB49C1F64FF9B8B0EF53 /* Pods-LatteTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatteTest.xcconfig"; path = "Pods/Pods-LatteTest.xcconfig"; sourceTree = SOURCE_ROOT; };
 		905653C30CA04287B7C94846 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		F125DF37266C473F82E94C08 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -124,6 +127,7 @@
 				160DE99616661FD200F7F222 /* SenTestingKit.framework in Frameworks */,
 				160DE99716661FD200F7F222 /* UIKit.framework in Frameworks */,
 				160DE99816661FD200F7F222 /* Foundation.framework in Frameworks */,
+				54FB366A8E254A839D792C92 /* libPods-LatteTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,11 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				165B425C158202C000395A6F /* CFNetwork.framework in Frameworks */,
-				16C6051115653C30005C03C7 /* UIKit.framework in Frameworks */,
-				16C6051315653C30005C03C7 /* Foundation.framework in Frameworks */,
 				16C6051515653C30005C03C7 /* CoreGraphics.framework in Frameworks */,
 				6E98FECE668E4E6E811CFD11 /* libPods.a in Frameworks */,
-				07D9D7FC16663E420097D393 /* SenTestingKit.framework in Frameworks */,
+				1619CA7C16663F8D006EBCEF /* SenTestingKit.framework in Frameworks */,
+				16C6051115653C30005C03C7 /* UIKit.framework in Frameworks */,
+				16C6051315653C30005C03C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +222,7 @@
 				16C6050F15653C30005C03C7 /* Frameworks */,
 				16C6050D15653C30005C03C7 /* Products */,
 				905653C30CA04287B7C94846 /* Pods.xcconfig */,
+				2601AB49C1F64FF9B8B0EF53 /* Pods-LatteTest.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -241,6 +246,7 @@
 				16C6051415653C30005C03C7 /* CoreGraphics.framework */,
 				F125DF37266C473F82E94C08 /* libPods.a */,
 				160DE96816661F8200F7F222 /* SenTestingKit.framework */,
+				19C9C22DE50F45BBB87FB369 /* libPods-LatteTest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -295,6 +301,7 @@
 				160DE99116661FD200F7F222 /* Frameworks */,
 				160DE99216661FD200F7F222 /* Resources */,
 				160DE99316661FD200F7F222 /* ShellScript */,
+				2E96894477DB46B5873F7352 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -387,6 +394,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		2E96894477DB46B5873F7352 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-LatteTest-resources.sh\"\n";
+		};
 		97AD29B9FE0A4F72968F7E73 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,6 +492,7 @@
 /* Begin XCBuildConfiguration section */
 		160DE9A416661FD200F7F222 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2601AB49C1F64FF9B8B0EF53 /* Pods-LatteTest.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -495,10 +517,6 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PODS_BUILD_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/BuildHeaders\" \"${PODS_ROOT}/BuildHeaders/JSONKit\" \"${PODS_ROOT}/BuildHeaders/Kiwi\" \"${PODS_ROOT}/BuildHeaders/ReactiveCocoa\"";
-				PODS_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/Headers\" \"${PODS_ROOT}/Headers/JSONKit\" \"${PODS_ROOT}/Headers/Kiwi\" \"${PODS_ROOT}/Headers/ReactiveCocoa\"";
-				PODS_PUBLIC_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/Headers\" \"${PODS_ROOT}/Headers/JSONKit\" \"${PODS_ROOT}/Headers/Kiwi\" \"${PODS_ROOT}/Headers/ReactiveCocoa\"";
-				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${PODS_HEADERS_SEARCH_PATHS}";
 				WRAPPER_EXTENSION = octest;
@@ -507,6 +525,7 @@
 		};
 		160DE9A516661FD200F7F222 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2601AB49C1F64FF9B8B0EF53 /* Pods-LatteTest.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -530,10 +549,6 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PODS_BUILD_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/BuildHeaders\" \"${PODS_ROOT}/BuildHeaders/JSONKit\" \"${PODS_ROOT}/BuildHeaders/Kiwi\" \"${PODS_ROOT}/BuildHeaders/ReactiveCocoa\"";
-				PODS_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/Headers\" \"${PODS_ROOT}/Headers/JSONKit\" \"${PODS_ROOT}/Headers/Kiwi\" \"${PODS_ROOT}/Headers/ReactiveCocoa\"";
-				PODS_PUBLIC_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/Headers\" \"${PODS_ROOT}/Headers/JSONKit\" \"${PODS_ROOT}/Headers/Kiwi\" \"${PODS_ROOT}/Headers/ReactiveCocoa\"";
-				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${PODS_HEADERS_SEARCH_PATHS}";
 				WRAPPER_EXTENSION = octest;
@@ -595,6 +610,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP3.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Latte/Latte-Prefix.pch";
@@ -614,6 +630,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP3.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Latte/Latte-Prefix.pch";
