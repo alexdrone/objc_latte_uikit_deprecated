@@ -24,9 +24,6 @@
 /* The information about the node. (the json data related to it) */
 @property (strong) NSMutableDictionary *data;
 
-/* All the binded keys in the object */
-@property (strong) NSMutableArray *binds;
-
 /* Autolayout visual constraints */
 @property (strong) NSMutableArray *constraints;
 

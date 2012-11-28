@@ -15,7 +15,7 @@
 /* Initialize the views by reading the Latte dictionary
  * passed as argument */
 void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictionary, NSMutableArray **bindings,
-                                              NSMutableArray **contextBindings)
+											  NSMutableArray **contextBindings)
 {
     for (NSString *key in dictionary.allKeys) {
         
@@ -60,7 +60,7 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
                     NSArray  *comps = [value componentsSeparatedByString:@","];
                     casted = LTRgbaUIColor([comps[0] floatValue], [comps[1] floatValue], [comps[2] floatValue], [comps[3] floatValue]);
                     
-                    //hex color type
+				//hex color type
                 } else if ([object hasPrefix:kLTTagColorHex]) {
                     
                     NSScanner *scanner = [NSScanner scannerWithString:object];
@@ -70,7 +70,7 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
                     
                     casted = LTHexUIColor(result);
                     
-                    //ui color type
+				//ui color type
                 } else if ([object hasPrefix:kLTTagColor]) {
                     NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
                     
@@ -82,18 +82,18 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
                     else
                         casted = [UIColor blackColor];
                     
-                    //pattern
+				//pattern
                 } else if ([object hasPrefix:kLTTagColorPattern]) {
                     NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
                     casted = [UIColor colorWithPatternImage:[UIImage imageNamed:value]];
                     
-                    //font type
+				//font type
                 } else if ([object hasPrefix:kLTTagFont]) {
                     NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
                     NSArray  *comps = [value componentsSeparatedByString:@","];
                     casted = [UIFont fontWithName:comps[0] size:[comps[1] floatValue]];
                     
-                    //image is still hardcoded
+				 //image is still hardcoded
                 } else if ([object hasPrefix:kLTTagImage]) {
                     NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
                     casted = [UIImage imageNamed:value];
@@ -106,7 +106,7 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
                     CGRect rect = CGRectMake([object[0] floatValue], [object[1] floatValue], [object[2] floatValue], [object[3] floatValue]);
                     casted = [NSValue valueWithCGRect:rect];
                     
-                    //is a CGPoint
+				//is a CGPoint
                 } else if ([object count] == 2)  {
                     CGPoint point = CGPointMake([object[0] floatValue], [object[1] floatValue]);
                     casted = [NSValue valueWithCGPoint:point];

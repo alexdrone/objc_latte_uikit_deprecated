@@ -20,7 +20,6 @@ static NSUInteger LTNodeInstanceCounter = 0;
     if (self = [super init]) {
         _nodeId = [NSString stringWithFormat:@"%d", LTNodeInstanceCounter++];
         _children = [[NSMutableArray alloc] init];
-        _binds = [[NSMutableArray alloc] init];
         _data  = [[NSMutableDictionary alloc] init];
     }
     

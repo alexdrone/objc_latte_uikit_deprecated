@@ -65,8 +65,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "131"
          endingLineNumber = "131"
-         landmarkName = "-parseJSONMarkup:"
-         landmarkType = "5">
+         landmarkName = "LTJSONCreateTreeStructure()"
+         landmarkType = "7">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -104,8 +104,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "138"
          endingLineNumber = "138"
-         landmarkName = "LTJSONCreateTreeStructure()"
-         landmarkType = "7">
+         landmarkName = "@implementation LTParser"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -158,6 +158,17 @@
          endingLineNumber = "11"
          landmarkName = "@implementation MockSkypeContract"
          landmarkType = "3">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "LatteTest/LTParserSpecs.m"
+         timestampString = "375795082.657175"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "17"
+         endingLineNumber = "17">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

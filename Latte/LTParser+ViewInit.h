@@ -13,6 +13,6 @@
 /* Initialize the views by reading the Latte dictionary
  * passed as argument */
 void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictionary, NSMutableArray **bindings,
-                                              NSMutableArray **contextBindings);
+											  NSMutableArray **contextBindings);
 
 @end

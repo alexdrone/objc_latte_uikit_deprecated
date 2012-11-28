@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		071BC12A160F31F400D71074 /* AutoLayoutExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */; };
 		071BC12C160F320800D71074 /* AutoLayoutExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 071BC12B160F320800D71074 /* AutoLayoutExample.json */; };
+		071C7DC616662AD200F57F0B /* TestData.h in Sources */ = {isa = PBXBuildFile; fileRef = 071C7DC516662AD200F57F0B /* TestData.h */; };
+		07D9D7FC16663E420097D393 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160DE96816661F8200F7F222 /* SenTestingKit.framework */; };
 		160DE99616661FD200F7F222 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160DE96816661F8200F7F222 /* SenTestingKit.framework */; };
 		160DE99716661FD200F7F222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051015653C30005C03C7 /* UIKit.framework */; };
 		160DE99816661FD200F7F222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051215653C30005C03C7 /* Foundation.framework */; };
@@ -58,6 +60,7 @@
 		071BC128160F31F400D71074 /* AutoLayoutExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutExampleViewController.h; sourceTree = "<group>"; };
 		071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutExampleViewController.m; sourceTree = "<group>"; };
 		071BC12B160F320800D71074 /* AutoLayoutExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AutoLayoutExample.json; sourceTree = "<group>"; };
+		071C7DC516662AD200F57F0B /* TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestData.h; sourceTree = "<group>"; };
 		160DE96816661F8200F7F222 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		160DE99516661FD200F7F222 /* LatteTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatteTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		160DE99B16661FD200F7F222 /* LatteTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LatteTest-Info.plist"; sourceTree = "<group>"; };
@@ -133,6 +136,7 @@
 				16C6051315653C30005C03C7 /* Foundation.framework in Frameworks */,
 				16C6051515653C30005C03C7 /* CoreGraphics.framework in Frameworks */,
 				6E98FECE668E4E6E811CFD11 /* libPods.a in Frameworks */,
+				07D9D7FC16663E420097D393 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +149,7 @@
 				160DE99A16661FD200F7F222 /* Supporting Files */,
 				160DE9A81666204600F7F222 /* LTParserSpecs.m */,
 				1619CA6016662511006EBCEF /* Test.json */,
+				071C7DC516662AD200F57F0B /* TestData.h */,
 			);
 			path = LatteTest;
 			sourceTree = "<group>";
@@ -170,11 +175,12 @@
 			name = Additions;
 			sourceTree = "<group>";
 		};
-		165B42451581FFC700395A6F /* Other */ = {
+		165B42451581FFC700395A6F /* Demos */ = {
 			isa = PBXGroup;
 			children = (
 				165B42461581FFC700395A6F /* Demo */,
 			);
+			name = Demos;
 			path = Other;
 			sourceTree = "<group>";
 		};
@@ -205,9 +211,8 @@
 		16C6050115653C2F005C03C7 = {
 			isa = PBXGroup;
 			children = (
-				160DE9AA166620C200F7F222 /* libPods.a */,
 				16E06D131664BF2C002E827D /* Default-568h@2x.png */,
-				165B42451581FFC700395A6F /* Other */,
+				165B42451581FFC700395A6F /* Demos */,
 				16C6051615653C30005C03C7 /* Latte */,
 				160DE99916661FD200F7F222 /* LatteTest */,
 				16C6050F15653C30005C03C7 /* Frameworks */,
@@ -228,6 +233,7 @@
 		16C6050F15653C30005C03C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				160DE9AA166620C200F7F222 /* libPods.a */,
 				169409DF15B052BA003B7C98 /* Libs (Non Pods) */,
 				165B425B158202C000395A6F /* CFNetwork.framework */,
 				16C6051015653C30005C03C7 /* UIKit.framework */,
@@ -414,6 +420,7 @@
 				1619CA6A166627D4006EBCEF /* NSString+LTAdditions.m in Sources */,
 				1619CA6B166627D4006EBCEF /* UIView+LTAdditions.m in Sources */,
 				1619CA6D1666280A006EBCEF /* AsyncSocket.m in Sources */,
+				071C7DC616662AD200F57F0B /* TestData.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +592,10 @@
 			baseConfigurationReference = 905653C30CA04287B7C94846 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP3.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Latte/Latte-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -600,6 +611,10 @@
 			baseConfigurationReference = 905653C30CA04287B7C94846 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP3.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Latte/Latte-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
