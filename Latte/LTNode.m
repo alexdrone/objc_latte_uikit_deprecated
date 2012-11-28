@@ -59,12 +59,9 @@ static NSUInteger LTNodeInstanceCounter = 0;
 			_data[k] = contextCondition;
 		
 		else
-			_data[k] = LTParsePrimitiveTypes(obj);
+			_data[k] = LTParsePrimitiveType(obj, LTParsePrimitiveTypeOptionOptimal);
 	
     }
-	
-	
-	//flatten the primitive types in the node
 }
 
 /* Returns the node description with all its children */

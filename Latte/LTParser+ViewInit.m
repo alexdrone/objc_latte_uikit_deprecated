@@ -12,61 +12,65 @@
 
 @implementation LTParser (ViewInit)
 
-/* Tries to parse the primitive latte values such 
- * as fonts, color, rects and images */
-id LTParsePrimitiveTypes(id object)
+/* Tries to parse the primitive latte values such
+ * as fonts, color, rects and images. */
+id LTParsePrimitiveType(id object, enum LTParsePrimitiveTypeOption option)
 {
 	id casted = object;
+
+	if (![object isKindOfClass:NSString.class])
+		return object;
 	
-	if ([object isKindOfClass:NSString.class]) {
+	//delays the parsification and the allocation of images to the actual view rendering
+	if (option == LTParsePrimitiveTypeOptionOptimal && ([object hasPrefix:kLTTagColorPattern] || [object hasPrefix:kLTTagImage]))
+		return object;
+			
+	//rgba color type
+	if ([object hasPrefix:kLTTagColorRgb]) {
 		
-		//rgba color type
-		if ([object hasPrefix:kLTTagColorRgb]) {
-			
-			NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-			NSArray  *comps = [value componentsSeparatedByString:@","];
-			casted = LTRgbaUIColor([comps[0] floatValue], [comps[1] floatValue], [comps[2] floatValue], [comps[3] floatValue]);
-			
-			//hex color type
-		} else if ([object hasPrefix:kLTTagColorHex]) {
-			
-			NSScanner *scanner = [NSScanner scannerWithString:object];
-			NSUInteger result;
-			[scanner setScanLocation:kLTTagColorHex.length+1];
-			[scanner scanHexInt:&result];
-			
-			casted = LTHexUIColor(result);
-			
-			//ui color type
-		} else if ([object hasPrefix:kLTTagColor]) {
-			NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-			
-			//add the color suffix if it's missing (in order to perform a call to the color method
-			value = [value hasSuffix:@"Color"] ? value : [NSString stringWithFormat:@"%@Color", value];
-			
-			if (nil != class_getClassMethod(UIColor.class, NSSelectorFromString(value)))
-				casted = [UIColor performSelector:NSSelectorFromString(value)];
-			else
-				casted = [UIColor blackColor];
-			
-			//pattern
-		} else if ([object hasPrefix:kLTTagColorPattern]) {
-			NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-			casted = [UIColor colorWithPatternImage:[UIImage imageNamed:value]];
-			
-			//font type
-		} else if ([object hasPrefix:kLTTagFont]) {
-			NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-			NSArray  *comps = [value componentsSeparatedByString:@","];
-			casted = [UIFont fontWithName:comps[0] size:[comps[1] floatValue]];
-			
-			//image is still hardcoded
-		} else if ([object hasPrefix:kLTTagImage]) {
-			NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-			casted = [UIImage imageNamed:value];
-		}
+		NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+		NSArray  *comps = [value componentsSeparatedByString:@","];
+		casted = LTRgbaUIColor([comps[0] floatValue], [comps[1] floatValue], [comps[2] floatValue], [comps[3] floatValue]);
+		
+	//hex color type
+	} else if ([object hasPrefix:kLTTagColorHex]) {
+		
+		NSScanner *scanner = [NSScanner scannerWithString:object];
+		NSUInteger result;
+		[scanner setScanLocation:kLTTagColorHex.length+1];
+		[scanner scanHexInt:&result];
+		
+		casted = LTHexUIColor(result);
+		
+	//pattern
+	} else if ([object hasPrefix:kLTTagColorPattern]) {
+		NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+		casted = [UIColor colorWithPatternImage:[UIImage imageNamed:value]];
+		
+	//ui color type
+	} else if ([object hasPrefix:kLTTagColor]) {
+		NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+		
+		//add the color suffix if it's missing (in order to perform a call to the color method
+		value = [value hasSuffix:@"Color"] ? value : [NSString stringWithFormat:@"%@Color", value];
+		
+		if (nil != class_getClassMethod(UIColor.class, NSSelectorFromString(value)))
+			casted = [UIColor performSelector:NSSelectorFromString(value)];
+		else
+			casted = [UIColor blackColor];
+		
+	//font type
+	} else if ([object hasPrefix:kLTTagFont]) {
+		NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+		NSArray  *comps = [value componentsSeparatedByString:@","];
+		casted = [UIFont fontWithName:comps[0] size:[comps[1] floatValue]];
+		
+	//image is still hardcoded
+	} else if ([object hasPrefix:kLTTagImage]) {
+		NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+		casted = [UIImage imageNamed:value];
 	}
-	
+		
 	return casted;
 }
 
@@ -122,6 +126,11 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
 					CGPoint point = CGPointMake([object[0] floatValue], [object[1] floatValue]);
 					casted = [NSValue valueWithCGPoint:point];
 				}
+				
+			//if the value is still a string might be a lattekit primitive
+			//type left to lazy initialization (likely an image)
+			} else if ([object isKindOfClass:NSString.class]) {
+				casted = LTParsePrimitiveType(object, LTParsePrimitiveTypeOptionNone);
 			}
 			
 			//tries to set the object for the given key

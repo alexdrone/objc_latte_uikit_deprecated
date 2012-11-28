@@ -3,7 +3,7 @@
 		{
 			"@isa":"UILabel",
 			"@id":"l1",
-			"backgroundColor":"@color-hex:00aff0",
+			"backgroundColor":"@color-pattern:00aff0",
 			"text":"hej: #{@bind(object.status)}",
 			"textColor":"@color:black",
 			"frame":[0,0,300,40],
