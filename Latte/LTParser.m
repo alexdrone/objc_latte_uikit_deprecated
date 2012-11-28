@@ -119,8 +119,8 @@
 /* Recursively create the node structure from the JSON file */
 void LTJSONCreateTreeStructure(NSMutableDictionary *jsonNode, LTNode *node)
 {
-    NSArray *subiews = jsonNode[@"subviews"];
-    [jsonNode removeObjectForKey:@"subviews"];
+    NSArray *subiews = jsonNode[kLTTagSubviews];
+    [jsonNode removeObjectForKey:kLTTagSubviews];
     
     node.data = jsonNode;
     

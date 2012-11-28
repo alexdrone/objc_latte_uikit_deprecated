@@ -8,6 +8,7 @@
 #define kLTTagId            @"@id"
 #define kLTTagBind          @"@bind"
 #define kLTTagContext       @"@context"
+#define kLTTagSubviews      @"@subviews"
 
 //Latte value annotation
 #define kLTTagSeparator     @":"

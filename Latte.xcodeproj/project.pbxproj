@@ -9,6 +9,26 @@
 /* Begin PBXBuildFile section */
 		071BC12A160F31F400D71074 /* AutoLayoutExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */; };
 		071BC12C160F320800D71074 /* AutoLayoutExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 071BC12B160F320800D71074 /* AutoLayoutExample.json */; };
+		160DE99616661FD200F7F222 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160DE96816661F8200F7F222 /* SenTestingKit.framework */; };
+		160DE99716661FD200F7F222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051015653C30005C03C7 /* UIKit.framework */; };
+		160DE99816661FD200F7F222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051215653C30005C03C7 /* Foundation.framework */; };
+		160DE99E16661FD200F7F222 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 160DE99C16661FD200F7F222 /* InfoPlist.strings */; };
+		160DE9A91666204600F7F222 /* LTParserSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 160DE9A81666204600F7F222 /* LTParserSpecs.m */; };
+		160DE9AB166620C200F7F222 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 160DE9AA166620C200F7F222 /* libPods.a */; };
+		1619CA6116662511006EBCEF /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 1619CA6016662511006EBCEF /* Test.json */; };
+		1619CA62166627C7006EBCEF /* LTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E7038F1565687200EDB943 /* LTParser.m */; };
+		1619CA63166627C7006EBCEF /* LTNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E70393156568DB00EDB943 /* LTNode.m */; };
+		1619CA64166627C7006EBCEF /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E9157D6B2900942BFD /* LTView.m */; };
+		1619CA65166627C7006EBCEF /* LTWatchFileServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 165B423E1581FDD600395A6F /* LTWatchFileServer.m */; };
+		1619CA66166627C7006EBCEF /* LTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 16558BB7158232CF00FFB2E2 /* LTContext.m */; };
+		1619CA67166627C7006EBCEF /* LTLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6AE15B16B7800B6402D /* LTLocale.m */; };
+		1619CA68166627C7006EBCEF /* LTParser+ViewInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */; };
+		1619CA69166627C7006EBCEF /* LTAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CEEDB71607572A0037C418 /* LTAppearance.m */; };
+		1619CA6A166627D4006EBCEF /* NSString+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E6157D685900942BFD /* NSString+LTAdditions.m */; };
+		1619CA6B166627D4006EBCEF /* UIView+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D6CC1A157E9EAA005C0554 /* UIView+LTAdditions.m */; };
+		1619CA6D1666280A006EBCEF /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
+		1619CA6E1666283C006EBCEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051415653C30005C03C7 /* CoreGraphics.framework */; };
+		1619CA6F16662845006EBCEF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165B425B158202C000395A6F /* CFNetwork.framework */; };
 		16558BB8158232CF00FFB2E2 /* LTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 16558BB7158232CF00FFB2E2 /* LTContext.m */; };
 		165A27E7157D685900942BFD /* NSString+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E6157D685900942BFD /* NSString+LTAdditions.m */; };
 		165A27EA157D6B2900942BFD /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E9157D6B2900942BFD /* LTView.m */; };
@@ -38,6 +58,14 @@
 		071BC128160F31F400D71074 /* AutoLayoutExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutExampleViewController.h; sourceTree = "<group>"; };
 		071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutExampleViewController.m; sourceTree = "<group>"; };
 		071BC12B160F320800D71074 /* AutoLayoutExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AutoLayoutExample.json; sourceTree = "<group>"; };
+		160DE96816661F8200F7F222 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		160DE99516661FD200F7F222 /* LatteTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatteTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		160DE99B16661FD200F7F222 /* LatteTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LatteTest-Info.plist"; sourceTree = "<group>"; };
+		160DE99D16661FD200F7F222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		160DE9A216661FD200F7F222 /* LatteTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LatteTest-Prefix.pch"; sourceTree = "<group>"; };
+		160DE9A81666204600F7F222 /* LTParserSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTParserSpecs.m; sourceTree = "<group>"; };
+		160DE9AA166620C200F7F222 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		1619CA6016662511006EBCEF /* Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Test.json; sourceTree = "<group>"; };
 		16558BB6158232CF00FFB2E2 /* LTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTContext.h; sourceTree = "<group>"; };
 		16558BB7158232CF00FFB2E2 /* LTContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTContext.m; sourceTree = "<group>"; };
 		165A27E5157D685900942BFD /* NSString+LTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LTAdditions.h"; sourceTree = "<group>"; };
@@ -83,6 +111,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		160DE99116661FD200F7F222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1619CA6F16662845006EBCEF /* CFNetwork.framework in Frameworks */,
+				1619CA6E1666283C006EBCEF /* CoreGraphics.framework in Frameworks */,
+				160DE9AB166620C200F7F222 /* libPods.a in Frameworks */,
+				160DE99616661FD200F7F222 /* SenTestingKit.framework in Frameworks */,
+				160DE99716661FD200F7F222 /* UIKit.framework in Frameworks */,
+				160DE99816661FD200F7F222 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16C6050915653C30005C03C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,6 +139,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160DE99916661FD200F7F222 /* LatteTest */ = {
+			isa = PBXGroup;
+			children = (
+				160DE99A16661FD200F7F222 /* Supporting Files */,
+				160DE9A81666204600F7F222 /* LTParserSpecs.m */,
+				1619CA6016662511006EBCEF /* Test.json */,
+			);
+			path = LatteTest;
+			sourceTree = "<group>";
+		};
+		160DE99A16661FD200F7F222 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				160DE99B16661FD200F7F222 /* LatteTest-Info.plist */,
+				160DE99C16661FD200F7F222 /* InfoPlist.strings */,
+				160DE9A216661FD200F7F222 /* LatteTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		16558BBC1582343900FFB2E2 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,9 +205,11 @@
 		16C6050115653C2F005C03C7 = {
 			isa = PBXGroup;
 			children = (
+				160DE9AA166620C200F7F222 /* libPods.a */,
 				16E06D131664BF2C002E827D /* Default-568h@2x.png */,
 				165B42451581FFC700395A6F /* Other */,
 				16C6051615653C30005C03C7 /* Latte */,
+				160DE99916661FD200F7F222 /* LatteTest */,
 				16C6050F15653C30005C03C7 /* Frameworks */,
 				16C6050D15653C30005C03C7 /* Products */,
 				905653C30CA04287B7C94846 /* Pods.xcconfig */,
@@ -157,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				16C6050C15653C30005C03C7 /* Latte.app */,
+				160DE99516661FD200F7F222 /* LatteTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +234,7 @@
 				16C6051215653C30005C03C7 /* Foundation.framework */,
 				16C6051415653C30005C03C7 /* CoreGraphics.framework */,
 				F125DF37266C473F82E94C08 /* libPods.a */,
+				160DE96816661F8200F7F222 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -216,6 +281,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		160DE99416661FD200F7F222 /* LatteTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160DE9A316661FD200F7F222 /* Build configuration list for PBXNativeTarget "LatteTest" */;
+			buildPhases = (
+				160DE99016661FD200F7F222 /* Sources */,
+				160DE99116661FD200F7F222 /* Frameworks */,
+				160DE99216661FD200F7F222 /* Resources */,
+				160DE99316661FD200F7F222 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatteTest;
+			productName = LatteTest;
+			productReference = 160DE99516661FD200F7F222 /* LatteTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		16C6050B15653C30005C03C7 /* Latte */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16C6052415653C30005C03C7 /* Build configuration list for PBXNativeTarget "Latte" */;
@@ -256,11 +339,21 @@
 			projectRoot = "";
 			targets = (
 				16C6050B15653C30005C03C7 /* Latte */,
+				160DE99416661FD200F7F222 /* LatteTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		160DE99216661FD200F7F222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160DE99E16661FD200F7F222 /* InfoPlist.strings in Resources */,
+				1619CA6116662511006EBCEF /* Test.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16C6050A15653C30005C03C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,6 +368,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		160DE99316661FD200F7F222 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		97AD29B9FE0A4F72968F7E73 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,6 +398,25 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		160DE99016661FD200F7F222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160DE9A91666204600F7F222 /* LTParserSpecs.m in Sources */,
+				1619CA62166627C7006EBCEF /* LTParser.m in Sources */,
+				1619CA63166627C7006EBCEF /* LTNode.m in Sources */,
+				1619CA64166627C7006EBCEF /* LTView.m in Sources */,
+				1619CA65166627C7006EBCEF /* LTWatchFileServer.m in Sources */,
+				1619CA66166627C7006EBCEF /* LTContext.m in Sources */,
+				1619CA67166627C7006EBCEF /* LTLocale.m in Sources */,
+				1619CA68166627C7006EBCEF /* LTParser+ViewInit.m in Sources */,
+				1619CA69166627C7006EBCEF /* LTAppearance.m in Sources */,
+				1619CA6A166627D4006EBCEF /* NSString+LTAdditions.m in Sources */,
+				1619CA6B166627D4006EBCEF /* UIView+LTAdditions.m in Sources */,
+				1619CA6D1666280A006EBCEF /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16C6050815653C30005C03C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,6 +443,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		160DE99C16661FD200F7F222 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160DE99D16661FD200F7F222 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		16C6051915653C30005C03C7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -329,6 +462,77 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		160DE9A416661FD200F7F222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LatteTest/LatteTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/JSONKit\"",
+					"\"${PODS_ROOT}/Headers/Kiwi\"",
+					"\"${PODS_ROOT}/Headers/ReactiveCocoa\"",
+				);
+				INFOPLIST_FILE = "LatteTest/LatteTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PODS_BUILD_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/BuildHeaders\" \"${PODS_ROOT}/BuildHeaders/JSONKit\" \"${PODS_ROOT}/BuildHeaders/Kiwi\" \"${PODS_ROOT}/BuildHeaders/ReactiveCocoa\"";
+				PODS_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/Headers\" \"${PODS_ROOT}/Headers/JSONKit\" \"${PODS_ROOT}/Headers/Kiwi\" \"${PODS_ROOT}/Headers/ReactiveCocoa\"";
+				PODS_PUBLIC_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/Headers\" \"${PODS_ROOT}/Headers/JSONKit\" \"${PODS_ROOT}/Headers/Kiwi\" \"${PODS_ROOT}/Headers/ReactiveCocoa\"";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_HEADERS_SEARCH_PATHS}";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		160DE9A516661FD200F7F222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LatteTest/LatteTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/JSONKit\"",
+					"\"${PODS_ROOT}/Headers/Kiwi\"",
+					"\"${PODS_ROOT}/Headers/ReactiveCocoa\"",
+				);
+				INFOPLIST_FILE = "LatteTest/LatteTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PODS_BUILD_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/BuildHeaders\" \"${PODS_ROOT}/BuildHeaders/JSONKit\" \"${PODS_ROOT}/BuildHeaders/Kiwi\" \"${PODS_ROOT}/BuildHeaders/ReactiveCocoa\"";
+				PODS_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/Headers\" \"${PODS_ROOT}/Headers/JSONKit\" \"${PODS_ROOT}/Headers/Kiwi\" \"${PODS_ROOT}/Headers/ReactiveCocoa\"";
+				PODS_PUBLIC_HEADERS_SEARCH_PATH = "\"${PODS_ROOT}/Headers\" \"${PODS_ROOT}/Headers/JSONKit\" \"${PODS_ROOT}/Headers/Kiwi\" \"${PODS_ROOT}/Headers/ReactiveCocoa\"";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_HEADERS_SEARCH_PATHS}";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		16C6052215653C30005C03C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -409,6 +613,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		160DE9A316661FD200F7F222 /* Build configuration list for PBXNativeTarget "LatteTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160DE9A416661FD200F7F222 /* Debug */,
+				160DE9A516661FD200F7F222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		16C6050615653C2F005C03C7 /* Build configuration list for PBXProject "Latte" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
