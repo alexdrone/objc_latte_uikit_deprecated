@@ -30,7 +30,6 @@
 		1619CA6D1666280A006EBCEF /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
 		1619CA6E1666283C006EBCEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051415653C30005C03C7 /* CoreGraphics.framework */; };
 		1619CA6F16662845006EBCEF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165B425B158202C000395A6F /* CFNetwork.framework */; };
-		1619CA7C16663F8D006EBCEF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160DE96816661F8200F7F222 /* SenTestingKit.framework */; };
 		16558BB8158232CF00FFB2E2 /* LTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 16558BB7158232CF00FFB2E2 /* LTContext.m */; };
 		165A27E7157D685900942BFD /* NSString+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E6157D685900942BFD /* NSString+LTAdditions.m */; };
 		165A27EA157D6B2900942BFD /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E9157D6B2900942BFD /* LTView.m */; };
@@ -138,7 +137,6 @@
 				165B425C158202C000395A6F /* CFNetwork.framework in Frameworks */,
 				16C6051515653C30005C03C7 /* CoreGraphics.framework in Frameworks */,
 				6E98FECE668E4E6E811CFD11 /* libPods.a in Frameworks */,
-				1619CA7C16663F8D006EBCEF /* SenTestingKit.framework in Frameworks */,
 				16C6051115653C30005C03C7 /* UIKit.framework in Frameworks */,
 				16C6051315653C30005C03C7 /* Foundation.framework in Frameworks */,
 			);

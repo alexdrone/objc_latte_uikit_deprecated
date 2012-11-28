@@ -35,7 +35,7 @@ static NSUInteger LTNodeInstanceCounter = 0;
 
 /* Set the node's data from a given KVC object.
  * All the keys that are marked with @bind got their
- * relationship saved in the _binds ivar so that is 
+ * relationship saved as LTKVOTemplates so that is 
  * possible to recreate the binding at runtime */
 - (void)setData:(NSMutableDictionary*)data
 {
