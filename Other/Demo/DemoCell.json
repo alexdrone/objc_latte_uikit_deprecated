@@ -1,15 +1,25 @@
 {
 	"@layout":[
+			   
+		{
+			"@isa":"UIView",
+			"@id":"v1",
+			"backgroundColor":"@color-hex:00aff0",
+			"frame":[0,0,10,44],
+			"font":"@font:Arial,10"
+		},
 		{
 			"@isa":"UILabel",
 			"@id":"l1",
-			"backgroundColor":"@color-pattern:00aff0",
+			"backgroundColor":"@color:clear",
 			"text":"hej: #{@bind(object.status)}",
 			"textColor":"@color:black",
-			"frame":[0,0,300,40],
+			"frame":["@metric(#{v1.frameWidth} + 10)",0,300,40],
 			"font":"@font:Arial,10"
 		}
-	]		  
+
+
+	]
 }
 			  
 

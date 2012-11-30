@@ -112,11 +112,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Latte/LTView.m"
-         timestampString = "370104224.360581"
+         timestampString = "375968247.459317"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "228"
-         endingLineNumber = "228"
+         startingLineNumber = "226"
+         endingLineNumber = "226"
          landmarkName = "-initializeConstraints"
          landmarkType = "5">
       </FileBreakpoint>
@@ -186,13 +186,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Latte/LTParser+ViewInit.m"
-         timestampString = "375817417.046049"
+         timestampString = "375968814.085341"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "82"
-         endingLineNumber = "82"
-         landmarkName = "LTStaticInitializeViewFromNodeDictionary()"
-         landmarkType = "7">
+         startingLineNumber = "100"
+         endingLineNumber = "100"
+         landmarkName = "@implementation LTParser(ViewInit)"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -212,57 +212,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Latte/LTNode.m"
-         timestampString = "375960227.558453"
+         timestampString = "375972876.313709"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "55"
-         endingLineNumber = "55"
-         landmarkName = "-setData:"
-         landmarkType = "5">
-         <Actions>
-            <BreakpointActionProxy
-               ActionType = "Xcode.BreakpointAction.DebuggerCommand">
-               <ActionContent
-                  consoleCommand = "po _data[k]">
-               </ActionContent>
-            </BreakpointActionProxy>
-            <BreakpointActionProxy
-               ActionType = "Xcode.BreakpointAction.DebuggerCommand">
-               <ActionContent
-                  consoleCommand = "p (BOOL) [[_data objectForKey:k] hasPrefix:@&quot;@context-value&quot;]">
-               </ActionContent>
-            </BreakpointActionProxy>
-            <BreakpointActionProxy
-               ActionType = "Xcode.BreakpointAction.DebuggerCommand">
-               <ActionContent
-                  consoleCommand = "p (BOOL) [[_data[k] class] isKindOfClass:[NSString class]] &amp;&amp; [_data[k] hasPrefix:@&quot;@context-value&quot;]">
-               </ActionContent>
-            </BreakpointActionProxy>
-         </Actions>
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Latte/LTNode.m"
-         timestampString = "375960595.092892"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "61"
-         endingLineNumber = "61"
-         landmarkName = "-setData:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Latte/LTNode.m"
-         timestampString = "375964266.668058"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "223"
-         endingLineNumber = "223"
+         startingLineNumber = "238"
+         endingLineNumber = "238"
          landmarkName = "-initWithTemplate:andKeypaths:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -271,12 +225,77 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Latte/LTNode.m"
-         timestampString = "375964322.661408"
+         timestampString = "375972876.313709"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "232"
-         endingLineNumber = "232"
+         startingLineNumber = "247"
+         endingLineNumber = "247"
          landmarkName = "-initWithTemplate:andKeypaths:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Latte/LTParser+ViewInit.m"
+         timestampString = "375968916.693021"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "83"
+         endingLineNumber = "83"
+         landmarkName = "LTProcessMetricEvaluation()"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Latte/LTNode.m"
+         timestampString = "375972876.313709"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "258"
+         endingLineNumber = "258"
+         landmarkName = "-evalWithObject:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Latte/LTNode.m"
+         timestampString = "375972876.313709"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "259"
+         endingLineNumber = "259"
+         landmarkName = "-evalWithObject:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Latte/LTNode.m"
+         timestampString = "375972876.313709"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "272"
+         endingLineNumber = "272"
+         landmarkName = "-evalWithObject:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Latte/LTNode.m"
+         timestampString = "375972876.313709"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "273"
+         endingLineNumber = "273"
+         landmarkName = "-evalWithObject:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

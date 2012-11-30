@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @class LTView;
+@class LTContext;
 
 @interface LTNode : NSObject {
     
@@ -53,7 +54,7 @@ NS_ENUM(BOOL, LTBindOption) {
 - (id)initWithTemplate:(NSString*)template andKeypaths:(NSArray*)keypaths;
 
 /* Render the template with the given object */
-- (NSString*)renderWithObject:(id)object;
+- (NSString*)renderWithObject:(LTView*)object;
 
 @end
 
@@ -71,6 +72,8 @@ NS_ENUM(BOOL, LTBindOption) {
  * a @context escaped value, nil otherwise */
 + (LTContextValueTemplate*)createFromString:(NSString*)source;
 
+- (id)renderWithObject:(LTContext*)object;
+
 @end
 
 /* Used to evaluate the expression defined with the @metric
@@ -87,7 +90,7 @@ NS_ENUM(BOOL, LTBindOption) {
 - (id)initWithTemplate:(NSString*)template andKeypaths:(NSArray*)keypaths;
 
 /* Render the template with the given object */
-- (NSNumber*)evalWithObject:(id)object;
+- (NSNumber*)evalWithObject:(LTView*)object;
 
 @end
 

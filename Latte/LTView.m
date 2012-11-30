@@ -26,9 +26,6 @@
 @property (strong) NSMutableArray *bindings;
 @property (strong) NSMutableArray *contextBindings;
 
-/*View dictonary for the visual constraints*/
-@property (strong) NSMutableDictionary *viewsDictionary;
-
 @end
 
 @implementation LTView
@@ -108,7 +105,8 @@
 #pragma mark -
 #pragma mark view initializer
 
-NSArray *LTRenderViewsFromNodeChildren(LTNode *node, NSMutableArray **bindings, NSMutableArray **contextBindings, NSMutableDictionary *viewsDictionary)
+NSArray *LTRenderViewsFromNodeChildren(LTView *container, LTNode *node, NSMutableArray **bindings,
+									   NSMutableArray **contextBindings, NSMutableDictionary *viewsDictionary)
 {
     
 #define ERR(fmt, ...) {NSLog((fmt), ##__VA_ARGS__); goto render_err;}
@@ -139,14 +137,14 @@ NSArray *LTRenderViewsFromNodeChildren(LTNode *node, NSMutableArray **bindings, 
 		}
 
         @try {
-            LTStaticInitializeViewFromNodeDictionary(object, n.data, bindings, contextBindings);
+            LTStaticInitializeViewFromNodeDictionary(container, object, n.data, bindings, contextBindings);
         
         } @catch (NSException *exception) {
             ERR(@"Unable to initialize the view with the node's data: %@", n.data);
         }
 
         //recoursively creates and add the subviews
-        for (UIView *subview in LTRenderViewsFromNodeChildren(n, bindings, contextBindings, viewsDictionary))
+        for (UIView *subview in LTRenderViewsFromNodeChildren(container, n, bindings, contextBindings, viewsDictionary))
             [object addSubview:subview];
 		
 		[views addObject:object];
@@ -158,16 +156,16 @@ render_err:
     NSLog(@"Rendering error");
     return nil;
 }
-
-NSString *LTRenderStringFromTemplate(LTKVOTemplate *template,  LTView *object)
-{
-    NSMutableArray *values = [[NSMutableArray alloc] init];
-    
-    for (NSString *keypath in template.keypaths)
-        [values addObject:[object valueForKeyPath:keypath]];
-
-    return [NSString stringWithFormat:template.template array:values];
-}
+//
+//NSString *LTRenderStringFromTemplate(LTKVOTemplate *template,  LTView *object)
+//{
+//    NSMutableArray *values = [[NSMutableArray alloc] init];
+//    
+//    for (NSString *keypath in template.keypaths)
+//        [values addObject:[object valueForKeyPath:keypath]];
+//
+//    return [NSString stringWithFormat:template.template array:values];
+//}
 
 #pragma mark -
 #pragma mark view init
@@ -198,7 +196,7 @@ NSString *LTRenderStringFromTemplate(LTKVOTemplate *template,  LTView *object)
     self.viewsDictionary = [[NSMutableDictionary alloc] init];
 	
     //render the static components of the view
-    NSArray *subviews = LTRenderViewsFromNodeChildren(self.node, &map, &contextMap, self.viewsDictionary);
+    NSArray *subviews = LTRenderViewsFromNodeChildren(self, self.node, &map, &contextMap, self.viewsDictionary);
     
     self.bindings = map;
     self.contextBindings = contextMap;
@@ -270,7 +268,7 @@ NSLayoutFormatOptions LTLayoutFormatOptionsFromArray(NSArray *array)
     for (LTTarget *target in self.bindings) {      
         
         //static rendering of the textual template for the newly associated object
-        [target.object setValue:LTRenderStringFromTemplate(target.template, self) forKeyPath:target.keypath];
+        [target.object setValue:[target.template renderWithObject:self]  forKeyPath:target.keypath];
         
         //cycle through all the template's keypaths
         for (NSUInteger i = 0; i < ((LTKVOTemplate*)target.template).keypaths.count; i++)
@@ -285,7 +283,7 @@ NSLayoutFormatOptions LTLayoutFormatOptionsFromArray(NSArray *array)
                 [[self rac_subscribableForKeyPath:key onObject:self] subscribeNext:^(id x){
                     
                     //reload the template string
-                    [target.object setValue:LTRenderStringFromTemplate(target.template, self) forKeyPath:target.keypath];
+                    [target.object setValue:[target.template renderWithObject:self] forKeyPath:target.keypath];
                     
                     //the context values are refreshed everytime a property change is observed
                     [self refreshContextBindings];
@@ -302,13 +300,11 @@ NSLayoutFormatOptions LTLayoutFormatOptionsFromArray(NSArray *array)
 - (void)refreshContextBindings
 {
     //cycle through all the targets for the context
-    for (LTTarget *target in self.contextBindings) {
+    for (LTTarget *target in self.contextBindings)
         
         //add the context condition values
-        NSString *keypath = ((LTContextValueTemplate*)target.template).keypath;
-        NSNumber *value = [_context valueForKey:keypath];
-        [target.object setValue:value forKeyPath:target.keypath];
-    }
+        [target.object setValue:[(LTContextValueTemplate*)target.template renderWithObject:_context]
+					 forKeyPath:target.keypath];
 }
 
 

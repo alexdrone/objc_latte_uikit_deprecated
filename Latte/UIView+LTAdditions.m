@@ -49,7 +49,7 @@ static const char *kLTTagIdKey = "LT_id";
     return @".";
 }
 
-- (UIView*)$:(NSString*)LT_id
+- (UIView*)subviewWithId:(NSString*)LT_id
 {
     if (![LT_id hasPrefix:@"#"])
         LT_id = [NSString stringWithFormat:@"#%@", LT_id];
@@ -58,7 +58,7 @@ static const char *kLTTagIdKey = "LT_id";
         if ([subview.LT_id isEqualToString:LT_id]) return subview;
     
     for (UIView *subview in self.subviews) {
-        UIView *ret = [subview $:LT_id];
+        UIView *ret = [subview subviewWithId:LT_id];
         if (ret)
             return ret;
     }
@@ -66,29 +66,56 @@ static const char *kLTTagIdKey = "LT_id";
     return nil;
 }
 
-- (void)applyStyle:(NSString*)LT_style
+#pragma mark - CGRect and CGPoint wrappers
+
+- (NSNumber*)frameX
 {
-    self.LT_style = LT_style;
-    
-    //get the dictionary from the shared stylesheet
-    NSMutableDictionary *dict = [LTParser sharedInstance].sharedStyleSheetCache[LT_style];
-    
-    if (dict)
-        LTStaticInitializeViewFromNodeDictionary(self,dict, nil, nil);
-    
-    //tries also .class#id
-    dict = [LTParser sharedInstance].sharedStyleSheetCache[[NSString stringWithFormat:@"%@%@", self.LT_style, self.LT_id]];
-    
-    if (dict)
-        LTStaticInitializeViewFromNodeDictionary(self, dict, nil, nil);
+	return @(self.frame.origin.x);
 }
 
-- (void)applyStyleRecursively:(NSString*)LT_style
+- (NSNumber*)frameY
 {
-    [self applyStyle:LT_style];
-    
-    for (UIView *subview in self.subviews)
-        [subview applyStyleRecursively:LT_style];
+	return @(self.frame.origin.y);
+}
+
+- (NSNumber*)frameWidth
+{
+	return @(self.frame.size.width);
+}
+
+- (NSNumber*)frameHeight
+{
+	return @(self.frame.size.height);
+}
+
+- (NSNumber*)boundsX
+{
+	return @(self.bounds.origin.x);
+}
+
+- (NSNumber*)boundsY
+{
+	return @(self.bounds.origin.y);
+}
+
+- (NSNumber*)boundsWidth
+{
+	return @(self.bounds.size.width);
+}
+
+- (NSNumber*)boundsHeigth
+{
+	return @(self.bounds.size.height);
+}
+
+- (NSNumber*)positionX
+{
+	return @(self.bounds.size.height);
+}
+
+- (NSNumber*)positionY
+{
+	return @(self.bounds.size.height);
 }
 
 @end

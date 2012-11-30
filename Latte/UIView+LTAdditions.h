@@ -19,8 +19,20 @@
 @property (strong) NSString *LT_id;
 @property (strong) NSString *LT_style;
 
-- (UIView*)$:(NSString*)LT_id;
-- (void)applyStyle:(NSString*)LT_style;
-- (void)applyStyleRecursively:(NSString*)LT_style;
+/* CGRect and CGPoint wrappers */
+@property (readonly) NSNumber *frameX;
+@property (readonly) NSNumber *frameY;
+@property (readonly) NSNumber *frameWidth;
+@property (readonly) NSNumber *frameHeight;
+@property (readonly) NSNumber *boundsX;
+@property (readonly) NSNumber *boundsY;
+@property (readonly) NSNumber *boundsWidth;
+@property (readonly) NSNumber *boundsHeigth;
+@property (readonly) NSNumber *positionX;
+@property (readonly) NSNumber *positionY;
+
+
+
+- (UIView*)subviewWithId:(NSString*)LT_id;
 
 @end

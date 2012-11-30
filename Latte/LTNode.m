@@ -43,39 +43,55 @@ static NSUInteger LTNodeInstanceCounter = 0;
 		
 		//the value
         id obj = _data[k];
-		LTContextValueTemplate *contextCondition = nil;
         
-        if (![obj isKindOfClass:NSString.class]) continue;
-            
-		//Tries to create the templates
+        if ([obj isKindOfClass:NSString.class])
+			_data[k] = [self processStringValue:obj];
+
+		else if ([obj isKindOfClass:NSArray.class]) {
 		
-        //Tries to create kvo template
-        id keypaths, template;
-        
-        //@metric expression
-        if ([_data[k] isKindOfClass:NSString.class] && [_data[k] hasPrefix:kLTTagMetric]) {
+			NSMutableArray *objA = [NSMutableArray arrayWithArray:obj];
 			
-			//tries to parse to split template and keypaths
-			if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj))
-				_data[k] = [[LTMetricEvaluationTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
-            
+			for (NSUInteger i = 0; i < objA.count; i++)
+				if ([objA[i] isKindOfClass:NSString.class])
+					 objA[i] = [self processStringValue:objA[i]];
+
+			_data[k] = objA;
+		}
+    }
+}
+
+/* Tries to process the string value in order 
+ * to see if there's any latte markup in it and returns the correct
+ * object for it */
+- (id)processStringValue:(NSString*)obj
+{
+	id keypaths, template, processedObject = obj;
+	LTContextValueTemplate *contextCondition = nil;
+	
+	//@metric expression
+	if ([obj hasPrefix:kLTTagMetric]) {
+		
+		//tries to parse to split template and keypaths
+		if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj))
+			processedObject = [[LTMetricEvaluationTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
+		
         //@context-value
-        } else if ([_data[k]isKindOfClass:NSString.class] && [_data[k] hasPrefix:kLTTagContext]) {
-			
-			//tries to parse to split template and keypaths
-			if (LTGetContextConditionFromString(&contextCondition, obj))
-				_data[k] = contextCondition;
+	} else if ([obj hasPrefix:kLTTagContext]) {
+		
+		//tries to parse to split template and keypaths
+		if (LTGetContextConditionFromString(&contextCondition, obj))
+			processedObject = contextCondition;
         
         //common string template (with kvo bindings possibly)
-        } else if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj)) {
-            _data[k] = [[LTKVOTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
+	} else if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj)) {
+		processedObject = [[LTKVOTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
         
         //a common latte primitive type
-        } else {
-			_data[k] = LTParsePrimitiveType(obj, LTParsePrimitiveTypeOptionOptimal);
-        }
+	} else {
+		processedObject = LTParsePrimitiveType(obj, LTParsePrimitiveTypeOptionOptimal);
+	}
 	
-    }
+	return processedObject;
 }
 
 /* Returns the node description with all its children */
@@ -141,20 +157,14 @@ static NSUInteger LTNodeInstanceCounter = 0;
 }
 
 /* Render the template with the given object */
-- (NSString*)renderWithObject:(id)object
+- (NSString*)renderWithObject:(LTView*)object
 {
-    @try {
-        NSMutableArray *values = [NSMutableArray array];
-        for (NSString *k in self.keypaths)
-            [values addObject:[object valueForKey:k]];
+	NSMutableArray *values = [[NSMutableArray alloc] init];
 
-        return [NSString stringWithFormat:self.template array:values];
-    }
-    
-    @catch (NSException *exception) {
-        NSLog(@"Unable to render the template");
-        return nil;
-    }
+		for (NSString *keypath in self.keypaths)
+			[values addObject:[object valueForKeyPath:keypath]];
+	
+	return [NSString stringWithFormat:self.template array:values];
 }
 
 @end
@@ -204,6 +214,11 @@ static NSUInteger LTNodeInstanceCounter = 0;
     return contextCondition;
 }
 
+- (id)renderWithObject:(LTContext*)object
+{
+	return [object valueForKey:self.keypath];
+}
+
 @end
 
 
@@ -236,15 +251,30 @@ static NSUInteger LTNodeInstanceCounter = 0;
 }
 
 /* Render the template with the given object */
-- (NSNumber*)evalWithObject:(id)object
+- (NSNumber*)evalWithObject:(LTView*)object
 {
     @try {
         
         //extracts the values
         NSMutableArray *values = [NSMutableArray array];
         for (NSString *k in self.keypaths) {
-            NSAssert([[object valueForKey:k] isKindOfClass:NSNumber.class], @"All the values should be NSNumbers");
-            [values addObject:[object valueForKey:k]];
+		
+			id target = object;
+			NSString *keypath = k;
+			
+			//does it refer to a latte id?
+			NSString *possibleIdName = [keypath componentsSeparatedByString:@"."][0];
+			if ([object.viewsDictionary.allKeys containsObject:possibleIdName]) {
+				
+				//skips the id name + "."
+				keypath = [keypath substringFromIndex:possibleIdName.length+1];
+				target = object.viewsDictionary[possibleIdName];
+				
+				NSAssert(nil != target, @"Nil target for metric evaluation");
+			}
+			
+            NSAssert([[target valueForKey:keypath] isKindOfClass:NSNumber.class], @"All the values should be NSNumbers");
+            [values addObject:[target valueForKey:keypath]];
         }
         
         //render and compute the expression

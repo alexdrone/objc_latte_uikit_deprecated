@@ -75,11 +75,30 @@ id LTParsePrimitiveType(id object, enum LTParsePrimitiveTypeOption option)
 	return casted;
 }
 
+
+/* Tries to evaluate a LTMetricEvaluationTemplate if passed 
+ * as argument or just return the value itself if it's a number */
+NSNumber *LTProcessMetricEvaluation(LTView *container, id object)
+{
+	NSNumber *result = nil;
+	
+	if ([object isKindOfClass:LTMetricEvaluationTemplate.class]) {
+		result = [object evalWithObject:container];
+	
+	} else {
+		
+		if ([object isKindOfClass:NSNumber.class])
+			result = object;
+	}
+	
+	return nil != result ? result : @0;
+}
+
 /* These values are parsed at LTView's creation time
  * Initialize the views by reading the Latte dictionary
  * passed as argument */
-void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictionary, NSMutableArray **bindings,
-											  NSMutableArray **contextBindings)
+void LTStaticInitializeViewFromNodeDictionary(LTView *container, UIView *view, NSDictionary *dictionary,
+											  NSMutableArray **bindings, NSMutableArray **contextBindings)
 {
     for (NSString *key in dictionary.allKeys) {
         
@@ -117,7 +136,7 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
             
             //metric evaluations are rendered in this stage
             } else if ([object isKindOfClass:LTMetricEvaluationTemplate.class]) {
-                casted = [object evalWithObject:view];
+                casted = LTProcessMetricEvaluation(container, object);
                 continue;
             
 			//primitives should be converted during the rendering
@@ -125,12 +144,20 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
 				
 				//is a CGRect
 				if ([object count] == 4)  {
-					CGRect rect = CGRectMake([object[0] floatValue], [object[1] floatValue], [object[2] floatValue], [object[3] floatValue]);
+					
+					CGRect rect = CGRectMake([LTProcessMetricEvaluation(container, object[0]) floatValue],
+											 [LTProcessMetricEvaluation(container, object[1]) floatValue],
+											 [LTProcessMetricEvaluation(container, object[2]) floatValue],
+											 [LTProcessMetricEvaluation(container, object[3]) floatValue]);
+					
 					casted = [NSValue valueWithCGRect:rect];
 					
 				//is a CGPoint
 				} else if ([object count] == 2)  {
-					CGPoint point = CGPointMake([object[0] floatValue], [object[1] floatValue]);
+					
+					CGPoint point = CGPointMake([LTProcessMetricEvaluation(container, object[0]) floatValue],
+												[LTProcessMetricEvaluation(container, object[1]) floatValue]);
+					
 					casted = [NSValue valueWithCGPoint:point];
 				}
 				

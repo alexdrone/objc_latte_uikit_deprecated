@@ -14,7 +14,11 @@
 
 /* The data objects */
 
+/* The latte json that defines the content of this view */
 @property (strong) NSString *filename;
+
+/* View dictonary for the visual constraints */
+@property (strong) NSMutableDictionary *viewsDictionary;
 
 /* Constructs a new latte view.
  * If the debug flag is enabled, the view is registered in 
