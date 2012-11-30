@@ -53,13 +53,20 @@ static NSUInteger LTNodeInstanceCounter = 0;
         id keypaths, template;
         
         //@metric expression
-        if ([_data[k] class] == NSString.class && [_data[k] hasPrefix:kLTTagMetric]) {
+        if ([_data[k] isKindOfClass:NSString.class] && [_data[k] hasPrefix:kLTTagMetric]) {
+			
+			//tries to parse to split template and keypaths
+			if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj))
+				_data[k] = [[LTMetricEvaluationTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
             
         //@context-value
-        } else if ([_data[k] class] == NSString.class && [_data[k] hasPrefix:kLTTagContext] && LTGetContextConditionFromString(&contextCondition, obj)) {
-            _data[k] = contextCondition;
+        } else if ([_data[k]isKindOfClass:NSString.class] && [_data[k] hasPrefix:kLTTagContext]) {
+			
+			//tries to parse to split template and keypaths
+			if (LTGetContextConditionFromString(&contextCondition, obj))
+				_data[k] = contextCondition;
         
-        //string template
+        //common string template (with kvo bindings possibly)
         } else if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj)) {
             _data[k] = [[LTKVOTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
         
@@ -206,7 +213,7 @@ static NSUInteger LTNodeInstanceCounter = 0;
  * by pointing at them through @id keyword */
 @implementation LTMetricEvaluationTemplate 
 
-/* Creates a LTKVOTemplate with the given template (a string with the
+/* Creates a LTMetricEvaluationTemplate with the given template (a string with the
  * following format: "The string contains %@ different escapes %@") and
  * an array of keypaths */
 - (id)initWithTemplate:(NSString*)template andKeypaths:(NSArray*)keypaths
@@ -219,9 +226,9 @@ static NSUInteger LTNodeInstanceCounter = 0;
         if (![template hasPrefix:metricPrefix]) return nil;
         
         NSString *trimmed = [template stringByReplacingOccurrencesOfString:metricPrefix withString:@""];
-        trimmed = [trimmed stringByReplacingOccurrencesOfString:@")" withString:@""];
+        trimmed = [trimmed substringToIndex:trimmed.length-1];
         
-        self.template = template;
+        self.template = trimmed;
         self.keypaths = keypaths;
     }
     

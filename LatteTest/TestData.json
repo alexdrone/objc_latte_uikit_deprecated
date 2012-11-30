@@ -8,7 +8,7 @@
                
                //a subview
                "@subviews":[
-                {"@isa":"UIImageView", "@id":"image1", "frame":"@metric(l1.frame.size.heeight+10-l2.frame.size.width)"}
+                {"@isa":"UIImageView", "@id":"image1", "frame":"@metric(#{l1.frame.size.height}+10+(2*#{l2.frame.size.width}))"}
                ]
         },
 

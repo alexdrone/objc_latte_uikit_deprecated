@@ -102,7 +102,7 @@ describe(@"LTParser parses valid JSON", ^{
 		
 		//no bindings here
 		for (NSString *key in child.data)
-			[[child.data[key] shouldNot] beKindOfClass:NSClassFromString(@"LTKVOTemplate")];
+			[[child.data[key] shouldNot] beKindOfClass:LTKVOTemplate.class];
 
 	});
 
@@ -112,8 +112,27 @@ describe(@"LTParser parses valid JSON", ^{
 		LTNode *child = _node.children[0];
 		
 		//the property hidden is "@context-value(hide)"
-		[[child.data[@"hidden"] should] beKindOfClass:NSClassFromString(@"LTContextValueTemplate")];
+		[[child.data[@"hidden"] should] beKindOfClass:LTContextValueTemplate.class];
 		[[[child.data[@"hidden"] valueForKey:@"keypath"] should] equal:@"hide"];
+	});
+	
+	it(@"should parse the metric evaluations", ^{
+		
+		//image1
+		LTNode *child =  [_node.children[0] children][0];
+		
+		//the property hidden is "@context-value(hide)"
+		[[child.data[@"frame"] should] beKindOfClass:LTMetricEvaluationTemplate.class];
+		
+		//inspecting the LTMetricTemplate
+		NSString *template = [child.data[@"frame"] valueForKey:@"template"];
+		NSArray *keypaths = [child.data[@"frame"] valueForKey:@"keypaths"];
+		
+		
+		//@metric(#{l1.frame.size.height}+10+(2*#{l2.frame.size.width}))
+		[[template should] equal:@"%@+10+(2*%@)"];
+		[[keypaths[0] should] equal:@"l1.frame.size.height"];
+		[[keypaths[1] should] equal:@"l2.frame.size.width"];
 	});
 	
 	it(@"should parses colors, fonts and images", ^{
