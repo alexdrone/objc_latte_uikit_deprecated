@@ -12,7 +12,8 @@
 
 @implementation LTParser (ViewInit)
 
-/* Tries to parse the primitive latte values such
+/* These values are parsed at LTNode's creation time
+ * Tries to parse the primitive latte values such
  * as fonts, color, rects and images. */
 id LTParsePrimitiveType(id object, enum LTParsePrimitiveTypeOption option)
 {
@@ -74,7 +75,8 @@ id LTParsePrimitiveType(id object, enum LTParsePrimitiveTypeOption option)
 	return casted;
 }
 
-/* Initialize the views by reading the Latte dictionary
+/* These values are parsed at LTView's creation time
+ * Initialize the views by reading the Latte dictionary
  * passed as argument */
 void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictionary, NSMutableArray **bindings,
 											  NSMutableArray **contextBindings)
@@ -108,9 +110,14 @@ void LTStaticInitializeViewFromNodeDictionary(UIView *view, NSDictionary *dictio
                 [*bindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
                 continue;
                 
-                //Context Condition are skipped in this method
+            //Context Condition are skipped in this method
             } else if ([object isKindOfClass:LTContextValueTemplate.class]) {
                 [*contextBindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
+                continue;
+            
+            //metric evaluations are rendered in this stage
+            } else if ([object isKindOfClass:LTMetricEvaluationTemplate.class]) {
+                casted = [object evalWithObject:view];
                 continue;
             
 			//primitives should be converted during the rendering

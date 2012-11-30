@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class LTView;
+
 @interface LTNode : NSObject {
     
     @private
@@ -68,6 +70,24 @@ NS_ENUM(BOOL, LTBindOption) {
 /* Return a LTContextValueTemplate if the given string contains
  * a @context escaped value, nil otherwise */
 + (LTContextValueTemplate*)createFromString:(NSString*)source;
+
+@end
+
+/* Used to evaluate the expression defined with the @metric
+ * keyword. The terms of the metrics expressions can be 
+ * refered to the components described in the markup file 
+ * by pointing at them through @id keyword */
+@interface LTMetricEvaluationTemplate : NSObject
+
+@property (strong) NSString *template;
+@property (strong) NSArray *keypaths;
+
+/* Return a LTMetricEvaluationTemplate if the given string contains
+ * a @metric escaped value, nil otherwise */
+- (id)initWithTemplate:(NSString*)template andKeypaths:(NSArray*)keypaths;
+
+/* Render the template with the given object */
+- (NSNumber*)evalWithObject:(id)object;
 
 @end
 

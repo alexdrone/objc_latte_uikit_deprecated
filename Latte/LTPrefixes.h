@@ -8,6 +8,7 @@
 #define kLTTagId            @"@id"
 #define kLTTagBind          @"@bind"
 #define kLTTagContext       @"@context-value"
+#define kLTTagMetric        @"@metric"
 #define kLTTagSubviews      @"@subviews"
 
 //Latte value annotation

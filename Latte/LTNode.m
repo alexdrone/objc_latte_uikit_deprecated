@@ -8,8 +8,6 @@
 
 #import "LTPrefixes.h"
 
-#define BIND_PREFIX @"@bind("
-
 @implementation LTNode
 
 /* global counter for all the node instances */
@@ -51,15 +49,24 @@ static NSUInteger LTNodeInstanceCounter = 0;
             
 		//Tries to create the templates
 		
-       /* tries to create kvo template */ id keypaths, template;
-        if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj))        
+        //Tries to create kvo template
+        id keypaths, template;
+        
+        //@metric expression
+        if ([_data[k] class] == NSString.class && [_data[k] hasPrefix:kLTTagMetric]) {
+            
+        //@context-value
+        } else if ([_data[k] class] == NSString.class && [_data[k] hasPrefix:kLTTagContext] && LTGetContextConditionFromString(&contextCondition, obj)) {
+            _data[k] = contextCondition;
+        
+        //string template
+        } else if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj)) {
             _data[k] = [[LTKVOTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
         
-        else if (LTGetContextConditionFromString(&contextCondition, obj))
-			_data[k] = contextCondition;
-		
-		else
+        //a common latte primitive type
+        } else {
 			_data[k] = LTParsePrimitiveType(obj, LTParsePrimitiveTypeOptionOptimal);
+        }
 	
     }
 }
@@ -90,7 +97,7 @@ static NSUInteger LTNodeInstanceCounter = 0;
  * All the keys relates to the LTView.object property. */
 @implementation LTKVOTemplate
 
-/* Creates a LTFormattedString with the given template (a string with the 
+/* Creates a LTKVOTemplate with the given template (a string with the 
  * following format: "The string contains %@ different escapes %@") and
  * an array of keypaths */
 - (id)initWithTemplate:(NSString*)template andKeypaths:(NSArray*)keypaths
@@ -108,7 +115,6 @@ static NSUInteger LTNodeInstanceCounter = 0;
             NSString *keypath = keypaths[k];
             if ([keypath hasPrefix:bindPrefix] && keypath.length > bindPrefix.length + 2) {
                                 
-                //tofix: ??? NSString *trimmed = [keypath substringWithRange:NSMakeRange(BIND_PREFIX.length, keypath.length-2)];
                 NSString *trimmed = [keypath stringByReplacingOccurrencesOfString:bindPrefix withString:@""];
                 trimmed = [trimmed stringByReplacingOccurrencesOfString:@")" withString:@""];
                 //end
@@ -189,6 +195,62 @@ static NSUInteger LTNodeInstanceCounter = 0;
     contextCondition.keypath = trimmed;
 
     return contextCondition;
+}
+
+@end
+
+
+/* Used to evaluate the expression defined with the @metric
+ * keyword. The terms of the metrics expressions can be
+ * refered to the components described in the markup file
+ * by pointing at them through @id keyword */
+@implementation LTMetricEvaluationTemplate 
+
+/* Creates a LTKVOTemplate with the given template (a string with the
+ * following format: "The string contains %@ different escapes %@") and
+ * an array of keypaths */
+- (id)initWithTemplate:(NSString*)template andKeypaths:(NSArray*)keypaths
+{
+    if (self = [super init]) {
+        
+        //@metric(
+        NSString *metricPrefix = [NSString stringWithFormat:@"%@(", kLTTagMetric];
+        
+        if (![template hasPrefix:metricPrefix]) return nil;
+        
+        NSString *trimmed = [template stringByReplacingOccurrencesOfString:metricPrefix withString:@""];
+        trimmed = [trimmed stringByReplacingOccurrencesOfString:@")" withString:@""];
+        
+        self.template = template;
+        self.keypaths = keypaths;
+    }
+    
+    return self;
+}
+
+/* Render the template with the given object */
+- (NSNumber*)evalWithObject:(id)object
+{
+    @try {
+        
+        //extracts the values
+        NSMutableArray *values = [NSMutableArray array];
+        for (NSString *k in self.keypaths) {
+            NSAssert([[object valueForKey:k] isKindOfClass:NSNumber.class], @"All the values should be NSNumbers");
+            [values addObject:[object valueForKey:k]];
+        }
+        
+        //render and compute the expression
+        NSString *expression = [NSString stringWithFormat:self.template array:values];
+        NSNumber *result = [[NSExpression expressionWithFormat:expression] expressionValueWithObject:nil context:nil];
+        
+        return result;
+    }
+    
+    @catch (NSException *exception) {
+        NSLog(@"Unable to render the template");
+        return nil;
+    }
 }
 
 @end
