@@ -235,14 +235,17 @@ static NSUInteger LTNodeInstanceCounter = 0;
 {
     if (self = [super init]) {
         
-        //@metric(
-        NSString *metricPrefix = [NSString stringWithFormat:@"%@(", kLTTagMetric];
-        
-        if (![template hasPrefix:metricPrefix]) return nil;
-        
-        NSString *trimmed = [template stringByReplacingOccurrencesOfString:metricPrefix withString:@""];
-        trimmed = [trimmed substringToIndex:trimmed.length-1];
-        
+		NSString *trimmed = template;
+		
+        //@metric( prefix
+		if ([template hasPrefix:kLTTagMetric]) {
+			
+			NSString *metricPrefix = [NSString stringWithFormat:@"%@(", kLTTagMetric];
+			
+			trimmed = [template stringByReplacingOccurrencesOfString:metricPrefix withString:@""];
+			trimmed = [trimmed substringToIndex:trimmed.length-1];
+		} 
+		
         self.template = trimmed;
         self.keypaths = keypaths;
     }

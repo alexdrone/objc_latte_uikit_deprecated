@@ -10,7 +10,9 @@
 		071BC12A160F31F400D71074 /* AutoLayoutExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */; };
 		071BC12C160F320800D71074 /* AutoLayoutExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 071BC12B160F320800D71074 /* AutoLayoutExample.json */; };
 		071C7DC616662AD200F57F0B /* TestData.h in Sources */ = {isa = PBXBuildFile; fileRef = 071C7DC516662AD200F57F0B /* TestData.h */; };
-		07C0854C16665EB400E2A937 /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 07C0854B16665EB400E2A937 /* TestData.json */; };
+		075B03E9166A4D15000641AF /* LTViewSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B03E8166A4D15000641AF /* LTViewSpecs.m */; };
+		075B03EB166A52AE000641AF /* AutoLayoutExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 071BC12B160F320800D71074 /* AutoLayoutExample.json */; };
+		07C0854C16665EB400E2A937 /* LTViewSpecs.json in Resources */ = {isa = PBXBuildFile; fileRef = 07C0854B16665EB400E2A937 /* LTViewSpecs.json */; };
 		160DE99616661FD200F7F222 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160DE96816661F8200F7F222 /* SenTestingKit.framework */; };
 		160DE99716661FD200F7F222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051015653C30005C03C7 /* UIKit.framework */; };
 		160DE99816661FD200F7F222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051215653C30005C03C7 /* Foundation.framework */; };
@@ -61,7 +63,8 @@
 		071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutExampleViewController.m; sourceTree = "<group>"; };
 		071BC12B160F320800D71074 /* AutoLayoutExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AutoLayoutExample.json; sourceTree = "<group>"; };
 		071C7DC516662AD200F57F0B /* TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestData.h; sourceTree = "<group>"; };
-		07C0854B16665EB400E2A937 /* TestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestData.json; sourceTree = "<group>"; };
+		075B03E8166A4D15000641AF /* LTViewSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTViewSpecs.m; sourceTree = "<group>"; };
+		07C0854B16665EB400E2A937 /* LTViewSpecs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LTViewSpecs.json; sourceTree = "<group>"; };
 		160DE96816661F8200F7F222 /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		160DE99516661FD200F7F222 /* LatteTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatteTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		160DE99B16661FD200F7F222 /* LatteTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LatteTest-Info.plist"; sourceTree = "<group>"; };
@@ -148,9 +151,10 @@
 		160DE99916661FD200F7F222 /* LatteTest */ = {
 			isa = PBXGroup;
 			children = (
-				07C0854B16665EB400E2A937 /* TestData.json */,
+				07C0854B16665EB400E2A937 /* LTViewSpecs.json */,
 				160DE99A16661FD200F7F222 /* Supporting Files */,
 				160DE9A81666204600F7F222 /* LTParserSpecs.m */,
+				075B03E8166A4D15000641AF /* LTViewSpecs.m */,
 				071C7DC516662AD200F57F0B /* TestData.h */,
 			);
 			path = LatteTest;
@@ -361,7 +365,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				160DE99E16661FD200F7F222 /* InfoPlist.strings in Resources */,
-				07C0854C16665EB400E2A937 /* TestData.json in Resources */,
+				07C0854C16665EB400E2A937 /* LTViewSpecs.json in Resources */,
+				075B03EB166A52AE000641AF /* AutoLayoutExample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +445,7 @@
 				1619CA6B166627D4006EBCEF /* UIView+LTAdditions.m in Sources */,
 				1619CA6D1666280A006EBCEF /* AsyncSocket.m in Sources */,
 				071C7DC616662AD200F57F0B /* TestData.h in Sources */,
+				075B03E9166A4D15000641AF /* LTViewSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

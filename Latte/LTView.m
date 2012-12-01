@@ -117,7 +117,7 @@ NSArray *LTRenderViewsFromNodeChildren(LTView *container, LTNode *node, NSMutabl
     //recoursively creates all the views associated 
     //to the nodes in the parse tree
     for (LTNode *n in node.children) {
-        
+        		
         UIView *object = [[NSClassFromString(n.data[kLTTagIsa]) alloc] init];
 
         if (!object) 
@@ -156,16 +156,7 @@ render_err:
     NSLog(@"Rendering error");
     return nil;
 }
-//
-//NSString *LTRenderStringFromTemplate(LTKVOTemplate *template,  LTView *object)
-//{
-//    NSMutableArray *values = [[NSMutableArray alloc] init];
-//    
-//    for (NSString *keypath in template.keypaths)
-//        [values addObject:[object valueForKeyPath:keypath]];
-//
-//    return [NSString stringWithFormat:template.template array:values];
-//}
+
 
 #pragma mark -
 #pragma mark view init

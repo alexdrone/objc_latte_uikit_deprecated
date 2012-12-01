@@ -7,7 +7,7 @@ describe(@"LTParser parses valid JSON", ^{
 	__block LTNode *_node;
 	
 	beforeEach(^{
-		_node = [[LTParser sharedInstance] parseMarkup:kTestJSONMarkup];
+		_node = [[LTParser sharedInstance] parseMarkup:kLTParserSpecsData];
 	});
 	
 	it(@"should parse some valid latte json markup", ^{
@@ -122,12 +122,11 @@ describe(@"LTParser parses valid JSON", ^{
 		LTNode *child =  [_node.children[0] children][0];
 		
 		//the property hidden is "@context-value(hide)"
-		[[child.data[@"frame"] should] beKindOfClass:LTMetricEvaluationTemplate.class];
+		[[child.data[@"frame"][0] should] beKindOfClass:LTMetricEvaluationTemplate.class];
 		
 		//inspecting the LTMetricTemplate
-		NSString *template = [child.data[@"frame"] valueForKey:@"template"];
-		NSArray *keypaths = [child.data[@"frame"] valueForKey:@"keypaths"];
-		
+		NSString *template = [child.data[@"frame"][0] valueForKey:@"template"];
+		NSArray *keypaths = [child.data[@"frame"][0] valueForKey:@"keypaths"];
 		
 		//@metric(#{l1.frame.size.height}+10+(2*#{l2.frame.size.width}))
 		[[template should] equal:@"%@+10+(2*%@)"];
