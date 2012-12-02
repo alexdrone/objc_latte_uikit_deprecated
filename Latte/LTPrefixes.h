@@ -25,6 +25,16 @@
 #define kLTTagStylesheet    @"@stylesheet"
 #define kLTTagConstraints   @"@constraints"
 
+
+//Debug logs
+#define LT_DEBUG
+
+#ifdef LT_DEBUG
+#define LTLog(...) NSLog(@"%s %@", __func__, [NSString stringWithFormat:__VA_ARGS__])
+#elif
+#define LTLog(...) ;
+#endif
+
 //imports
 #import <JSONKit.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
@@ -36,7 +46,7 @@
 #import "LTWatchFileServer.h"
 #import "LTContext.h"
 #import "LTLocale.h"
-#import "LTParser+ViewInit.h"
+#import "LTParser+Helpers.h"
 #import "LTAppearance.h"
 
 #endif

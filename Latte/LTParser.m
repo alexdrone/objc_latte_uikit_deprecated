@@ -48,7 +48,6 @@
 /* Replaces the current caches for a given key */
 - (void)replaceCacheForFile:(NSString*)key withNode:(LTNode*)node
 {    
-    NSLog(@"Cache: Replacing key - %@", key);
     [self.cache setObject:node forKey:key];
 }
 
@@ -64,11 +63,13 @@
     NSString *input = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:filename ofType:extension]
 												encoding:NSUTF8StringEncoding 
 												   error:&error];
+	if (nil == input)
+		LTLog(@"Unable to read the file %@", filename);
+	
     if (!error) {
         node = [self parseMarkup:input];
         
-        if (DEBUG)
-            NSLog(@"Cache: Recreating key for %@", filename);
+		LTLog(@"Recreating cache for key %@", filename);
         
         [self.cache setObject:node forKey:filename];
         return node;
@@ -82,21 +83,18 @@
 /* Create the tree structure from a given legal .lt markup */
 - (LTNode*)parseMarkup:(NSString*)markup
 {
-    LTNode *result;
-    
-    if (self.useJSONMarkup)
-        result = [self parseJSONMarkup:markup];
-    else
-        result = [self parseLatteMarkup:markup];
-	    
-    return result;
+    return [self parseJSONMarkup:markup];
 }
 
 #pragma mark JSON
 
 - (LTNode*)parseJSONMarkup:(NSString*)markup
 {
-    NSMutableDictionary *json = [markup mutableObjectFromJSONStringWithParseOptions:JKParseOptionComments];
+    NSMutableDictionary *json = [markup mutableObjectFromJSONStringWithParseOptions:JKParseOptionComments|JKParseOptionPermitTextAfterValidJSON];
+	
+	if (nil == json)
+		LTLog(@"Unable to parse the json");
+	
     LTNode *rootNode = [[LTNode alloc] init];
 
     for (NSMutableDictionary *jsonRootNode in json[kLTTagLayout]) {
@@ -143,57 +141,7 @@ void LTJSONCreateTreeStructure(NSMutableDictionary *jsonNode, LTNode *node)
 
 #pragma mark Helper functions
 
-/* Returns the possible condition value associated to the given string */
-BOOL LTGetContextConditionFromString(LTContextValueTemplate **contextCondition, NSString* source)
-{
-    LTContextValueTemplate *obj = [LTContextValueTemplate createFromString:source];
-    
-    if (nil != obj) 
-        (*contextCondition) = obj;
-    else 
-        (*contextCondition) = nil;
-    
-    return (nil != (*contextCondition));
-}
 
-/* Returns all the associated keypaths and a formatted (printable) string 
- * from a given source string with the format 
- * "This is a template #{obj.keypath} for #{otherkeypath}.." */
-BOOL LTGetKeypathsAndTemplateFromString(NSArray **keypaths, NSString **template, NSString *source)
-{
-    NSError *error = nil;
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"#\\{([a-zA-Z0-9\\.\\@\\(\\)\\_]*)\\}"
-                                                                           options:NSRegularExpressionCaseInsensitive
-                                                                             error:&error];
-    
-    NSArray *matches = [regex matchesInString:source options:0 range:NSMakeRange(0, source.length)];
-    if (!matches.count) return NO;
-    
-    *keypaths = [NSMutableArray array];
-    
-    //iterating all the matches for the current line
-    for (NSTextCheckingResult *match in matches)
-        [(NSMutableArray*)*keypaths addObject:[source substringWithRange:[match rangeAtIndex:1]]];
-    
-    *template = [NSMutableString stringWithString:source];
-    
-    for (NSString *keypath in *keypaths)
-        [(NSMutableString*)*template replaceOccurrencesOfString:[NSString stringWithFormat:@"#{%@}", keypath] 
-                                                     withString:@"%@" 
-                                                        options:NSLiteralSearch 
-                                                          range:NSMakeRange(0, (*template).length)];
-    
-    return YES;
-}
-
-#pragma mark Latte markup
-
-/* Create the tree structure from a given legal .lt markup */
-- (LTNode*)parseLatteMarkup:(NSString*)markup
-{
-    NSAssert(NO, @"Method currently unsupported");
-    return nil;    
-}
 
 
 @end

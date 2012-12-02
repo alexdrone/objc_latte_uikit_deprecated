@@ -103,62 +103,6 @@
 }
 
 #pragma mark -
-#pragma mark view initializer
-
-NSArray *LTRenderViewsFromNodeChildren(LTView *container, LTNode *node, NSMutableArray **bindings,
-									   NSMutableArray **contextBindings, NSMutableDictionary *viewsDictionary)
-{
-    
-#define ERR(fmt, ...) {NSLog((fmt), ##__VA_ARGS__); goto render_err;}
-    
-    //the rendered views
-    NSMutableArray *views = [[NSMutableArray alloc] init];
-
-    //recoursively creates all the views associated 
-    //to the nodes in the parse tree
-    for (LTNode *n in node.children) {
-        		
-        UIView *object = [[NSClassFromString(n.data[kLTTagIsa]) alloc] init];
-
-        if (!object) 
-            ERR(@"Class %@ not found", n.data[kLTTagIsa]);
-		
-		//view dictionary to handle visual format languange constraints
-		if (viewsDictionary && n.data[kLTTagId]) {
-			
-			NSString *viewId = n.data[kLTTagId];
-		
-			//the visual layout language is not compatible
-			//with the # prefix
-			if ([viewId hasPrefix:@"#"])
-				viewId = [viewId substringFromIndex:1];
-			
-			viewsDictionary[viewId] = object;
-		}
-
-        @try {
-            LTStaticInitializeViewFromNodeDictionary(container, object, n.data, bindings, contextBindings);
-        
-        } @catch (NSException *exception) {
-            ERR(@"Unable to initialize the view with the node's data: %@", n.data);
-        }
-
-        //recoursively creates and add the subviews
-        for (UIView *subview in LTRenderViewsFromNodeChildren(container, n, bindings, contextBindings, viewsDictionary))
-            [object addSubview:subview];
-		
-		[views addObject:object];
-    }
-    
-    return views;
-    
-render_err:
-    NSLog(@"Rendering error");
-    return nil;
-}
-
-
-#pragma mark -
 #pragma mark view init
 
 /* Recreates the entire view hierarchy from the markup 
@@ -219,31 +163,6 @@ render_err:
 																		 views:self.viewsDictionary];
 		[self addConstraints:constraints];
 	}
-}
-
-/* Transform an array of option into the NSLayoutFormatOptions integer flag */
-NSLayoutFormatOptions LTLayoutFormatOptionsFromArray(NSArray *array)
-{
-	if (!array) return 0;
-	
-	NSLayoutFormatOptions options = 0;
-	
-	for (NSString *o in array)
-		if		([o isEqualToString:@"left"]) options |= NSLayoutFormatAlignAllLeft;
-		else if ([o isEqualToString:@"right"]) options |= NSLayoutFormatAlignAllRight;
-		else if ([o isEqualToString:@"top"]) options |= NSLayoutFormatAlignAllTop;
-		else if ([o isEqualToString:@"bottom"])	options |= NSLayoutFormatAlignAllBottom;
-		else if ([o isEqualToString:@"leading"]) options |= NSLayoutFormatAlignAllLeading;
-		else if ([o isEqualToString:@"trailing"]) options |= NSLayoutFormatAlignAllTrailing;
-		else if ([o isEqualToString:@"baseline"]) options |= NSLayoutFormatAlignAllBaseline;
-		else if ([o isEqualToString:@"centerX"]) options |= NSLayoutFormatAlignAllCenterX;
-		else if ([o isEqualToString:@"centerY"]) options |= NSLayoutFormatAlignAllCenterY;
-		else if ([o isEqualToString:@"leadingToTrailing"]) options |= NSLayoutFormatDirectionLeadingToTrailing;
-		else if ([o isEqualToString:@"leftToRight"]) options |= NSLayoutFormatDirectionLeftToRight;
-		else if ([o isEqualToString:@"rightToLeft"]) options |= NSLayoutFormatDirectionRightToLeft;
-		else if ([o isEqualToString:@"mask"]) options |= NSLayoutFormatAlignmentMask;
-	
-	return options;
 }
 
 #pragma mark -

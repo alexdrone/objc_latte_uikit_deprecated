@@ -10,7 +10,7 @@
 					"@isa":"UIView",
 					"@id":"v2",
 					"backgroundColor":"@color-hex:cacaca",
-					"frame":[0,0,"@metric(#{v1.frameWidth}/2)",44],
+					"frame":[0,0,"@metric(#{v1.frameWidth}/2)",44]
 				 }
 			]
 		},

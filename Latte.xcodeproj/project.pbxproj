@@ -12,6 +12,7 @@
 		071C7DC616662AD200F57F0B /* TestData.h in Sources */ = {isa = PBXBuildFile; fileRef = 071C7DC516662AD200F57F0B /* TestData.h */; };
 		075B03E9166A4D15000641AF /* LTViewSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B03E8166A4D15000641AF /* LTViewSpecs.m */; };
 		075B03EB166A52AE000641AF /* AutoLayoutExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 071BC12B160F320800D71074 /* AutoLayoutExample.json */; };
+		0774EA0E166B568F00E8BD0C /* LTViewSpecs.json in Resources */ = {isa = PBXBuildFile; fileRef = 07C0854B16665EB400E2A937 /* LTViewSpecs.json */; };
 		07C0854C16665EB400E2A937 /* LTViewSpecs.json in Resources */ = {isa = PBXBuildFile; fileRef = 07C0854B16665EB400E2A937 /* LTViewSpecs.json */; };
 		160DE99616661FD200F7F222 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160DE96816661F8200F7F222 /* SenTestingKit.framework */; };
 		160DE99716661FD200F7F222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051015653C30005C03C7 /* UIKit.framework */; };
@@ -25,7 +26,7 @@
 		1619CA65166627C7006EBCEF /* LTWatchFileServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 165B423E1581FDD600395A6F /* LTWatchFileServer.m */; };
 		1619CA66166627C7006EBCEF /* LTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 16558BB7158232CF00FFB2E2 /* LTContext.m */; };
 		1619CA67166627C7006EBCEF /* LTLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6AE15B16B7800B6402D /* LTLocale.m */; };
-		1619CA68166627C7006EBCEF /* LTParser+ViewInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */; };
+		1619CA68166627C7006EBCEF /* LTParser+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6B515B16F3C00B6402D /* LTParser+Helpers.m */; };
 		1619CA69166627C7006EBCEF /* LTAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CEEDB71607572A0037C418 /* LTAppearance.m */; };
 		1619CA6A166627D4006EBCEF /* NSString+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E6157D685900942BFD /* NSString+LTAdditions.m */; };
 		1619CA6B166627D4006EBCEF /* UIView+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D6CC1A157E9EAA005C0554 /* UIView+LTAdditions.m */; };
@@ -42,7 +43,7 @@
 		169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
 		1695BBB4160C8F6A00D825C7 /* DemoCell.json in Resources */ = {isa = PBXBuildFile; fileRef = 1695BBB3160C8F6A00D825C7 /* DemoCell.json */; };
 		16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6AE15B16B7800B6402D /* LTLocale.m */; };
-		16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */; };
+		16AAF6B615B16F3C00B6402D /* LTParser+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6B515B16F3C00B6402D /* LTParser+Helpers.m */; };
 		16C6051115653C30005C03C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051015653C30005C03C7 /* UIKit.framework */; };
 		16C6051315653C30005C03C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051215653C30005C03C7 /* Foundation.framework */; };
 		16C6051515653C30005C03C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051415653C30005C03C7 /* CoreGraphics.framework */; };
@@ -90,8 +91,8 @@
 		1695BBB3160C8F6A00D825C7 /* DemoCell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoCell.json; sourceTree = "<group>"; };
 		16AAF6AD15B16B7800B6402D /* LTLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLocale.h; sourceTree = "<group>"; };
 		16AAF6AE15B16B7800B6402D /* LTLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTLocale.m; sourceTree = "<group>"; };
-		16AAF6B415B16F3C00B6402D /* LTParser+ViewInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTParser+ViewInit.h"; sourceTree = "<group>"; };
-		16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTParser+ViewInit.m"; sourceTree = "<group>"; };
+		16AAF6B415B16F3C00B6402D /* LTParser+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTParser+Helpers.h"; sourceTree = "<group>"; };
+		16AAF6B515B16F3C00B6402D /* LTParser+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTParser+Helpers.m"; sourceTree = "<group>"; };
 		16C6050C15653C30005C03C7 /* Latte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C6051015653C30005C03C7 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16C6051215653C30005C03C7 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -271,8 +272,8 @@
 				16558BB7158232CF00FFB2E2 /* LTContext.m */,
 				16AAF6AD15B16B7800B6402D /* LTLocale.h */,
 				16AAF6AE15B16B7800B6402D /* LTLocale.m */,
-				16AAF6B415B16F3C00B6402D /* LTParser+ViewInit.h */,
-				16AAF6B515B16F3C00B6402D /* LTParser+ViewInit.m */,
+				16AAF6B415B16F3C00B6402D /* LTParser+Helpers.h */,
+				16AAF6B515B16F3C00B6402D /* LTParser+Helpers.m */,
 				16CEEDB61607572A0037C418 /* LTAppearance.h */,
 				16CEEDB71607572A0037C418 /* LTAppearance.m */,
 			);
@@ -378,6 +379,7 @@
 				1695BBB4160C8F6A00D825C7 /* DemoCell.json in Resources */,
 				071BC12C160F320800D71074 /* AutoLayoutExample.json in Resources */,
 				16E06D141664BF2C002E827D /* Default-568h@2x.png in Resources */,
+				0774EA0E166B568F00E8BD0C /* LTViewSpecs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +441,7 @@
 				1619CA65166627C7006EBCEF /* LTWatchFileServer.m in Sources */,
 				1619CA66166627C7006EBCEF /* LTContext.m in Sources */,
 				1619CA67166627C7006EBCEF /* LTLocale.m in Sources */,
-				1619CA68166627C7006EBCEF /* LTParser+ViewInit.m in Sources */,
+				1619CA68166627C7006EBCEF /* LTParser+Helpers.m in Sources */,
 				1619CA69166627C7006EBCEF /* LTAppearance.m in Sources */,
 				1619CA6A166627D4006EBCEF /* NSString+LTAdditions.m in Sources */,
 				1619CA6B166627D4006EBCEF /* UIView+LTAdditions.m in Sources */,
@@ -466,7 +468,7 @@
 				16558BB8158232CF00FFB2E2 /* LTContext.m in Sources */,
 				169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */,
 				16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */,
-				16AAF6B615B16F3C00B6402D /* LTParser+ViewInit.m in Sources */,
+				16AAF6B615B16F3C00B6402D /* LTParser+Helpers.m in Sources */,
 				16CEEDB81607572A0037C418 /* LTAppearance.m in Sources */,
 				071BC12A160F31F400D71074 /* AutoLayoutExampleViewController.m in Sources */,
 			);

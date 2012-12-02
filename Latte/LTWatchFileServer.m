@@ -66,7 +66,7 @@
         
     NSError *err = nil;
     if (NO == [_socket acceptOnPort:port error:&err]) {
-        NSLog(@"Can't open the socket - %@", err);
+        LTLog(@"Can't open the socket - %@", err);
         return;
     }
     
@@ -155,7 +155,7 @@
     }
     
     @catch (NSException *exception) {
-        NSLog(@"Corrupted request");
+        LTLog(@"Corrupted request");
     }
 }
 

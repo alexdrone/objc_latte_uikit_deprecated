@@ -25,12 +25,4 @@
 - (LTNode*)parseMarkup:(NSString*)markup; 
 - (LTNode*)parseFile:(NSString*)filename;
 
-/* Returns all the associated keypaths and a formatted (printable) string 
- * from a given source string with the format 
- * "This is a template #{obj.keypath} for #{otherkeypath}.." */
-BOOL LTGetKeypathsAndTemplateFromString(NSArray **keypaths, NSString **template, NSString *source);
-
-/* Returns the possible condition value associated to the given string */
-BOOL LTGetContextConditionFromString(LTContextValueTemplate **contextCondition, NSString* source);
-
 @end

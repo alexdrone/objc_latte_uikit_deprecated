@@ -288,7 +288,7 @@ static NSUInteger LTNodeInstanceCounter = 0;
     }
     
     @catch (NSException *exception) {
-        NSLog(@"Unable to render the template");
+        LTLog(@"Unable to render the template");
         return nil;
     }
 }
