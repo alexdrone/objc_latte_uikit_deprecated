@@ -92,38 +92,9 @@ id LTParsePrimitiveType(id object, enum LTParsePrimitiveTypeOption option)
 		return object;
 			
 	//rgba color type
-	if ([object hasPrefix:kLTTagColorRgb]) {
-		
-		NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-		NSArray  *comps = [value componentsSeparatedByString:@","];
-		casted = LTRgbaUIColor([comps[0] floatValue], [comps[1] floatValue], [comps[2] floatValue], [comps[3] floatValue]);
-		
-	//hex color type
-	} else if ([object hasPrefix:kLTTagColorHex]) {
-		
-		NSScanner *scanner = [NSScanner scannerWithString:object];
-		NSUInteger result;
-		[scanner setScanLocation:kLTTagColorHex.length+1];
-		[scanner scanHexInt:&result];
-		
-		casted = LTHexUIColor(result);
-		
-	//pattern
-	} else if ([object hasPrefix:kLTTagColorPattern]) {
-		NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-		casted = [UIColor colorWithPatternImage:[UIImage imageNamed:value]];
-		
-	//ui color type
-	} else if ([object hasPrefix:kLTTagColor]) {
-		NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
-		
-		//add the color suffix if it's missing (in order to perform a call to the color method
-		value = [value hasSuffix:@"Color"] ? value : [NSString stringWithFormat:@"%@Color", value];
-		
-		if (nil != class_getClassMethod(UIColor.class, NSSelectorFromString(value)))
-			casted = [UIColor performSelector:NSSelectorFromString(value)];
-		else
-			casted = [UIColor blackColor];
+    if ([object hasPrefix:kLTTagColor])  {
+        
+        casted = [UIColor parseLatteColor:object];
 		
 	//font type
 	} else if ([object hasPrefix:kLTTagFont]) {
@@ -230,9 +201,18 @@ void LTStaticInitializeViewFromNodeDictionary(LTView *container, UIView *view, N
 			view.layer.cornerRadius = [dictionary[key] floatValue];
 			view.layer.masksToBounds = YES;
             
+        } else if ([key isEqualToString:@"borderWidth"]) {
+            view.layer.borderWidth = [dictionary[key] floatValue];
+            
+        } else if ([key isEqualToString:@"borderColor"]) {
+            view.layer.borderColor = [dictionary[key] CGColor];
+            
         //text for buttons
         } else if ([key isEqualToString:@"text"] && [view isKindOfClass:UIButton.class]) {
 			[((UIButton*)view) setTitle:dictionary[key] forState:UIControlStateNormal];
+            
+        } else if ([key isEqualToString:@"textColor"] && [view isKindOfClass:UIButton.class]) {
+			[((UIButton*)view) setTitleColor:dictionary[key] forState:UIControlStateNormal];
             
         } else {
             

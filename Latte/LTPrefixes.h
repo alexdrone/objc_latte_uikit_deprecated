@@ -17,6 +17,7 @@
 #define kLTTagColorHex      @"@color-hex"
 #define kLTTagColorRgb      @"@color-rgb"
 #define kLTTagColorPattern  @"@color-pattern"
+#define kLTTagColorGradient @"@color-gradient"
 #define kLTTagFont          @"@font"
 #define kLTTagImage         @"@image"
 
@@ -40,6 +41,7 @@
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import "UIView+LTAdditions.h"
 #import "NSString+LTAdditions.h"
+#import "UIColor+LTAdditions.h"
 #import "LTNode.h"
 #import "LTParser.h"
 #import "LTView.h"
