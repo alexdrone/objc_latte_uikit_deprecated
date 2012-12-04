@@ -125,7 +125,7 @@
  * tree structure. Object and context bindings are also fetched  and cached in this stage of 
  * initialization. */
 - (void)renderView
-{
+{    
     //create the bindings map
     self.viewsDictionary = [[NSMutableDictionary alloc] init];
 	
@@ -154,7 +154,7 @@
 	
 	for (NSDictionary *c in self.node.constraints) {
 		NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:c[@"format"]
-																	   options:LTLayoutFormatOptionsFromArray(c[@"options"])
+																	   options:[((NSArray*)c[@"options"]) LT_layoutFormatOptions]
 																	   metrics:c[@"metrics"]
 																		 views:self.viewsDictionary];
 		[self addConstraints:constraints];
@@ -246,17 +246,17 @@
                 
             //metric evaluations are rendered in this stage
             } else if ([object isKindOfClass:LTMetricEvaluationTemplate.class]) {
-                casted = LTProcessMetricEvaluation(self, object);
+                casted = LT_processMetricEvaluation(self, object);
                 continue;
                 
             //primitives should be converted during the rendering
 			} else if ([object isKindOfClass:NSArray.class]) {
-				casted = LTParseMetricArray(self, object);
+				casted = [((NSArray*)object) LT_createMetricForView:self];
 				
             //if the value is still a string might be a lattekit primitive
             //type left to lazy initialization (likely an image)
 			} else if ([object isKindOfClass:NSString.class]) {
-				casted = LTParsePrimitive(object, LTParsePrimitiveTypeOptionNone);
+				casted = LT_parsePrimitive(object, LTParsePrimitiveTypeOptionNone);
 			}
 			
 			//tries to set the object for the given key
@@ -271,6 +271,7 @@
 {
 
 #define ERR(fmt, ...) {LTLog((fmt), ##__VA_ARGS__); goto render_err;}
+    
     
     //the rendered views
     NSMutableArray *views = [[NSMutableArray alloc] init];

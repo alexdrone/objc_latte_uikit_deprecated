@@ -63,10 +63,11 @@
 		return;
 	}
 	
-    NSMutableDictionary *json = [filename mutableObjectFromJSONStringWithParseOptions:JKParseOptionComments|JKParseOptionPermitTextAfterValidJSON];
-	
+    error = nil;
+    NSMutableDictionary *json = [filename mutableObjectFromJSONStringWithParseOptions:JKParseOptionComments|JKParseOptionPermitTextAfterValidJSON error:&error];
+    	
 	if (nil == json)
-		LTLog(@"Unable to parse the json");
+		LTLog(@"Unable to parse the json %@", error);
 	
 	[self setStylesheet:json forKey:filename];
 }

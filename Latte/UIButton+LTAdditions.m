@@ -10,7 +10,6 @@
 
 @implementation UIButton (LTAdditions)
 
-
 - (NSString*)title
 {
     return [self titleForState:UIControlStateNormal];

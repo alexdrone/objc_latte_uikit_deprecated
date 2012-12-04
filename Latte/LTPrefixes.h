@@ -44,13 +44,13 @@
 #import "UIColor+LTAdditions.h"
 #import "UIButton+LTAdditions.h"
 #import "UIFont+LTAdditions.h"
+#import "NSArray+LTAdditions.h"
 #import "LTNode.h"
 #import "LTParser.h"
 #import "LTView.h"
 #import "LTWatchFileServer.h"
 #import "LTContext.h"
 #import "LTLocale.h"
-#import "LTParser+Helpers.h"
 #import "LTAppearance.h"
 
 #endif

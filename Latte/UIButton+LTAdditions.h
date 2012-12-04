@@ -10,7 +10,8 @@
 
 @interface UIButton (LTAdditions)
 
-/* Some handy wrappers around the button title */
+/* Handy shortcuts to set the title for the 
+ * UIControlStateNormal state and its color */
 @property (strong) NSString *title;
 @property (strong) UIColor *titleColor;
 

@@ -11,6 +11,6 @@
 @interface UIFont (LTAdditions)
 
 /* Parse a latte string with prefix @font into a UIFont */
-+ (UIFont*)parseLatteFont:(NSString*)object;
++ (UIFont*)LT_parseLatteFont:(NSString*)object;
 
 @end

@@ -13,7 +13,7 @@
 @implementation UIColor (LTAdditions)
 
 /* parses a string with the @color prefix into a UIColor */
-+ (UIColor*)parseLatteColor:(NSString*)object
++ (UIColor*)LT_parseLatteColor:(NSString*)object
 {
     id casted = [UIColor blackColor];
     
