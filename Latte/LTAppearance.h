@@ -26,7 +26,6 @@
  * with their value */
 @property (strong) NSMutableDictionary *stylesheet;
 
-
 @property (readonly) NSNumber *screenWidth;
 @property (readonly) NSNumber *screenHeight;
 @property (readonly) NSNumber *isPad;

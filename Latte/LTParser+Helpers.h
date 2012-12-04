@@ -30,28 +30,20 @@ BOOL LTGetContextConditionFromString(LTContextValueTemplate **contextCondition, 
 
 /* Tries to parse the primitive latte values such
  * as fonts, color, rects and images. */
-id LTParsePrimitiveType(id object, enum LTParsePrimitiveTypeOption option);
+id LTParsePrimitive(id object, enum LTParsePrimitiveTypeOption option);
 
 /* Parses arrays that can be converted to CGPoint o CGRect.
  * The content of the array is expected to be NSNumbers or LTMetricEvaluationTemplate */
-id LTParsePrimitiveTypeMetricArray(LTView *container, NSArray *object);
+id LTParseMetricArray(LTView *container, NSArray *object);
 
-/* Checks if the given aray contains just metric informations
- * or not - other arrays are currently not supported */
-BOOL LTIsAMetricArray(NSArray *object);
+// Metric types
+
+/* Tries to evaluate a LTMetricEvaluationTemplate if passed
+ * as argument or just return the value itself if it's a number */
+NSNumber *LTProcessMetricEvaluation(LTView *container, id object);
 
 /* Transform an array of option into the NSLayoutFormatOptions integer flag */
 NSLayoutFormatOptions LTLayoutFormatOptionsFromArray(NSArray *array);
 
-// View init
-
-/* Initialize the views by reading the Latte dictionary
- * passed as argument */
-void LTStaticInitializeViewFromNodeDictionary(LTView *container, UIView *view, NSDictionary *dictionary,
-											  NSMutableArray **bindings, NSMutableArray **contextBindings);
-
-/* Render a view and all its subviews from a given node */
-NSArray *LTRenderViewsFromNodeChildren(LTView *container, LTNode *node, NSMutableArray **bindings,
-									   NSMutableArray **contextBindings, NSMutableDictionary *viewsDictionary);
 
 @end

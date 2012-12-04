@@ -40,6 +40,8 @@
 		165B42561581FFC700395A6F /* DemoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 165B424B1581FFC700395A6F /* DemoObject.m */; };
 		165B42571581FFC700395A6F /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165B424D1581FFC700395A6F /* DemoTableViewController.m */; };
 		165B425C158202C000395A6F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165B425B158202C000395A6F /* CFNetwork.framework */; };
+		1673454A166DF912000C240B /* UIButton+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16734549166DF912000C240B /* UIButton+LTAdditions.m */; };
+		1673454E166E013E000C240B /* UIFont+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1673454D166E013E000C240B /* UIFont+LTAdditions.m */; };
 		1682F9FA166CEB21008C472C /* UIColor+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1682F9F9166CEB21008C472C /* UIColor+LTAdditions.m */; };
 		169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
 		1695BBB4160C8F6A00D825C7 /* DemoCell.json in Resources */ = {isa = PBXBuildFile; fileRef = 1695BBB3160C8F6A00D825C7 /* DemoCell.json */; };
@@ -87,6 +89,10 @@
 		165B424C1581FFC700395A6F /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
 		165B424D1581FFC700395A6F /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
 		165B425B158202C000395A6F /* CFNetwork.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		16734548166DF912000C240B /* UIButton+LTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTAdditions.h"; sourceTree = "<group>"; };
+		16734549166DF912000C240B /* UIButton+LTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTAdditions.m"; sourceTree = "<group>"; };
+		1673454C166E013E000C240B /* UIFont+LTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LTAdditions.h"; sourceTree = "<group>"; };
+		1673454D166E013E000C240B /* UIFont+LTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LTAdditions.m"; sourceTree = "<group>"; };
 		1682F9F8166CEB21008C472C /* UIColor+LTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LTAdditions.h"; sourceTree = "<group>"; };
 		1682F9F9166CEB21008C472C /* UIColor+LTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LTAdditions.m"; sourceTree = "<group>"; };
 		169409E015B052BA003B7C98 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
@@ -183,6 +189,10 @@
 				16D6CC1A157E9EAA005C0554 /* UIView+LTAdditions.m */,
 				1682F9F8166CEB21008C472C /* UIColor+LTAdditions.h */,
 				1682F9F9166CEB21008C472C /* UIColor+LTAdditions.m */,
+				16734548166DF912000C240B /* UIButton+LTAdditions.h */,
+				16734549166DF912000C240B /* UIButton+LTAdditions.m */,
+				1673454C166E013E000C240B /* UIFont+LTAdditions.h */,
+				1673454D166E013E000C240B /* UIFont+LTAdditions.m */,
 			);
 			name = Additions;
 			sourceTree = "<group>";
@@ -477,6 +487,8 @@
 				16CEEDB81607572A0037C418 /* LTAppearance.m in Sources */,
 				071BC12A160F31F400D71074 /* AutoLayoutExampleViewController.m in Sources */,
 				1682F9FA166CEB21008C472C /* UIColor+LTAdditions.m in Sources */,
+				1673454A166DF912000C240B /* UIButton+LTAdditions.m in Sources */,
+				1673454E166E013E000C240B /* UIFont+LTAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -88,7 +88,7 @@ static NSUInteger LTNodeInstanceCounter = 0;
         
         //a common latte primitive type
 	} else {
-		processedObject = LTParsePrimitiveType(obj, LTParsePrimitiveTypeOptionOptimal);
+		processedObject = LTParsePrimitive(obj, LTParsePrimitiveTypeOptionOptimal);
 	}
 	
 	return processedObject;

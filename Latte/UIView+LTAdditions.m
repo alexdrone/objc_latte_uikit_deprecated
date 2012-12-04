@@ -9,6 +9,7 @@
 #import "UIView+LTAdditions.h"
 #import <objc/runtime.h>
 #import "LTPrefixes.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation LTBind
 @synthesize bind = _bind;
@@ -116,6 +117,83 @@ static const char *kLTTagIdKey = "LT_id";
 - (NSNumber*)positionY
 {
 	return @(self.bounds.size.height);
+}
+
+/* CALayer properties wrapper*/
+
+#pragma mark - CALayer properties wrapper
+
+- (NSNumber*)cornerRadius
+{
+    return @(self.layer.cornerRadius);
+}
+
+- (void)setCornerRadius:(NSNumber*)cornerRadius
+{
+    self.layer.cornerRadius = cornerRadius.floatValue;
+    self.layer.masksToBounds = YES;
+}
+
+- (NSNumber*)borderWidth
+{
+    return @(self.layer.borderWidth);
+}
+
+- (void)setBorderWidth:(NSNumber*)borderWidth
+{
+    self.layer.borderWidth = borderWidth.floatValue;
+}
+
+- (UIColor*)borderColor
+{
+    return [UIColor colorWithCGColor:self.layer.borderColor];
+}
+
+- (void)setBorderColor:(UIColor*)borderColor
+{
+    self.layer.borderColor = borderColor.CGColor;
+}
+
+- (NSNumber*)shadowOpacity
+{
+    return @(self.layer.shadowOpacity);
+}
+
+- (void)setShadowOpacity:(NSNumber*)shadowOpacity
+{
+    self.layer.shadowOpacity = shadowOpacity.floatValue;
+}
+
+- (NSNumber*)shadowRadius
+{
+    return @(self.layer.shadowRadius);
+}
+
+- (void)setShadowRadius:(NSNumber*)shadowRadius
+{
+    self.layer.shadowRadius = shadowRadius.floatValue;
+}
+
+- (NSArray*)shadowOffset
+{
+    return @[@(self.layer.shadowOffset.width), @(self.layer.shadowOffset.height)];
+}
+
+- (void)setShadowOffset:(NSArray*)shadowOffset
+{
+    if (shadowOffset.count != 2) return;
+    if (![shadowOffset[0] isKindOfClass:NSNumber.class] || ![shadowOffset[1] isKindOfClass:NSNumber.class]) return;
+    self.layer.shadowOffset = CGSizeMake([shadowOffset[0] floatValue], [shadowOffset[1] floatValue]);
+}
+
+- (UIColor*)shadowColor
+{
+    return [UIColor colorWithCGColor:self.layer.shadowColor];
+}
+
+- (void)setShadowColor:(UIColor*)shadowColor
+{
+    self.layer.shadowColor = shadowColor.CGColor;
 }
 
 @end

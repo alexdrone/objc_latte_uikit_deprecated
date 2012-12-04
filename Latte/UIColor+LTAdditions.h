@@ -16,13 +16,7 @@
 
 @interface UIColor (LTAdditions)
 
+/* parses a string with the @color prefix into a UIColor */
 + (UIColor*)parseLatteColor:(NSString*)object;
-
-+ (UIColor*)colorFromLatteHexString:(NSString*)object;
-+ (UIColor*)colorFromLatteRgbString:(NSString*)object;
-+ (UIColor*)colorFromLatteSelectorName:(NSString*)object;
-+ (UIColor*)colorFromLattePatternString:(NSString*)object;
-+ (UIColor*)gradientColorFromLatteString:(NSString*)object;
-
 
 @end

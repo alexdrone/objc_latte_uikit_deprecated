@@ -43,7 +43,7 @@
     return self;
 }
 
-#pragma mark Cache
+#pragma mark - Cache
 
 /* Replaces the current caches for a given key */
 - (void)replaceCacheForFile:(NSString*)key withNode:(LTNode*)node
@@ -78,7 +78,7 @@
     else return nil;
 }
 
-#pragma mark Parsing
+#pragma mark - Parsing
 
 /* Create the tree structure from a given legal .lt markup */
 - (LTNode*)parseMarkup:(NSString*)markup
@@ -86,7 +86,7 @@
     return [self parseJSONMarkup:markup];
 }
 
-#pragma mark JSON
+#pragma mark - JSON
 
 - (LTNode*)parseJSONMarkup:(NSString*)markup
 {
@@ -133,15 +133,6 @@ void LTJSONCreateTreeStructure(NSMutableDictionary *jsonNode, LTNode *node)
         [node.children addObject:childNode];
     }
 }
-
-/* Parses the style section of the markup and initilizes LTStylesheet */
-- (void)parseStylesheet:(NSString*)markup
-{
-}
-
-#pragma mark Helper functions
-
-
 
 
 @end

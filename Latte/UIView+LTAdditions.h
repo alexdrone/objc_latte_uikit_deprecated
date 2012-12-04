@@ -31,7 +31,14 @@
 @property (readonly) NSNumber *positionX;
 @property (readonly) NSNumber *positionY;
 
-
+/* CALayer properties wrapper*/
+@property (strong) NSNumber *cornerRadius;
+@property (strong) NSNumber *borderWidth;
+@property (strong) UIColor *borderColor;
+@property (strong) NSNumber *shadowOpacity;
+@property (strong) NSNumber *shadowRadius;
+@property (strong) NSArray *shadowOffset;
+@property (strong) UIColor *shadowColor;
 
 - (UIView*)subviewWithId:(NSString*)LT_id;
 

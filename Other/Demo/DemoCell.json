@@ -19,13 +19,13 @@
             "@isa":"UIButton",
             "@id":"coolButton",
             "backgroundColor":"@color-gradient(7a2d1a, 802f1b, 34)",
-            "text":"hej",
+            "title":"hej",
             "frame":["@metric(#{l1.frameWidth}+25)",5,80,"@metric(#{bkg.frameHeight}-10)"],
             "cornerRadius":7,
             "borderWidth":2,
             "borderColor":"@color-hex:e25132",
             "font":"@font:Thonburi-Bold,16",
-            "textColor":"@color-hex:c7482b"
+            "titleColor":"@color-hex:c7482b"
         }
 	]
 }

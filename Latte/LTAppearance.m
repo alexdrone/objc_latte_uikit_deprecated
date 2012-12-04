@@ -91,8 +91,6 @@
 	
 
 	self.stylesForFilename[filename] = json.allKeys;
-	
-	
 }
 
 #pragma mark - Appearance constants

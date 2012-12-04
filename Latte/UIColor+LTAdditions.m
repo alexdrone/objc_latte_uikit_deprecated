@@ -12,6 +12,7 @@
 
 @implementation UIColor (LTAdditions)
 
+/* parses a string with the @color prefix into a UIColor */
 + (UIColor*)parseLatteColor:(NSString*)object
 {
     id casted = [UIColor blackColor];
@@ -34,10 +35,14 @@
         //ui color type
 	} else if ([object hasPrefix:kLTTagColor]) {
         casted = [UIColor colorFromLatteSelectorName:object];
+    } else {
+        LTLog(@"Unable to parse the color with string %@", object);
     }
     
     return casted;
 }
+
+#pragma mark - Helpers
 
 + (UIColor*)generateGradientFromColor:(UIColor*)color1 toColor:(UIColor*)color2 withSize:(CGSize)frame
 {
@@ -127,7 +132,6 @@
     scanner = [NSScanner scannerWithString:comps[1]];
     [scanner setScanLocation:0];
     [scanner scanHexInt:&color2];
-    
     
     CGFloat size = [comps[2] floatValue];
     
