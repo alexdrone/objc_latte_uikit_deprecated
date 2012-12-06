@@ -125,16 +125,12 @@
  * tree structure. Object and context bindings are also fetched  and cached in this stage of 
  * initialization. */
 - (void)renderView
-{
+{    
     //create the bindings map
-    NSMutableArray *map = [[NSMutableArray alloc] init], *contextMap = [[NSMutableArray alloc] init];
     self.viewsDictionary = [[NSMutableDictionary alloc] init];
 	
-    //render the static components of the view
-    NSArray *subviews = LTRenderViewsFromNodeChildren(self, self.node, &map, &contextMap, self.viewsDictionary);
-    
-    self.bindings = map;
-    self.contextBindings = contextMap;
+    //render the static components of the view    
+    NSArray *subviews = [self createViewsForNode:self.node];
     
     //remove all the previous subviews
     for (UIView *subview in self.subviews) 
@@ -165,7 +161,7 @@
 	
 	for (NSDictionary *c in self.node.constraints) {
 		NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:c[@"format"]
-																	   options:LTLayoutFormatOptionsFromArray(c[@"options"])
+																	   options:[((NSArray*)c[@"options"]) LT_layoutFormatOptions]
 																	   metrics:c[@"metrics"]
 																		 views:self.viewsDictionary];
 		[self addConstraints:constraints];
@@ -212,8 +208,7 @@
 }
 
 /* Trigger the rendering of all the templates associated to the view's context
- * object. The context object binding is not mandatory.
- */
+ * object. The context object binding is not mandatory. */
 - (void)refreshContextBindings
 {
     //cycle through all the targets for the context
@@ -224,5 +219,107 @@
 					 forKeyPath:target.keypath];
 }
 
+#pragma mark - 
+#pragma mark View Rendering
+
+/* These values are parsed at LTView's creation time
+ * Initialize the views by reading the Latte dictionary passed as argument */
+- (void)initializeView:(UIView*)view fromNodeData:(NSDictionary*)dictionary
+{
+    for (NSString *key in dictionary.allKeys) {
+        
+        if ([key isEqualToString:kLTTagIsa]) continue;
+        
+        else if ([key isEqualToString:kLTTagId])
+            view.LT_id = dictionary[key];
+        
+        else if ([key isEqualToString:kLTTagStyle])
+            view.LT_style = dictionary[key];
+        
+        else {
+            
+            id object = dictionary[key];
+            id casted = object;
+
+            //KVO bindings are skipped in this method
+            if ([object isKindOfClass:LTKVOTemplate.class]) {
+                [self.bindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
+                continue;
+                
+            //Context Condition are skipped in this method
+            } else if ([object isKindOfClass:LTContextValueTemplate.class]) {
+                [self.contextBindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
+                continue;
+                
+            //metric evaluations are rendered in this stage
+            } else if ([object isKindOfClass:LTMetricEvaluationTemplate.class]) {
+                casted = LT_processMetricEvaluation(self, object);
+                continue;
+                
+            //primitives should be converted during the rendering
+			} else if ([object isKindOfClass:NSArray.class]) {
+				casted = [((NSArray*)object) LT_createMetricForView:self];
+				
+            //if the value is still a string might be a lattekit primitive
+            //type left to lazy initialization (likely an image)
+			} else if ([object isKindOfClass:NSString.class]) {
+				casted = LT_parsePrimitive(object, LTParsePrimitiveTypeOptionNone);
+			}
+			
+			//tries to set the object for the given key
+            if ([view respondsToSelector:NSSelectorFromString(key)])
+                [view setValue:casted forKeyPath:key];
+        }
+    }
+}
+
+/* Render a view and all its subviews from a given node */
+- (NSArray*)createViewsForNode:(LTNode*)node
+{
+
+#define ERR(fmt, ...) {LTLog((fmt), ##__VA_ARGS__); goto render_err;}
+    
+    
+    //the rendered views
+    NSMutableArray *views = [[NSMutableArray alloc] init];
+	
+    //recoursively creates all the views associated
+    //to the nodes in the parse tree
+    for (LTNode *n in node.children) {
+		
+        UIView *object = [[NSClassFromString(n.data[kLTTagIsa]) alloc] init];
+		
+        if (nil == object)
+            ERR(@"Class %@ not found", n.data[kLTTagIsa]);
+		
+		//view dictionary to handle visual format languange constraints
+        if (nil == n.data[kLTTagId])
+            ERR(@"No @id for this view");
+        
+        self.viewsDictionary[n.data[kLTTagId]] = object;
+		
+        @try {
+            
+            //set all the properties from the node's data dictionary
+            [self initializeView:object fromNodeData:n.data];
+			
+        } @catch (NSException *exception) {
+            ERR(@"Unable to initialize the view with the node's data: %@", n.data);
+        }
+		
+        //recoursively creates and add the subviews
+        for (UIView *subview in [self createViewsForNode:n])
+            [object addSubview:subview];
+		
+		[views addObject:object];
+    }
+    
+    //returns the generated views
+    return views;
+    
+render_err:
+    LTLog(@"Rendering error");
+    return @[];
+}
 
 @end

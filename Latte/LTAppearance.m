@@ -63,10 +63,11 @@
 		return;
 	}
 	
-    NSMutableDictionary *json = [input mutableObjectFromJSONStringWithParseOptions:JKParseOptionComments|JKParseOptionPermitTextAfterValidJSON];
-	
+    error = nil;
+    NSMutableDictionary *json = [input mutableObjectFromJSONStringWithParseOptions:JKParseOptionComments|JKParseOptionPermitTextAfterValidJSON error:&error];
+    	
 	if (nil == json)
-		LTLog(@"Unable to parse the json");
+		LTLog(@"Unable to parse the json %@", error);
 	
 	[self setStylesheet:json forKey:filename];
 }
@@ -127,8 +128,9 @@
 	for (NSString *key in skipped)
 		[values removeObjectForKey:key];
 	
-	//itialize the view
-	LTStaticInitializeViewFromNodeDictionary(view.LT_container, view, values, nil, nil);
+	//itialize the view	
+	[view.LT_container initializeView:view fromNodeData:values];
+
 }
 
 #pragma mark - Appearance constants

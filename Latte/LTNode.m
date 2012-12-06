@@ -94,23 +94,23 @@ static NSUInteger LTNodeInstanceCounter = 0;
 	if ([obj hasPrefix:kLTTagMetric]) {
 		
 		//tries to parse to split template and keypaths
-		if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj))
+		if (LT_parseKeypathsAndTemplateFromString(&keypaths, &template, obj))
 			processedObject = [[LTMetricEvaluationTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
 		
         //@context-value
 	} else if ([obj hasPrefix:kLTTagContext]) {
 		
 		//tries to parse to split template and keypaths
-		if (LTGetContextConditionFromString(&contextCondition, obj))
+		if (LT_parseContextConditionFromString(&contextCondition, obj))
 			processedObject = contextCondition;
         
         //common string template (with kvo bindings possibly)
-	} else if (LTGetKeypathsAndTemplateFromString(&keypaths, &template, obj)) {
+	} else if (LT_parseKeypathsAndTemplateFromString(&keypaths, &template, obj)) {
 		processedObject = [[LTKVOTemplate alloc] initWithTemplate:template andKeypaths:keypaths];
         
         //a common latte primitive type
 	} else {
-		processedObject = LTParsePrimitiveType(obj, LTParsePrimitiveTypeOptionOptimal);
+		processedObject = LT_parsePrimitive(obj, LTParsePrimitiveTypeOptionOptimal);
 	}
 	
 	return processedObject;

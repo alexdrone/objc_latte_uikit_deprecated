@@ -49,5 +49,9 @@
 - (void)bind:(id)object;
 - (void)bind:(id)object withContext:(void (^)(LTContext *context, id object))contextSetup;
 
+/* These values are parsed at LTView's creation time
+ * Initialize the views by reading the Latte dictionary passed as argument */
+- (void)initializeView:(UIView*)view fromNodeData:(NSDictionary*)dictionary;
+
 
 @end
