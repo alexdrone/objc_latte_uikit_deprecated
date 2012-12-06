@@ -141,8 +141,15 @@
         [subview removeFromSuperview];
     
     if (subviews.count)
-        for (UIView *subview in subviews)
+        for (UIView *subview in subviews) {
+			
+			subview.LT_container = self;
             [self addSubview:subview];
+			
+			//tries to apply the style to the subview
+			if (nil != subview.LT_style)
+				[[LTAppearance sharedInstance] applyStyleWithName:subview.LT_style onView:subview overrideProperties:NO];
+		}
 	
 	//costraints
 	#if __IPHONE_OS_VERSION_MIN_REQUIRED < 60000

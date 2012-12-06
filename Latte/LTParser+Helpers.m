@@ -220,10 +220,10 @@ void LTStaticInitializeViewFromNodeDictionary(LTView *container, UIView *view, N
         if ([key isEqualToString:kLTTagIsa]) continue;
         
         else if ([key isEqualToString:kLTTagId])
-            view.LT_id = dictionary[key];
+            view.LT_id = dictionary[key] ? dictionary[key] : view.LT_id;
         
         else if ([key isEqualToString:kLTTagStyle])
-            view.LT_style = dictionary[key];
+            view.LT_style = dictionary[key] ? dictionary[key] : view.LT_style;
         
         //reserved and special properties (syntactic sugar)
 		if ([key isEqualToString:@"cornerRadius"]) {
@@ -240,22 +240,22 @@ void LTStaticInitializeViewFromNodeDictionary(LTView *container, UIView *view, N
             id casted, object; casted = object = dictionary[key];
             
             //KVO bindings are skipped in this method
-            if ([object isKindOfClass:LTKVOTemplate.class]) {
+            if ([object isKindOfClass:LTKVOTemplate.class] && nil != bindings) {
                 [*bindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
                 continue;
                 
             //Context Condition are skipped in this method
-            } else if ([object isKindOfClass:LTContextValueTemplate.class]) {
+            } else if ([object isKindOfClass:LTContextValueTemplate.class] && nil != contextBindings) {
                 [*contextBindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
                 continue;
             
             //metric evaluations are rendered in this stage
-            } else if ([object isKindOfClass:LTMetricEvaluationTemplate.class]) {
+            } else if ([object isKindOfClass:LTMetricEvaluationTemplate.class] && nil != container) {
                 casted = LTProcessMetricEvaluation(container, object);
                 continue;
             
 			//primitives should be converted during the rendering
-			} else if ([object isKindOfClass:NSArray.class] && LTIsAMetricArray(object)) {
+			} else if ([object isKindOfClass:NSArray.class] && LTIsAMetricArray(object) && nil != container) {
 				casted = LTParsePrimitiveTypeMetricArray(container, object);
 				
 			//if the value is still a string might be a lattekit primitive
@@ -295,15 +295,12 @@ NSArray *LTRenderViewsFromNodeChildren(LTView *container, LTNode *node, NSMutabl
 			
 			NSString *viewId = n.data[kLTTagId];
 			
-			//the visual layout language is not compatible
-			//with the # prefix
-			if ([viewId hasPrefix:@"#"])
-				viewId = [viewId substringFromIndex:1];
-			
 			viewsDictionary[viewId] = object;
 		}
 		
         @try {
+			
+			//initialize all the view properties using the node as a coder
             LTStaticInitializeViewFromNodeDictionary(container, object, n.data, bindings, contextBindings);
 			
         } @catch (NSException *exception) {
@@ -323,6 +320,5 @@ render_err:
     LTLog(@"Rendering error");
     return nil;
 }
-
 
 @end

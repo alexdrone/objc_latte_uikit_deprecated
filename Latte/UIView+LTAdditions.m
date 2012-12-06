@@ -17,6 +17,7 @@
 
 static const char *kLTStyleKey = "LT_style";
 static const char *kLTTagIdKey = "LT_id";
+static const char *kLTTagContainerKey= "LT_container";
 
 @implementation UIView (LTAdditions) 
 
@@ -33,27 +34,31 @@ static const char *kLTTagIdKey = "LT_id";
     objc_setAssociatedObject(self, kLTStyleKey, LT_style, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
+- (void)setLT_container:(LTView*)LT_container
+{
+    objc_setAssociatedObject(self, kLTTagContainerKey, LT_container, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
 - (NSString*)LT_id
 {
     id value = objc_getAssociatedObject(self, kLTTagIdKey);
-    if (nil != value) return value;
-    
-    return @"#";
+    return value;
 }
 
 - (NSString*)LT_style
 {
     id value = objc_getAssociatedObject(self, kLTStyleKey);
-    if (nil != value) return value;
+    return value;
+}
 
-    return @".";
+- (NSString*)LT_container
+{
+    id value = objc_getAssociatedObject(self, kLTTagContainerKey);
+    return value;
 }
 
 - (UIView*)subviewWithId:(NSString*)LT_id
 {
-    if (![LT_id hasPrefix:@"#"])
-        LT_id = [NSString stringWithFormat:@"#%@", LT_id];
-    
     for (UIView *subview in self.subviews)
         if ([subview.LT_id isEqualToString:LT_id]) return subview;
     
@@ -64,6 +69,11 @@ static const char *kLTTagIdKey = "LT_id";
     }
     
     return nil;
+}
+
+- (void)applyStyle:(NSString*)style
+{
+	[[LTAppearance sharedInstance] applyStyleWithName:style onView:self overrideProperties:YES];
 }
 
 #pragma mark - CGRect and CGPoint wrappers

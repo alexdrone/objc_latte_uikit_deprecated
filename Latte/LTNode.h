@@ -30,6 +30,9 @@
 /* Autolayout visual constraints */
 @property (strong) NSMutableArray *constraints;
 
+/* Returns the node with the given @id */
+- (LTNode*)nodeWithId:(NSString*)nodeId;
+
 @end
 
 /* Options used in the LTKVOTemplate's flags */

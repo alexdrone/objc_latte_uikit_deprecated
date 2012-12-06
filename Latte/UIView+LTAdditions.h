@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class LTView;
+
 @interface LTBind : UIView
 
 @property (strong) NSString *bind;
@@ -18,6 +20,7 @@
 
 @property (strong) NSString *LT_id;
 @property (strong) NSString *LT_style;
+@property (strong) LTView *LT_container;
 
 /* CGRect and CGPoint wrappers */
 @property (readonly) NSNumber *frameX;
@@ -31,8 +34,7 @@
 @property (readonly) NSNumber *positionX;
 @property (readonly) NSNumber *positionY;
 
-
-
 - (UIView*)subviewWithId:(NSString*)LT_id;
+- (void)applyStyle:(NSString*)style;
 
 @end

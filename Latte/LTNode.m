@@ -31,6 +31,28 @@ static NSUInteger LTNodeInstanceCounter = 0;
     return _data;
 }
 
+/* Returns the node with the given @id */ 
+- (LTNode*)nodeWithId:(NSString*)nodeId
+{
+	if ([self.data[kLTTagId] isEqualToString:nodeId])
+		return self;
+
+	LTNode *result = nil;
+	
+	//searches recursively the node in the children
+	for (LTNode *node in self.children) {
+		LTNode *temp = [node nodeWithId:nodeId];
+		
+		if (nil != temp) {
+			result = temp;
+			break;
+		}
+	}
+
+	return result;
+	
+}
+
 /* Set the node's data from a given KVC object.
  * All the keys that are marked with @bind got their
  * relationship saved as LTKVOTemplates so that is 

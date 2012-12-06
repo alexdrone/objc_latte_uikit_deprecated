@@ -17,12 +17,16 @@
 		{
 			"@isa":"UILabel",
 			"@id":"l1",
+			"@style":"red",
 			"backgroundColor":"@color:clear",
 			"text":"hej: #{@bind(object.status)}",
-			"textColor":"@color:black",
 			"frame":["@metric(#{v1.frameWidth} + 10)",0,300,40],
-			"font":"@font:Arial,10"
+			"font":"@font:Arial,20"
 		}
-	]
+	],
+	
+	"@stylesheet":{
+		"red":{"textColor":"@color:red", "font":"@font:Arial,10"}
+	}
 }
 			  

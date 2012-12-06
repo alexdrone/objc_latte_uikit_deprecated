@@ -12,8 +12,6 @@
 
 @interface LTParser : NSObject
 
-/* It's the stylesheet cache, shared among the entire application */
-@property (strong) NSMutableDictionary *sharedStyleSheetCache;
 @property (assign) BOOL useJSONMarkup;
 
 + (LTParser*)sharedInstance;

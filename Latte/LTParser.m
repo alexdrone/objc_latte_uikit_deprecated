@@ -36,7 +36,6 @@
 {
     if (self = [super init]) {
         _cache = [[NSCache alloc] init];
-        _sharedStyleSheetCache = [[NSMutableDictionary alloc] init];
         _useJSONMarkup = YES;
     }        
     
@@ -63,19 +62,21 @@
     NSString *input = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:filename ofType:extension]
 												encoding:NSUTF8StringEncoding 
 												   error:&error];
-	if (nil == input)
+	if (nil == input || nil != error) {
 		LTLog(@"Unable to read the file %@", filename);
+		return nil;
+	}
+
+	//parses the stylesheet if defied
+	[[LTAppearance sharedInstance] parseFile:filename];
 	
-    if (!error) {
-        node = [self parseMarkup:input];
-        
-		LTLog(@"Recreating cache for key %@", filename);
-        
-        [self.cache setObject:node forKey:filename];
-        return node;
-    }
-    
-    else return nil;
+	//creates the hierarchy
+	node = [self parseMarkup:input];
+	
+	LTLog(@"Recreating cache for key %@", filename);
+	
+	[self.cache setObject:node forKey:filename];
+	return node;
 }
 
 #pragma mark Parsing
