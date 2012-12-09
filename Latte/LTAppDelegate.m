@@ -25,6 +25,8 @@
     [[LTWatchFileServer sharedInstance] startOnPort:9999];
 #endif
     
+    [[LTAppearance sharedInstance] parseFile:@"Stylesheet"];
+    
     // Override point for customization after application launch.
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	//AutoLayoutTestViewController *vc = [[AutoLayoutTestViewController alloc] init];

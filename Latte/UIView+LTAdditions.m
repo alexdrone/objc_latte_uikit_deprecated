@@ -58,13 +58,14 @@ static const char *kLTTagContainerKey= "LT_container";
     return value;
 }
 
-- (UIView*)subviewWithId:(NSString*)LT_id
+/* Recursively returns the view with the given @id */
+- (UIView*)LT_subviewWithId:(NSString*)LT_id
 {
     for (UIView *subview in self.subviews)
         if ([subview.LT_id isEqualToString:LT_id]) return subview;
     
     for (UIView *subview in self.subviews) {
-        UIView *ret = [subview subviewWithId:LT_id];
+        UIView *ret = [subview LT_subviewWithId:LT_id];
         if (ret)
             return ret;
     }
@@ -72,9 +73,21 @@ static const char *kLTTagContainerKey= "LT_container";
     return nil;
 }
 
-- (void)applyStyle:(NSString*)style
+/* Applies the latte style defined in in the 
+ * @stylesheet section to the current view */
+- (void)LT_applyStyle:(NSString*)style
 {
 	[[LTAppearance sharedInstance] applyStyleWithName:style onView:self overrideProperties:YES];
+}
+
+/* Redirect to the wrapping object key, for example
+ * autoresingMask is redirected to autoresizingMaskOptions */
+- (NSString*)LT_wrappingKeyForKey:(NSString*)key;
+{
+    if ([key isEqualToString:@"autoresingMask"])
+        return @"autoresizingMaskOptions";
+    
+    return key;
 }
 
 #pragma mark - CGRect and CGPoint wrappers
@@ -204,6 +217,59 @@ static const char *kLTTagContainerKey= "LT_container";
 - (void)setShadowColor:(UIColor*)shadowColor
 {
     self.layer.shadowColor = shadowColor.CGColor;
+}
+
+#pragma mark - Autoresizing mask options
+
+- (void)setAutoresizingMaskOptions:(NSArray*)options
+{
+    UIViewAutoresizing option = UIViewAutoresizingNone;
+    
+    if ([options containsObject:@"leftMargin"])
+        option |= UIViewAutoresizingFlexibleLeftMargin;
+    
+    if ([options containsObject:@"width"])
+        option |= UIViewAutoresizingFlexibleWidth;
+    
+    if ([options containsObject:@"topMargin"])
+        option |= UIViewAutoresizingFlexibleTopMargin;
+    
+    if ([options containsObject:@"rightMargin"])
+        option |= UIViewAutoresizingFlexibleRightMargin;
+    
+    if ([options containsObject:@"height"])
+        option |= UIViewAutoresizingFlexibleHeight;
+    
+    if ([options containsObject:@"bottomMargin"])
+        option |= UIViewAutoresizingFlexibleBottomMargin;
+
+    self.autoresizingMask = option;
+}
+
+-(NSArray*)autoresizingMaskOptions
+{
+    UIViewAutoresizing option = self.autoresizingMask;
+    NSMutableArray *options = [NSMutableArray array];
+    
+    if (option & UIViewAutoresizingFlexibleLeftMargin)
+        [options addObject:@"leftMargin"];
+
+    if (option & UIViewAutoresizingFlexibleWidth)
+        [options addObject:@"width"];
+
+    if (option & UIViewAutoresizingFlexibleTopMargin)
+        [options addObject:@"topMargin"];
+
+    if (option & UIViewAutoresizingFlexibleRightMargin)
+        [options addObject:@"rightMargin"];
+
+    if (option & UIViewAutoresizingFlexibleHeight)
+        [options addObject:@"height"];
+
+    if (option & UIViewAutoresizingFlexibleBottomMargin)
+        [options addObject:@"bottomMargin"];
+
+    return options;
 }
 
 @end

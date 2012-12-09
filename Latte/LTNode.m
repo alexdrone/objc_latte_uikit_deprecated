@@ -297,9 +297,9 @@ static NSUInteger LTNodeInstanceCounter = 0;
 				
 				NSAssert(nil != target, @"Nil target for metric evaluation");
 			}
-			
-            NSAssert([[target valueForKey:keypath] isKindOfClass:NSNumber.class], @"All the values should be NSNumbers");
-            [values addObject:[target valueForKey:keypath]];
+            
+            NSAssert([[target valueForKeyPath:keypath] isKindOfClass:NSNumber.class], @"All the values should be NSNumbers");
+            [values addObject:[target valueForKeyPath:keypath]];
         }
         
         //render and compute the expression

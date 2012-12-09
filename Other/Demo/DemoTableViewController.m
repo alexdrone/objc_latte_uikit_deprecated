@@ -17,7 +17,6 @@
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         self.markupView = [[LTView alloc] initWithLatteFile:@"DemoCell"];
         [self.contentView addSubview:self.markupView];
-        
         self.markupView.frame = self.contentView.frame;
         self.markupView.clipsToBounds = YES;
     }
@@ -63,7 +62,8 @@
 {
     [super viewDidLoad];
     
-    self.tableView.separatorColor = [UIColor clearColor];
+
+    [self.tableView LT_applyStyle:@"redTableView"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

@@ -43,7 +43,18 @@
 @property (strong) NSArray *shadowOffset;
 @property (strong) UIColor *shadowColor;
 
-- (UIView*)subviewWithId:(NSString*)LT_id;
-- (void)applyStyle:(NSString*)style;
+/* autoresizing mask from string array */
+@property (strong) NSArray *autoresizingMaskOptions;
+
+/* Recursively searches and returns the view with the given @id */
+- (UIView*)LT_subviewWithId:(NSString*)LT_id;
+
+/* Applies the latte style defined in in the
+ * @stylesheet section to the current view */
+- (void)LT_applyStyle:(NSString*)style;
+
+/* Redirect to the wrapping object key, for example
+ * autoresingMask is redirected to autoresizingMaskOptions */
+- (NSString*)LT_wrappingKeyForKey:(NSString*)key;
 
 @end

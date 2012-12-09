@@ -32,6 +32,7 @@
 		1619CA6D1666280A006EBCEF /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
 		1619CA6E1666283C006EBCEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051415653C30005C03C7 /* CoreGraphics.framework */; };
 		1619CA6F16662845006EBCEF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165B425B158202C000395A6F /* CFNetwork.framework */; };
+		161D76551671FDA000572CBD /* Stylesheet.json in Resources */ = {isa = PBXBuildFile; fileRef = 161D76541671FDA000572CBD /* Stylesheet.json */; };
 		16558BB8158232CF00FFB2E2 /* LTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 16558BB7158232CF00FFB2E2 /* LTContext.m */; };
 		165A27E7157D685900942BFD /* NSString+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E6157D685900942BFD /* NSString+LTAdditions.m */; };
 		165A27EA157D6B2900942BFD /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A27E9157D6B2900942BFD /* LTView.m */; };
@@ -79,6 +80,7 @@
 		160DE9A216661FD200F7F222 /* LatteTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LatteTest-Prefix.pch"; sourceTree = "<group>"; };
 		160DE9A81666204600F7F222 /* LTParserSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTParserSpecs.m; sourceTree = "<group>"; };
 		160DE9AA166620C200F7F222 /* libPods.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		161D76541671FDA000572CBD /* Stylesheet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Stylesheet.json; sourceTree = "<group>"; };
 		16558BB6158232CF00FFB2E2 /* LTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTContext.h; sourceTree = "<group>"; };
 		16558BB7158232CF00FFB2E2 /* LTContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTContext.m; sourceTree = "<group>"; };
 		165A27E5157D685900942BFD /* NSString+LTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LTAdditions.h"; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				071BC128160F31F400D71074 /* AutoLayoutExampleViewController.h */,
 				071BC129160F31F400D71074 /* AutoLayoutExampleViewController.m */,
 				071BC12B160F320800D71074 /* AutoLayoutExample.json */,
+				161D76541671FDA000572CBD /* Stylesheet.json */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				071BC12C160F320800D71074 /* AutoLayoutExample.json in Resources */,
 				16E06D141664BF2C002E827D /* Default-568h@2x.png in Resources */,
 				0774EA0E166B568F00E8BD0C /* LTViewSpecs.json in Resources */,
+				161D76551671FDA000572CBD /* Stylesheet.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,7 @@
 @property (strong) id object;
 @property (strong) LTContext *context;
 @property (strong) LTLocale *locale;
+@property (strong) LTAppearance *appearance;
 
 /* Bindings with all the object and context properties.
  * They contains LTTarget objects. */
@@ -43,9 +44,11 @@
 {
     if (self = [super init]) {
         
+        self.locale = [LTLocale sharedInstance];
+        self.appearance = [LTAppearance sharedInstance];
+        
         //parses and initializes the current view
         [self loadViewFromLatteFile:filename];
-        self.locale = [LTLocale sharedInstance];
                     
 #ifdef DEBUG
         [[LTWatchFileServer sharedInstance] registerView:self];
@@ -240,7 +243,7 @@
             
             id object = dictionary[key];
             id casted = object;
-
+                    
             //KVO bindings are skipped in this method
             if ([object isKindOfClass:LTKVOTemplate.class]) {
                 [self.bindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
@@ -257,7 +260,7 @@
                 continue;
                 
             //primitives should be converted during the rendering
-			} else if ([object isKindOfClass:NSArray.class]) {
+			} else if ([object isKindOfClass:NSArray.class] && [object LT_containsOnlyMetricObjects]) {
 				casted = [((NSArray*)object) LT_createMetricForView:self];
 				
             //if the value is still a string might be a lattekit primitive
@@ -266,9 +269,13 @@
 				casted = LT_parsePrimitive(object, LTParsePrimitiveTypeOptionNone);
 			}
 			
+            // Redirect to the wrapping object key, for example
+            // autoresingMask is redirected to autoresizingMaskOptions
+            NSString *keyPath = [view LT_wrappingKeyForKey:key];
+            
 			//tries to set the object for the given key
-            if ([view respondsToSelector:NSSelectorFromString(key)])
-                [view setValue:casted forKeyPath:key];
+            if ([view respondsToSelector:NSSelectorFromString(keyPath)])
+                [view setValue:casted forKeyPath:keyPath];
         }
     }
 }
