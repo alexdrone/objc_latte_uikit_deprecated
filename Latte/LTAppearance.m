@@ -129,8 +129,7 @@
 		[values removeObjectForKey:key];
 	
 	//itialize the view	
-	[view.LT_container initializeView:view fromNodeData:values];
-
+	[LTView initializeView:view fromNodeData:values inContainer:view.LT_container];
 }
 
 #pragma mark - Appearance constants

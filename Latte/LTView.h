@@ -51,7 +51,7 @@
 
 /* These values are parsed at LTView's creation time
  * Initialize the views by reading the Latte dictionary passed as argument */
-- (void)initializeView:(UIView*)view fromNodeData:(NSDictionary*)dictionary;
++ (void)initializeView:(UIView*)view fromNodeData:(NSDictionary*)dictionary inContainer:(LTView*)container;
 
 
 @end

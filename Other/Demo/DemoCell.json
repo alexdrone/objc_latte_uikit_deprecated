@@ -5,13 +5,13 @@
             "@id":"bkg",
             "@style":"defaultCell",
             "frame":[0,0,"@metric(#{appearance.screenWidth})",44],
-            "autoresingMask":["width"]
+            "autoresizingMask":["width"]
 		},
 		{
 			"@isa":"UILabel",
 			"@id":"l1",
 			"@style":"defaultLabel",
-			"text":"Status: #{@bind(object.status)} ",
+			"text":"hej: #{@bind(object.status)} ",
 			"frame":[10,0, "@metric(#{appearance.screenWidth}-100)","@metric(#{bkg.frameHeight})"]
 		},
         {

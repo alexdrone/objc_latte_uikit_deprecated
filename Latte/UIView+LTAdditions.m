@@ -82,9 +82,9 @@ static const char *kLTTagContainerKey= "LT_container";
 
 /* Redirect to the wrapping object key, for example
  * autoresingMask is redirected to autoresizingMaskOptions */
-- (NSString*)LT_wrappingKeyForKey:(NSString*)key;
++ (NSString*)LT_wrappingKeyForKey:(NSString*)key;
 {
-    if ([key isEqualToString:@"autoresingMask"])
+    if ([key isEqualToString:@"autoresizingMask"])
         return @"autoresizingMaskOptions";
     
     return key;
@@ -140,6 +140,16 @@ static const char *kLTTagContainerKey= "LT_container";
 - (NSNumber*)positionY
 {
 	return @(self.bounds.size.height);
+}
+
+- (NSNumber*)maxX
+{
+    return @(CGRectGetMaxX(self.frame));
+}
+
+- (NSNumber*)maxY
+{
+    return @(CGRectGetMaxY(self.frame));
 }
 
 /* CALayer properties wrapper*/

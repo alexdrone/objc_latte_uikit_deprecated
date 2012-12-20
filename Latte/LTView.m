@@ -227,7 +227,7 @@
 
 /* These values are parsed at LTView's creation time
  * Initialize the views by reading the Latte dictionary passed as argument */
-- (void)initializeView:(UIView*)view fromNodeData:(NSDictionary*)dictionary
++ (void)initializeView:(UIView*)view fromNodeData:(NSDictionary*)dictionary inContainer:(LTView*)container
 {
     for (NSString *key in dictionary.allKeys) {
         
@@ -246,22 +246,22 @@
                     
             //KVO bindings are skipped in this method
             if ([object isKindOfClass:LTKVOTemplate.class]) {
-                [self.bindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
+                [container.bindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
                 continue;
                 
             //Context Condition are skipped in this method
             } else if ([object isKindOfClass:LTContextValueTemplate.class]) {
-                [self.contextBindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
+                [container.contextBindings addObject:[[LTTarget alloc] initWithObject:view keyPath:key andTemplate:object]];
                 continue;
                 
             //metric evaluations are rendered in this stage
             } else if ([object isKindOfClass:LTMetricEvaluationTemplate.class]) {
-                casted = LT_processMetricEvaluation(self, object);
+                casted = LT_processMetricEvaluation(container, object);
                 continue;
                 
             //primitives should be converted during the rendering
 			} else if ([object isKindOfClass:NSArray.class] && [object LT_containsOnlyMetricObjects]) {
-				casted = [((NSArray*)object) LT_createMetricForView:self];
+				casted = [((NSArray*)object) LT_createMetricForView:container];
 				
             //if the value is still a string might be a lattekit primitive
             //type left to lazy initialization (likely an image)
@@ -271,7 +271,7 @@
 			
             // Redirect to the wrapping object key, for example
             // autoresingMask is redirected to autoresizingMaskOptions
-            NSString *keyPath = [view LT_wrappingKeyForKey:key];
+            NSString *keyPath = [self LT_wrappingKeyForKey:key];
             
 			//tries to set the object for the given key
             if ([view respondsToSelector:NSSelectorFromString(keyPath)])
@@ -308,7 +308,7 @@
         @try {
             
             //set all the properties from the node's data dictionary
-            [self initializeView:object fromNodeData:n.data];
+            [self.class initializeView:object fromNodeData:n.data inContainer:self];
 			
         } @catch (NSException *exception) {
             ERR(@"Unable to initialize the view with the node's data: %@", n.data);

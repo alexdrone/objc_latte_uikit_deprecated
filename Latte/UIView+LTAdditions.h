@@ -33,6 +33,8 @@
 @property (readonly) NSNumber *boundsHeigth;
 @property (readonly) NSNumber *positionX;
 @property (readonly) NSNumber *positionY;
+@property (readonly) NSNumber *maxX;
+@property (readonly) NSNumber *maxY;
 
 /* CALayer properties wrapper*/
 @property (strong) NSNumber *cornerRadius;
@@ -55,6 +57,6 @@
 
 /* Redirect to the wrapping object key, for example
  * autoresingMask is redirected to autoresizingMaskOptions */
-- (NSString*)LT_wrappingKeyForKey:(NSString*)key;
++ (NSString*)LT_wrappingKeyForKey:(NSString*)key;
 
 @end
