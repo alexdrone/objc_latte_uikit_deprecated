@@ -46,6 +46,10 @@
 		169409E215B052BA003B7C98 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 169409E115B052BA003B7C98 /* AsyncSocket.m */; };
 		1695BBB4160C8F6A00D825C7 /* DemoCell.json in Resources */ = {isa = PBXBuildFile; fileRef = 1695BBB3160C8F6A00D825C7 /* DemoCell.json */; };
 		16AAF6AF15B16B7900B6402D /* LTLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AAF6AE15B16B7800B6402D /* LTLocale.m */; };
+		16BAECFF1683175200B471B7 /* FTWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BAECFE1683175200B471B7 /* FTWButton.m */; };
+		16BAED041683182E00B471B7 /* LTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BAED031683182E00B471B7 /* LTButton.m */; };
+		16BAED0716832E9400B471B7 /* SKInnerShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BAED0616832E9400B471B7 /* SKInnerShadowLayer.m */; };
+		16BAED0916832FC000B471B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BAED0816832FC000B471B7 /* QuartzCore.framework */; };
 		16C6051115653C30005C03C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051015653C30005C03C7 /* UIKit.framework */; };
 		16C6051315653C30005C03C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051215653C30005C03C7 /* Foundation.framework */; };
 		16C6051515653C30005C03C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051415653C30005C03C7 /* CoreGraphics.framework */; };
@@ -105,6 +109,13 @@
 		1695BBB3160C8F6A00D825C7 /* DemoCell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoCell.json; sourceTree = "<group>"; };
 		16AAF6AD15B16B7800B6402D /* LTLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLocale.h; sourceTree = "<group>"; };
 		16AAF6AE15B16B7800B6402D /* LTLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTLocale.m; sourceTree = "<group>"; };
+		16BAECFD1683175200B471B7 /* FTWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWButton.h; sourceTree = "<group>"; };
+		16BAECFE1683175200B471B7 /* FTWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWButton.m; sourceTree = "<group>"; };
+		16BAED021683182E00B471B7 /* LTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTButton.h; sourceTree = "<group>"; };
+		16BAED031683182E00B471B7 /* LTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTButton.m; sourceTree = "<group>"; };
+		16BAED0516832E9400B471B7 /* SKInnerShadowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKInnerShadowLayer.h; sourceTree = "<group>"; };
+		16BAED0616832E9400B471B7 /* SKInnerShadowLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKInnerShadowLayer.m; sourceTree = "<group>"; };
+		16BAED0816832FC000B471B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		16C6050C15653C30005C03C7 /* Latte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C6051015653C30005C03C7 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16C6051215653C30005C03C7 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -152,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16BAED0916832FC000B471B7 /* QuartzCore.framework in Frameworks */,
 				165B425C158202C000395A6F /* CFNetwork.framework in Frameworks */,
 				16C6051515653C30005C03C7 /* CoreGraphics.framework in Frameworks */,
 				6E98FECE668E4E6E811CFD11 /* libPods.a in Frameworks */,
@@ -232,10 +244,23 @@
 		169409DF15B052BA003B7C98 /* Libs (Non Pods) */ = {
 			isa = PBXGroup;
 			children = (
+				16BAED0516832E9400B471B7 /* SKInnerShadowLayer.h */,
+				16BAED0616832E9400B471B7 /* SKInnerShadowLayer.m */,
+				16BAECFD1683175200B471B7 /* FTWButton.h */,
+				16BAECFE1683175200B471B7 /* FTWButton.m */,
 				169409E015B052BA003B7C98 /* AsyncSocket.h */,
 				169409E115B052BA003B7C98 /* AsyncSocket.m */,
 			);
 			path = "Libs (Non Pods)";
+			sourceTree = "<group>";
+		};
+		16BAED011683181E00B471B7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				16BAED021683182E00B471B7 /* LTButton.h */,
+				16BAED031683182E00B471B7 /* LTButton.m */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 		16C6050115653C2F005C03C7 = {
@@ -270,6 +295,7 @@
 				16C6051015653C30005C03C7 /* UIKit.framework */,
 				16C6051215653C30005C03C7 /* Foundation.framework */,
 				16C6051415653C30005C03C7 /* CoreGraphics.framework */,
+				16BAED0816832FC000B471B7 /* QuartzCore.framework */,
 				F125DF37266C473F82E94C08 /* libPods.a */,
 				160DE96816661F8200F7F222 /* SenTestingKit.framework */,
 				19C9C22DE50F45BBB87FB369 /* libPods-LatteTest.a */,
@@ -280,6 +306,7 @@
 		16C6051615653C30005C03C7 /* Latte */ = {
 			isa = PBXGroup;
 			children = (
+				16BAED011683181E00B471B7 /* Components */,
 				16558BBC1582343900FFB2E2 /* Additions */,
 				16C6051715653C30005C03C7 /* Supporting Files */,
 				16E7038E1565687200EDB943 /* LTParser.h */,
@@ -499,6 +526,9 @@
 				1673454A166DF912000C240B /* UIButton+LTAdditions.m in Sources */,
 				1673454E166E013E000C240B /* UIFont+LTAdditions.m in Sources */,
 				16F3DB9B166E3072008991B6 /* NSArray+LTAdditions.m in Sources */,
+				16BAECFF1683175200B471B7 /* FTWButton.m in Sources */,
+				16BAED041683182E00B471B7 /* LTButton.m in Sources */,
+				16BAED0716832E9400B471B7 /* SKInnerShadowLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

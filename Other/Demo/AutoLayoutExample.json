@@ -8,10 +8,28 @@
 	"@layout":[
               
         //hello
-		{"@isa":"UILabel", "@id":"l1", "backgroundColor": "@color-hex:00abb0", "text":"hello", "textColor":"@color:white", "translatesAutoresizingMaskIntoConstraints":false, "textAlignment":1, "cornerRadius":8},
+		{
+            "@isa":"UILabel",
+            "@id":"l1",
+            "backgroundColor":
+            "@color-hex:00abb0",
+            "text":"hello",
+            "textColor":"@color:white",
+            "translatesAutoresizingMaskIntoConstraints":false,
+            "textAlignment":1,
+            "cornerRadius":8
+        },
               
         //world!
-		{"@isa":"UILabel", "@id":"l2", "backgroundColor": "@color-hex:00CCF0", "text":"world", "textColor":"@color:white", "translatesAutoresizingMaskIntoConstraints":false, "textAlignment":1, "cornerRadius":8}
+		{   "@isa":"UILabel",
+            "@id":"l2",
+            "backgroundColor": "@color-hex:00CCF0",
+            "text":"world",
+            "textColor":"@color:white",
+            "translatesAutoresizingMaskIntoConstraints":false,
+            "textAlignment":1,
+            "cornerRadius":8
+        }
 	],
     
     /* Want to be cutting edge?
