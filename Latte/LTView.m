@@ -210,6 +210,11 @@
     [self refreshContextBindings];
 }
 
+- (void)layoutSubviews
+{
+    [super layoutSubviews];    
+}
+
 /* Trigger the rendering of all the templates associated to the view's context
  * object. The context object binding is not mandatory. */
 - (void)refreshContextBindings

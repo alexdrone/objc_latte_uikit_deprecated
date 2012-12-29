@@ -8,6 +8,7 @@
 
 #import "NSArray+LTAdditions.h"
 #import "LTPrefixes.h"
+#import "NSMutableDictionary+LTAdditions.h"
 
 @implementation NSArray (LTAdditions)
 
@@ -80,5 +81,7 @@
 	
 	return options;
 }
+
+
 
 @end

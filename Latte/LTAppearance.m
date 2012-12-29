@@ -68,7 +68,12 @@
     	
 	if (nil == json)
 		LTLog(@"Unable to parse the json %@", error);
-	
+        
+    //makes sure that all the keys are in camelCase
+    json = [[NSMutableDictionary alloc] initWithDictionary:json];
+    [json LT_normalizeKeys];
+    
+    
 	[self setStylesheet:json forKey:filename];
 }
 
@@ -97,6 +102,7 @@
 		self.stylesheet[key] = json[key];
 }
 
+
 /* Applies the style with the given name to the view passed 
  * as argument- If override is set to NO the properties already
  * specified in the json @layout section will the be skipped */
@@ -116,8 +122,10 @@
 			skipped = override ? @[] : node.data.allKeys;
 	}
 	
-	//get all the vakyes from the stylesheet
+	//get all the keys from the stylesheet
 	NSMutableDictionary *values = [[NSMutableDictionary alloc] initWithDictionary:self.stylesheet[name]];
+    
+    
 	
 	if (nil == values) {
 		LTLog(@"No values for the style named '%@'", name);

@@ -12,8 +12,6 @@
 #import <QuartzCore/QuartzCore.h>
 
 @implementation LTBind
-@synthesize bind = _bind;
-
 @end
 
 static const char *kLTStyleKey = "LT_style";

@@ -1,31 +1,33 @@
 #ifndef Latte_LTPrefixes_h
 #define Latte_LTPrefixes_h
 
-
 //Latte keywords/tags
-#define kLTTagIsa           @"@isa"
-#define kLTTagStyle         @"@style"
-#define kLTTagId            @"@id"
-#define kLTTagBind          @"@bind"
-#define kLTTagContext       @"@context-value"
-#define kLTTagMetric        @"@metric"
-#define kLTTagSubviews      @"@subviews"
+static  NSString *const kLTTagIsa           = @"@isa";
+static  NSString *const kLTTagStyle         = @"@style";
+static  NSString *const kLTTagId            = @"@id";
+static  NSString *const kLTTagBind          = @"@bind";
+static  NSString *const kLTTagContext       = @"@context-value";
+static  NSString *const kLTTagMetric        = @"@metric";
+static  NSString *const kLTTagSubviews      = @"@subviews";
 
 //Latte value annotation
-#define kLTTagSeparator     @":"
-#define kLTTagColor         @"@color"
-#define kLTTagColorHex      @"@color-hex"
-#define kLTTagColorRgb      @"@color-rgb"
-#define kLTTagColorPattern  @"@color-pattern"
-#define kLTTagColorGradient @"@color-gradient"
-#define kLTTagFont          @"@font"
-#define kLTTagImage         @"@image"
+static  NSString *const kLTTagSeparator     = @":";
+static  NSString *const kLTTagColor         = @"@color";
+static  NSString *const kLTTagColorHex      = @"@color-hex";
+static  NSString *const kLTTagColorRgb      = @"@color-rgb";
+static  NSString *const kLTTagColorPattern  = @"@color-pattern";
+static  NSString *const kLTTagColorGradient = @"@color-gradient";
+static  NSString *const kLTTagFont          = @"@font";
+static  NSString *const kLTTagImage         = @"@image";
 
 //Latte section
-#define kLTTagLayout        @"@layout"
-#define kLTTagStylesheet    @"@stylesheet"
-#define kLTTagConstraints   @"@constraints"
+static  NSString *const kLTTagLayout        = @"@layout";
+static  NSString *const kLTTagStylesheet    = @"@stylesheet";
+static  NSString *const kLTTagConstraints   = @"@constraints";
 
+//Stylesheet conventions decorators
+static  NSString *const kLTFileSuffixiPhone = @"~iphone";
+static  NSString *const kLTFileSuffixiPad   = @"~ipad";
 
 //Debug logs
 #define LT_DEBUG
@@ -45,6 +47,8 @@
 #import "UIButton+LTAdditions.h"
 #import "UIFont+LTAdditions.h"
 #import "NSArray+LTAdditions.h"
+#import "NSMutableDictionary+LTAdditions.h"
+#import "NSMutableArray+LTAdditions.h"
 #import "LTNode.h"
 #import "LTParser.h"
 #import "LTView.h"

@@ -97,11 +97,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Latte/LTParser.m"
-         timestampString = "376321752.523085"
+         timestampString = "378479053.889278"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "200"
-         endingLineNumber = "200"
+         startingLineNumber = "204"
+         endingLineNumber = "204"
          landmarkName = "LT_parsePrimitive()"
          landmarkType = "7">
       </FileBreakpoint>
@@ -136,11 +136,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Latte/NSArray+LTAdditions.m"
-         timestampString = "376744274.921611"
+         timestampString = "378473863.73757"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "34"
-         endingLineNumber = "34"
+         startingLineNumber = "35"
+         endingLineNumber = "35"
          landmarkName = "-LT_createMetricForView:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -162,11 +162,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Latte/LTAppearance.m"
-         timestampString = "377687684.069558"
+         timestampString = "378479889.908701"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "106"
-         endingLineNumber = "106"
+         startingLineNumber = "112"
+         endingLineNumber = "112"
          landmarkName = "-applyStyleWithName:onView:overrideProperties:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -175,11 +175,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Latte/LTView.m"
-         timestampString = "377687701.885984"
+         timestampString = "378479889.908701"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "232"
-         endingLineNumber = "232"
+         startingLineNumber = "237"
+         endingLineNumber = "237"
          landmarkName = "+initializeView:fromNodeData:inContainer:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -188,11 +188,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Latte/LTAppearance.m"
-         timestampString = "377687803.851135"
+         timestampString = "378479889.908701"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "131"
-         endingLineNumber = "131"
+         startingLineNumber = "139"
+         endingLineNumber = "139"
          landmarkName = "-applyStyleWithName:onView:overrideProperties:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -247,6 +247,80 @@
          endingLineNumber = "174"
          landmarkName = "@implementation LTButton"
          landmarkType = "3">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Latte/NSMutableDictionary+LTAdditions.m"
+         timestampString = "378478261.950145"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "29"
+         endingLineNumber = "29"
+         landmarkName = "-LT_normalizeKeys"
+         landmarkType = "5">
+         <Actions>
+            <BreakpointActionProxy
+               ActionType = "Xcode.BreakpointAction.DebuggerCommand">
+               <ActionContent
+                  consoleCommand = "po key">
+               </ActionContent>
+            </BreakpointActionProxy>
+         </Actions>
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Latte/NSMutableDictionary+LTAdditions.m"
+         timestampString = "378478261.950145"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "31"
+         endingLineNumber = "31"
+         landmarkName = "-LT_normalizeKeys"
+         landmarkType = "5">
+         <Actions>
+            <BreakpointActionProxy
+               ActionType = "Xcode.BreakpointAction.DebuggerCommand">
+               <ActionContent
+                  consoleCommand = "po key">
+               </ActionContent>
+            </BreakpointActionProxy>
+            <BreakpointActionProxy
+               ActionType = "Xcode.BreakpointAction.DebuggerCommand">
+               <ActionContent
+                  consoleCommand = "po camelCaseKey">
+               </ActionContent>
+            </BreakpointActionProxy>
+         </Actions>
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Latte/NSMutableDictionary+LTAdditions.m"
+         timestampString = "378478398.005099"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "33"
+         endingLineNumber = "33"
+         landmarkName = "-LT_normalizeKeys"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Latte/LTView.m"
+         timestampString = "378480172.769077"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "215"
+         endingLineNumber = "215"
+         landmarkName = "-layoutSubviews"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

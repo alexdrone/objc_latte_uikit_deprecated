@@ -12,4 +12,8 @@
 
 + (id)stringWithFormat:(NSString *)format array:(NSArray*)args;
 
+- (NSString*)toUnderscoreCase;
+- (NSString*)toCamelCase;
+
+
 @end

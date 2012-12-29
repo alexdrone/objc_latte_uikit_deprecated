@@ -46,8 +46,6 @@
 
 @implementation DemoTableViewController
 
-@synthesize objects = _objects;
-
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -125,6 +123,11 @@
     otherObj.status = swap;
 
     [self performSelector:@selector(updateMessagesCount) withObject:nil afterDelay:0.1];
+}
+
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+    
 }
 
 

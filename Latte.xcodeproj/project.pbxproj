@@ -66,6 +66,11 @@
 		16F3DB9E166E370E008991B6 /* UIButton+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16734549166DF912000C240B /* UIButton+LTAdditions.m */; };
 		16F3DB9F166E3711008991B6 /* UIFont+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1673454D166E013E000C240B /* UIFont+LTAdditions.m */; };
 		16F3DBA0166E3714008991B6 /* NSArray+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3DB9A166E3072008991B6 /* NSArray+LTAdditions.m */; };
+		16FD491B168F078C0026D6E8 /* LTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FD491A168F078C0026D6E8 /* LTLabel.m */; };
+		16FD4926168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FD4925168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m */; };
+		16FD4927168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FD4925168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m */; };
+		16FD492A168F20A70026D6E8 /* NSMutableArray+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FD4929168F20A70026D6E8 /* NSMutableArray+LTAdditions.m */; };
+		16FD492B168F20A70026D6E8 /* NSMutableArray+LTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FD4929168F20A70026D6E8 /* NSMutableArray+LTAdditions.m */; };
 		54FB366A8E254A839D792C92 /* libPods-LatteTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C9C22DE50F45BBB87FB369 /* libPods-LatteTest.a */; };
 		6E98FECE668E4E6E811CFD11 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F125DF37266C473F82E94C08 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -138,6 +143,12 @@
 		16E703951565748000EDB943 /* LTPrefixes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPrefixes.h; sourceTree = "<group>"; };
 		16F3DB99166E3072008991B6 /* NSArray+LTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LTAdditions.h"; sourceTree = "<group>"; };
 		16F3DB9A166E3072008991B6 /* NSArray+LTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LTAdditions.m"; sourceTree = "<group>"; };
+		16FD4919168F078C0026D6E8 /* LTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLabel.h; sourceTree = "<group>"; };
+		16FD491A168F078C0026D6E8 /* LTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTLabel.m; sourceTree = "<group>"; };
+		16FD4924168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LTAdditions.h"; sourceTree = "<group>"; };
+		16FD4925168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LTAdditions.m"; sourceTree = "<group>"; };
+		16FD4928168F20A70026D6E8 /* NSMutableArray+LTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LTAdditions.h"; sourceTree = "<group>"; };
+		16FD4929168F20A70026D6E8 /* NSMutableArray+LTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LTAdditions.m"; sourceTree = "<group>"; };
 		19C9C22DE50F45BBB87FB369 /* libPods-LatteTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LatteTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2601AB49C1F64FF9B8B0EF53 /* Pods-LatteTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatteTest.xcconfig"; path = "Pods/Pods-LatteTest.xcconfig"; sourceTree = SOURCE_ROOT; };
 		905653C30CA04287B7C94846 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -212,6 +223,10 @@
 				1673454D166E013E000C240B /* UIFont+LTAdditions.m */,
 				16F3DB99166E3072008991B6 /* NSArray+LTAdditions.h */,
 				16F3DB9A166E3072008991B6 /* NSArray+LTAdditions.m */,
+				16FD4924168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.h */,
+				16FD4925168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m */,
+				16FD4928168F20A70026D6E8 /* NSMutableArray+LTAdditions.h */,
+				16FD4929168F20A70026D6E8 /* NSMutableArray+LTAdditions.m */,
 			);
 			name = Additions;
 			sourceTree = "<group>";
@@ -259,6 +274,8 @@
 			children = (
 				16BAED021683182E00B471B7 /* LTButton.h */,
 				16BAED031683182E00B471B7 /* LTButton.m */,
+				16FD4919168F078C0026D6E8 /* LTLabel.h */,
+				16FD491A168F078C0026D6E8 /* LTLabel.m */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -500,6 +517,8 @@
 				16F3DB9E166E370E008991B6 /* UIButton+LTAdditions.m in Sources */,
 				16F3DB9F166E3711008991B6 /* UIFont+LTAdditions.m in Sources */,
 				16F3DBA0166E3714008991B6 /* NSArray+LTAdditions.m in Sources */,
+				16FD4927168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m in Sources */,
+				16FD492B168F20A70026D6E8 /* NSMutableArray+LTAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +548,9 @@
 				16BAECFF1683175200B471B7 /* FTWButton.m in Sources */,
 				16BAED041683182E00B471B7 /* LTButton.m in Sources */,
 				16BAED0716832E9400B471B7 /* SKInnerShadowLayer.m in Sources */,
+				16FD491B168F078C0026D6E8 /* LTLabel.m in Sources */,
+				16FD4926168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m in Sources */,
+				16FD492A168F20A70026D6E8 /* NSMutableArray+LTAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -96,6 +96,10 @@
 	
 	if (nil == json)
 		LTLog(@"Unable to parse the json: %@", error.description);
+    
+    //makes sure that all the keys are in camelCase
+    json = [[NSMutableDictionary alloc] initWithDictionary:json];
+    [json LT_normalizeKeys];
 	
     LTNode *rootNode = [[LTNode alloc] init];
 

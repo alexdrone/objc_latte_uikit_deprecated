@@ -5,15 +5,15 @@
             "@id":"bkg",
             "@style":"defaultCell",
             "frame":[0,0,"@metric(#{appearance.screenWidth})",44],
-            "autoresizingMask":["width"]
+            "autoresizing-mask":["width"]
 		},
 		{
-			"@isa":"UILabel",
+			"@isa":"LTLabel",
 			"@id":"l1",
 			"@style":"defaultLabel",
-			"text":"hej: #{@bind(object.status)} ",
+			"text":"Ciao: #{@bind(object.status)} ",
 			"frame":[10,0, "@metric(#{appearance.screenWidth}-100)","@metric(#{bkg.frameHeight})"]
-		},
+        },
         {
             "@isa":"UIButton",
             "@id":"coolButton",
