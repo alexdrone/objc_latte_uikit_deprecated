@@ -8,6 +8,7 @@
 
 #import "NSMutableDictionary+LTAdditions.h"
 #import "NSString+LTAdditions.h"
+#import "NSString+FontAwesome.h"
 
 @implementation NSMutableDictionary (LTAdditions)
 

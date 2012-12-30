@@ -12,10 +12,7 @@
 
 + (id)stringWithFormat:(NSString *)format array:(NSArray*)args;
 
-- (NSString*)toUnderscoreCase;
-- (NSString*)toCamelCase;
-
-- (NSString*)LT_tagPrefix;
 - (NSString*)LT_parseTaggedValue;
+- (NSString*)LT_parseLatteFontAwesomeEnum;
 
 @end

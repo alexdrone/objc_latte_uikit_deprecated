@@ -20,6 +20,7 @@ static  NSString *const kLTTagColorPattern  = @"@color-pattern";
 static  NSString *const kLTTagColorGradient = @"@color-gradient";
 static  NSString *const kLTTagFont          = @"@font";
 static  NSString *const kLTTagImage         = @"@image";
+static  NSString *const kLTTagFontIcon      = @"@icon";
 
 //Latte section
 static  NSString *const kLTTagLayout        = @"@layout";
@@ -44,6 +45,7 @@ static  NSString *const kLTFileSuffixiPad   = @"~ipad";
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import "UIView+LTAdditions.h"
 #import "NSString+LTAdditions.h"
+#import "NSString+FontAwesome.h"
 #import "UIColor+LTAdditions.h"
 #import "UIButton+LTAdditions.h"
 #import "UIFont+LTAdditions.h"

@@ -211,6 +211,9 @@ id LT_parsePrimitive(id object, enum LTParsePrimitiveTypeOption option)
 	else if ([object hasPrefix:kLTTagImage])
 		casted = [UIImage imageNamed:[object LT_parseTaggedValue]];
     
+    else if ([object hasPrefix:kLTTagFontIcon])
+        casted = [object LT_parseLatteFontAwesomeEnum];
+    
     //else the object is considered a common NSString.
     
 	return casted;

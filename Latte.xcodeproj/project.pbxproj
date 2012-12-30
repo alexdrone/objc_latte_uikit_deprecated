@@ -50,6 +50,9 @@
 		16BAED041683182E00B471B7 /* LTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BAED031683182E00B471B7 /* LTButton.m */; };
 		16BAED0716832E9400B471B7 /* SKInnerShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BAED0616832E9400B471B7 /* SKInnerShadowLayer.m */; };
 		16BAED0916832FC000B471B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BAED0816832FC000B471B7 /* QuartzCore.framework */; };
+		16C559911690704400E56EFB /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16C559901690704400E56EFB /* FontAwesome.ttf */; };
+		16C559991690755200E56EFB /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C559981690755100E56EFB /* NSString+FontAwesome.m */; };
+		16C5599A1690755200E56EFB /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C559981690755100E56EFB /* NSString+FontAwesome.m */; };
 		16C6051115653C30005C03C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051015653C30005C03C7 /* UIKit.framework */; };
 		16C6051315653C30005C03C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051215653C30005C03C7 /* Foundation.framework */; };
 		16C6051515653C30005C03C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6051415653C30005C03C7 /* CoreGraphics.framework */; };
@@ -121,6 +124,9 @@
 		16BAED0516832E9400B471B7 /* SKInnerShadowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKInnerShadowLayer.h; sourceTree = "<group>"; };
 		16BAED0616832E9400B471B7 /* SKInnerShadowLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKInnerShadowLayer.m; sourceTree = "<group>"; };
 		16BAED0816832FC000B471B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		16C559901690704400E56EFB /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		16C559971690755100E56EFB /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		16C559981690755100E56EFB /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
 		16C6050C15653C30005C03C7 /* Latte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C6051015653C30005C03C7 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16C6051215653C30005C03C7 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -227,6 +233,8 @@
 				16FD4925168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m */,
 				16FD4928168F20A70026D6E8 /* NSMutableArray+LTAdditions.h */,
 				16FD4929168F20A70026D6E8 /* NSMutableArray+LTAdditions.m */,
+				16C559971690755100E56EFB /* NSString+FontAwesome.h */,
+				16C559981690755100E56EFB /* NSString+FontAwesome.m */,
 			);
 			name = Additions;
 			sourceTree = "<group>";
@@ -280,6 +288,14 @@
 			name = Components;
 			sourceTree = "<group>";
 		};
+		16C5598F1690704400E56EFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16C559901690704400E56EFB /* FontAwesome.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		16C6050115653C2F005C03C7 = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +339,7 @@
 		16C6051615653C30005C03C7 /* Latte */ = {
 			isa = PBXGroup;
 			children = (
+				16C5598F1690704400E56EFB /* Resources */,
 				16BAED011683181E00B471B7 /* Components */,
 				16558BBC1582343900FFB2E2 /* Additions */,
 				16C6051715653C30005C03C7 /* Supporting Files */,
@@ -446,6 +463,7 @@
 				16E06D141664BF2C002E827D /* Default-568h@2x.png in Resources */,
 				0774EA0E166B568F00E8BD0C /* LTViewSpecs.json in Resources */,
 				161D76551671FDA000572CBD /* Stylesheet.json in Resources */,
+				16C559911690704400E56EFB /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +537,7 @@
 				16F3DBA0166E3714008991B6 /* NSArray+LTAdditions.m in Sources */,
 				16FD4927168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m in Sources */,
 				16FD492B168F20A70026D6E8 /* NSMutableArray+LTAdditions.m in Sources */,
+				16C5599A1690755200E56EFB /* NSString+FontAwesome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +570,7 @@
 				16FD491B168F078C0026D6E8 /* LTLabel.m in Sources */,
 				16FD4926168F08CD0026D6E8 /* NSMutableDictionary+LTAdditions.m in Sources */,
 				16FD492A168F20A70026D6E8 /* NSMutableArray+LTAdditions.m in Sources */,
+				16C559991690755200E56EFB /* NSString+FontAwesome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

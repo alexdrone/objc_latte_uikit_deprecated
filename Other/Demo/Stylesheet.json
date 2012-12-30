@@ -9,7 +9,7 @@
             "corner-radius":7,
             "border-width":2,
             "border-color":"@color-hex(e25132)",
-            "font":"@font(Thonburi-Bold,16)",
+            "font":"@font(FontAwesome,26)",
             "title-color":"@color-hex(c7482b)"
         },
         
@@ -20,11 +20,11 @@
         },
         
         "defaultCell":{
-            "background-color":"@color-gradient(c7482c, dd5031, 44)"
+            "background-color":"@color-gradient(c7482c,dd5031,44)"
         },
         
         "defaultCell":{
-            "background-color":"@color-gradient(c7482c, dd5031, 44)"
+            "background-color":"@color-gradient(c7482c,dd5031,44)"
         },
         
         "redTableView":{

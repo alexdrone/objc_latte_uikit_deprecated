@@ -18,7 +18,7 @@
             "@isa":"UIButton",
             "@id":"coolButton",
             "@style":"embossedButton",
-            "title":"#{object.firstname}",
+            "title":"@icon(github)",
             "frame":["@metric(#{l1.frameWidth}+25)",5,60,"@metric(#{bkg.frameHeight}-10)"]
         }
 	]

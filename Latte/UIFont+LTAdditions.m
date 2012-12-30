@@ -14,6 +14,7 @@
 /* Parse a latte string with prefix @font into a UIFont */
 + (UIFont*)LT_parseLatteFont:(NSString*)object
 {
+    object = [object stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     NSArray *comps = [[object LT_parseTaggedValue] componentsSeparatedByString:@","];
     
     if (comps.count != 2) {
