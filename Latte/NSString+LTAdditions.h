@@ -15,5 +15,7 @@
 - (NSString*)toUnderscoreCase;
 - (NSString*)toCamelCase;
 
+- (NSString*)LT_tagPrefix;
+- (NSString*)LT_parseTaggedValue;
 
 @end

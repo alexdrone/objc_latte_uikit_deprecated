@@ -11,7 +11,8 @@ static  NSString *const kLTTagMetric        = @"@metric";
 static  NSString *const kLTTagSubviews      = @"@subviews";
 
 //Latte value annotation
-static  NSString *const kLTTagSeparator     = @":";
+static  NSString *const kLTTagSeparator     = @"(";
+static  NSString *const kLTTagSeparatorEnd  = @")";
 static  NSString *const kLTTagColor         = @"@color";
 static  NSString *const kLTTagColorHex      = @"@color-hex";
 static  NSString *const kLTTagColorRgb      = @"@color-rgb";

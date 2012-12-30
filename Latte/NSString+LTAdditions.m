@@ -7,6 +7,7 @@
 //
 
 #import "NSString+LTAdditions.h"
+#import "LTPrefixes.h"
 
 @implementation NSString (LTAdditions)
 
@@ -57,5 +58,23 @@
     }
     return output;
 }
+
+- (NSString*)LT_tagPrefix
+{
+    NSArray *comps = [self componentsSeparatedByString:kLTTagSeparator];
+    NSAssert(nil != comps && comps.count == 2, @"Invalid value-string");
+    return comps[0];
+}
+
+- (NSString*)LT_parseTaggedValue
+{
+    NSArray *comps = [self componentsSeparatedByString:kLTTagSeparator];
+    NSAssert(nil != comps && comps.count == 2, @"Invalid value-string");
+    
+    NSString *value = comps[1];
+    value = [value hasSuffix:kLTTagSeparatorEnd] ? [value substringToIndex:value.length-1] : value;
+    return value;
+}
+
 
 @end

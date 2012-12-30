@@ -76,9 +76,11 @@
 
 + (UIColor*)colorFromLatteHexString:(NSString*)object
 {
+    object = [object LT_parseTaggedValue];
     NSScanner *scanner = [NSScanner scannerWithString:object];
+
     NSUInteger result;
-    [scanner setScanLocation:kLTTagColorHex.length+1];
+    [scanner setScanLocation:0];
     [scanner scanHexInt:&result];
 
     return LTHexUIColor(result);
@@ -86,7 +88,7 @@
 
 + (UIColor*)colorFromLatteRgbString:(NSString *)object
 {
-    NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+    NSString *value = [object LT_parseTaggedValue];
     NSArray  *comps = [value componentsSeparatedByString:@","];
     return LTRgbaUIColor([comps[0] floatValue], [comps[1] floatValue], [comps[2] floatValue], [comps[3] floatValue]);
 }
@@ -94,8 +96,7 @@
 + (UIColor*)colorFromLatteSelectorName:(NSString*)object
 {
     id casted;
-    
-    NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+    NSString *value = [object LT_parseTaggedValue];
     
     //add the color suffix if it's missing (in order to perform a call to the color method
     value = [value hasSuffix:@"Color"] ? value : [NSString stringWithFormat:@"%@Color", value];
@@ -110,15 +111,14 @@
 
 + (UIColor*)colorFromLattePatternString:(NSString*)object
 {
-    NSString *value = [object componentsSeparatedByString:kLTTagSeparator][1];
+    NSString *value = [object LT_parseTaggedValue];
     return [UIColor colorWithPatternImage:[UIImage imageNamed:value]];
 }
 
 + (UIColor*)gradientColorFromLatteString:(NSString*)object
 {
     //trim the string
-    NSString *value = [object substringFromIndex:kLTTagColorGradient.length+1];
-    value = [value substringToIndex:value.length-1];
+    NSString *value = [[object LT_parseTaggedValue] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
     //get the components
     NSArray *comps = [value componentsSeparatedByString:@","];

@@ -209,7 +209,7 @@ id LT_parsePrimitive(id object, enum LTParsePrimitiveTypeOption option)
 		casted = [UIFont LT_parseLatteFont:object];
     
 	else if ([object hasPrefix:kLTTagImage])
-		casted = [UIImage imageNamed:[object componentsSeparatedByString:kLTTagSeparator][1]];
+		casted = [UIImage imageNamed:[object LT_parseTaggedValue]];
     
     //else the object is considered a common NSString.
     
